@@ -279,12 +279,12 @@ npm run build
 
 Homepage:
 
-- project-specific hero, navigation, and live coverage messaging
-- official population headline stats
-- direct links for all six top-level sections plus methodology
+- editorial, visitor-facing hero built around the big-picture population figure
+- latest official snapshot cards for all six categories
+- guided topic-entry cards for the most common questions visitors ask
 - regional population chart
 - top local-authority table
-- coverage cards showing which sections are fully live versus live-with-guides
+- public-facing citation and methodology framing rather than build-status language
 
 Population page:
 
