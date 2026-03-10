@@ -1,0 +1,372 @@
+{
+  "id": "nomis-total-population-census-2021",
+  "title": "Population by Ethnic Group, Census 2021",
+  "description": "Population counts for England and Wales, England, and Wales using the detailed Census 2021 ethnic group classification.",
+  "siteCategory": "population",
+  "siteSubcategory": "total",
+  "metadata": {
+    "id": "nomis-census-2021-ts021",
+    "name": "Census 2021: Ethnic group (TS021)",
+    "publisher": "Office for National Statistics via Nomis",
+    "url": "https://www.nomisweb.co.uk/datasets/c2021ts021",
+    "apiEndpoint": "https://www.nomisweb.co.uk/api/v01/dataset/nm_2041_1.bulk.csv?time=2021&geography=TYPE499&c2021_eth_20=0%2C6%2C7%2C15%2C16%2C17&measures=20100",
+    "datePublished": "2022-11-29",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Downloaded from the Nomis bulk CSV endpoint for Census 2021 table TS021. Counts refer to usual residents on Census Day, 21 March 2021. This project derives the all_black and all_black_including_mixed aggregates from the detailed ethnic group rows returned by Nomis.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "Census 2021 outputs use statistical disclosure control, including targeted record swapping and cell key perturbation.",
+      "The all_black aggregate sums Black African, Black Caribbean, and Other Black. The all_black_including_mixed aggregate additionally includes White and Black African and White and Black Caribbean."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnicGroup",
+    "geography",
+    "timePeriod"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 59597542,
+        "unit": "count",
+        "formatted": "59,597,542"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 513042,
+        "unit": "count",
+        "formatted": "513,042"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 249596,
+        "unit": "count",
+        "formatted": "249,596"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 623119,
+        "unit": "count",
+        "formatted": "623,119"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 1488381,
+        "unit": "count",
+        "formatted": "1,488,381"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 297778,
+        "unit": "count",
+        "formatted": "297,778"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 2409278,
+        "unit": "count",
+        "formatted": "2,409,278"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3171916,
+        "unit": "count",
+        "formatted": "3,171,916"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 56490048,
+        "unit": "count",
+        "formatted": "56,490,048"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 499310,
+        "unit": "count",
+        "formatted": "499,310"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 241528,
+        "unit": "count",
+        "formatted": "241,528"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 619419,
+        "unit": "count",
+        "formatted": "619,419"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 1468474,
+        "unit": "count",
+        "formatted": "1,468,474"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 293831,
+        "unit": "count",
+        "formatted": "293,831"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 2381724,
+        "unit": "count",
+        "formatted": "2,381,724"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3122562,
+        "unit": "count",
+        "formatted": "3,122,562"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3107494,
+        "unit": "count",
+        "formatted": "3,107,494"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 13732,
+        "unit": "count",
+        "formatted": "13,732"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 8068,
+        "unit": "count",
+        "formatted": "8,068"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3700,
+        "unit": "count",
+        "formatted": "3,700"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 19907,
+        "unit": "count",
+        "formatted": "19,907"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3947,
+        "unit": "count",
+        "formatted": "3,947"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 27554,
+        "unit": "count",
+        "formatted": "27,554"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 49354,
+        "unit": "count",
+        "formatted": "49,354"
+      }
+    }
+  ]
+}

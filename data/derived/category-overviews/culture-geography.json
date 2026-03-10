@@ -1,0 +1,82 @@
+{
+  "category": "culture-geography",
+  "title": "Culture & Geography",
+  "description": "Political representation, religion, heritage, migration, crime, and policing.",
+  "headlines": [
+    {
+      "label": "All Black stop and search rate",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 24.48363,
+        "unit": "rate_per_1000"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Stop and search",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest/"
+      }
+    },
+    {
+      "label": "Overall stop and search rate",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 8.884153,
+        "unit": "rate_per_1000"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Stop and search",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest/"
+      }
+    },
+    {
+      "label": "Black disproportionality ratio",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 2.7558766716421927,
+        "unit": "index",
+        "formatted": "2.8x"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Stop and search",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest/"
+      }
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "politics",
+      "title": "Politics",
+      "description": "Black political representation"
+    },
+    {
+      "slug": "religion",
+      "title": "Religion",
+      "description": "Religious affiliation by ethnicity"
+    },
+    {
+      "slug": "heritage-migration",
+      "title": "Heritage & Migration",
+      "description": "African and Caribbean heritage, migration patterns"
+    },
+    {
+      "slug": "crime",
+      "title": "Crime",
+      "description": "Crime victimisation and offending by ethnicity"
+    },
+    {
+      "slug": "incarceration",
+      "title": "Incarceration",
+      "description": "Prison population by ethnicity"
+    },
+    {
+      "slug": "stop-search",
+      "title": "Stop & Search",
+      "description": "Stop and search rates and disproportionality"
+    }
+  ]
+}

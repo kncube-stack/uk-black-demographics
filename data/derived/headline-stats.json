@@ -1,0 +1,66 @@
+[
+  {
+    "label": "Core Black population",
+    "sublabel": "England and Wales",
+    "value": {
+      "value": 2409278,
+      "unit": "count",
+      "formatted": "2,409,278"
+    },
+    "source": {
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "referenceDate": "2021-03-21",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+    }
+  },
+  {
+    "label": "Including mixed White/Black groups",
+    "sublabel": "England and Wales",
+    "value": {
+      "value": 3171916,
+      "unit": "count",
+      "formatted": "3,171,916"
+    },
+    "source": {
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "referenceDate": "2021-03-21",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+    }
+  },
+  {
+    "label": "Largest regional population",
+    "sublabel": "London",
+    "value": {
+      "value": 1188370,
+      "unit": "count",
+      "formatted": "1,188,370"
+    },
+    "source": {
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "referenceDate": "2021-03-21",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+    },
+    "trend": {
+      "direction": "stable",
+      "description": "13.5% of London's population"
+    }
+  },
+  {
+    "label": "Largest local authority",
+    "sublabel": "Birmingham",
+    "value": {
+      "value": 125760,
+      "unit": "count",
+      "formatted": "125,760"
+    },
+    "source": {
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "referenceDate": "2021-03-21",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+    }
+  }
+]

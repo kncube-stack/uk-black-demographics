@@ -1,0 +1,40 @@
+{
+  "_comment": "Template for manual data entry. Copy this file, rename it, and fill in all fields. Remove this _comment field.",
+  "id": "",
+  "title": "",
+  "description": "",
+  "siteCategory": "population | households | economics | education | health | culture-geography",
+  "siteSubcategory": "",
+  "metadata": {
+    "id": "",
+    "name": "",
+    "publisher": "",
+    "url": "https://",
+    "datePublished": "YYYY-MM-DD",
+    "dateAccessed": "YYYY-MM-DD",
+    "referenceDate": "",
+    "referencePeriod": "",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Describe how the data was collected and any methodology notes.",
+    "qualityFlags": ["manual_transcription"],
+    "caveats": [],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography"],
+  "observations": [
+    {
+      "ethnicGroup": "black_african | black_caribbean | other_black | mixed_white_black_caribbean | mixed_white_black_african | all_black | all_black_including_mixed | all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 0,
+        "unit": "count | percentage | rate_per_1000 | rate_per_100000 | gbp | index | years"
+      }
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "id": "eff-mental-health-act-detentions",
+  "title": "Mental Health Act detentions by ethnicity",
+  "description": "England detentions under the Mental Health Act by ethnicity, using the official Ethnicity Facts and Figures release.",
+  "siteCategory": "health",
+  "siteSubcategory": "mental-health",
+  "metadata": {
+    "id": "eff-mental-health-act-detentions",
+    "name": "Ethnicity Facts and Figures: Detentions under the Mental Health Act",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/downloads/detentions-under-the-mental-health-act.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022/23",
+    "referencePeriod": "2022/23",
+    "geographicCoverage": "England",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures Mental Health Act detentions download. The live health page uses published standardised rates where available and preserves subgroup-specific confidence margins from the source file.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The live health slice currently covers England only.",
+      "Detention rates are presented per 100,000 population and use published standardised rates for subgroup comparison.",
+      "The source changes ethnic classification wording between aggregated and detailed rows, so the fetcher normalises labels before mapping them into the site taxonomy."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "value": {
+        "value": 745.9,
+        "unit": "rate_per_100000",
+        "formatted": "745.9 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "44.9"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "value": {
+        "value": 563.2,
+        "unit": "rate_per_100000",
+        "formatted": "563.2 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "value": {
+        "value": 1565,
+        "unit": "count",
+        "formatted": "1,565"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "value": {
+        "value": 277857,
+        "unit": "count",
+        "formatted": "277,857"
+      },
+      "attributes": {
+        "measure": "population",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "value": {
+        "value": 728.1,
+        "unit": "rate_per_100000",
+        "formatted": "728.1 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "43.7"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "value": {
+        "value": 557.5,
+        "unit": "rate_per_100000",
+        "formatted": "557.5 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "value": {
+        "value": 1549,
+        "unit": "count",
+        "formatted": "1,549"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "value": {
+        "value": 277857,
+        "unit": "count",
+        "formatted": "277,857"
+      },
+      "attributes": {
+        "measure": "population",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "value": {
+        "value": 810.5,
+        "unit": "rate_per_100000",
+        "formatted": "810.5 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "45.5"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "value": {
+        "value": 629.8,
+        "unit": "rate_per_100000",
+        "formatted": "629.8 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "value": {
+        "value": 1750,
+        "unit": "count",
+        "formatted": "1,750"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "value": {
+        "value": 277857,
+        "unit": "count",
+        "formatted": "277,857"
+      },
+      "attributes": {
+        "measure": "population",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "value": {
+        "value": 764.4,
+        "unit": "rate_per_100000",
+        "formatted": "764.4 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "45.5"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "value": {
+        "value": 577.6,
+        "unit": "rate_per_100000",
+        "formatted": "577.6 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "value": {
+        "value": 1605,
+        "unit": "count",
+        "formatted": "1,605"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "value": {
+        "value": 277857,
+        "unit": "count",
+        "formatted": "277,857"
+      },
+      "attributes": {
+        "measure": "population",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 715.4,
+        "unit": "rate_per_100000",
+        "formatted": "715.4 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "39.0"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 536.7,
+        "unit": "rate_per_100000",
+        "formatted": "536.7 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 1577,
+        "unit": "count",
+        "formatted": "1,577"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 227.9,
+        "unit": "rate_per_100000",
+        "formatted": "227.9 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "All Black",
+        "confidence_margin": "6.7"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 224.5,
+        "unit": "rate_per_100000",
+        "formatted": "224.5 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "All Black"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 5348,
+        "unit": "count",
+        "formatted": "5,348"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "All Black"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 222.8,
+        "unit": "rate_per_100000",
+        "formatted": "222.8 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Black Caribbean",
+        "confidence_margin": "11.6"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 237,
+        "unit": "rate_per_100000",
+        "formatted": "237.0 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 1468,
+        "unit": "count",
+        "formatted": "1,468"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 158,
+        "unit": "rate_per_100000",
+        "formatted": "158.0 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Black African",
+        "confidence_margin": "8.1"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 156.8,
+        "unit": "rate_per_100000",
+        "formatted": "156.8 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Black African"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 2303,
+        "unit": "count",
+        "formatted": "2,303"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 138.9,
+        "unit": "rate_per_100000",
+        "formatted": "138.9 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "White and Black African",
+        "confidence_margin": "22.9"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 101.4,
+        "unit": "rate_per_100000",
+        "formatted": "101.4 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "White and Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 245,
+        "unit": "count",
+        "formatted": "245"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "White and Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 102.4,
+        "unit": "rate_per_100000",
+        "formatted": "102.4 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "White and Black Caribbean",
+        "confidence_margin": "13.2"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 82.9,
+        "unit": "rate_per_100000",
+        "formatted": "82.9 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "White and Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "value": {
+        "value": 414,
+        "unit": "count",
+        "formatted": "414"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "White and Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "value": {
+        "value": 760,
+        "unit": "rate_per_100000",
+        "formatted": "760.0 per 100,000"
+      },
+      "attributes": {
+        "measure": "standardised_rate",
+        "label": "Other Black",
+        "confidence_margin": "44.9"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "value": {
+        "value": 577.3,
+        "unit": "rate_per_100000",
+        "formatted": "577.3 per 100,000"
+      },
+      "attributes": {
+        "measure": "crude_rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "value": {
+        "value": 1604,
+        "unit": "count",
+        "formatted": "1,604"
+      },
+      "attributes": {
+        "measure": "detentions",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "value": {
+        "value": 277857,
+        "unit": "count",
+        "formatted": "277,857"
+      },
+      "attributes": {
+        "measure": "population",
+        "label": "Other Black"
+      }
+    }
+  ]
+}

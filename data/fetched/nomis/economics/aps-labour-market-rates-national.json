@@ -1,0 +1,2440 @@
+{
+  "id": "nomis-aps-labour-market-rates-national",
+  "title": "Labour Market Rates by Broad Black Group",
+  "description": "Great Britain national labour-market rates from the Nomis Annual Population Survey percentages dataset, covering employment, unemployment, and economic inactivity for the broad Black or Black British group and the all-population baseline.",
+  "siteCategory": "economics",
+  "siteSubcategory": "employment",
+  "metadata": {
+    "id": "nomis-aps-nm17-5",
+    "name": "Annual Population Survey (variables - percentages)",
+    "publisher": "Office for National Statistics via Nomis",
+    "url": "https://www.nomisweb.co.uk/datasets/apsnew",
+    "apiEndpoint": "https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv?date=2025-09&geography=K02000001&variable=45%2C83%2C111%2C807%2C828%2C849&measures=20599",
+    "datePublished": "2026-01-20",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "Oct 2024-Sep 2025",
+    "referencePeriod": "Oct 2024-Sep 2025",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Fetched from the Nomis Annual Population Survey percentages dataset (NM_17_5). APS estimates are rolling annual survey estimates. This implementation uses the current broad 'Black or Black British' variables because the live Nomis APS percentage dataset does not expose Black African, Black Caribbean, and Other Black rates separately for these labour-market measures.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The national slice uses the United Kingdom row, while the regional slice uses the UK regional and country breakdown that includes Northern Ireland.",
+      "The current live APS percentage dataset exposes a broad Black or Black British group for these labour-market rates rather than separate Black African, Black Caribbean, and Other Black series.",
+      "APS estimates are survey-based and confidence margins widen sharply for smaller populations and smaller geographies."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnicGroup",
+    "geography",
+    "timePeriod",
+    "sex",
+    "metric",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 75.5,
+        "unit": "percentage",
+        "formatted": "75.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 31701900,
+        "unit": "count",
+        "formatted": "31,701,900",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 41984800,
+        "unit": "count",
+        "formatted": "41,984,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.3,
+        "unit": "percentage",
+        "formatted": "0.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 4.2,
+        "unit": "percentage",
+        "formatted": "4.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1460800,
+        "unit": "count",
+        "formatted": "1,460,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 34698600,
+        "unit": "count",
+        "formatted": "34,698,600",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.1,
+        "unit": "percentage",
+        "formatted": "0.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 21.1,
+        "unit": "percentage",
+        "formatted": "21.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8861100,
+        "unit": "count",
+        "formatted": "8,861,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 41984800,
+        "unit": "count",
+        "formatted": "41,984,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.3,
+        "unit": "percentage",
+        "formatted": "0.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 71.1,
+        "unit": "percentage",
+        "formatted": "71.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1512400,
+        "unit": "count",
+        "formatted": "1,512,400",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2126000,
+        "unit": "count",
+        "formatted": "2,126,000",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.3,
+        "unit": "percentage",
+        "formatted": "2.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 72,
+        "unit": "percentage",
+        "formatted": "72.0%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 720300,
+        "unit": "count",
+        "formatted": "720,300",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1000800,
+        "unit": "count",
+        "formatted": "1,000,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.4,
+        "unit": "percentage",
+        "formatted": "3.4%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 70.4,
+        "unit": "percentage",
+        "formatted": "70.4%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 792200,
+        "unit": "count",
+        "formatted": "792,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1125100,
+        "unit": "count",
+        "formatted": "1,125,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.1,
+        "unit": "percentage",
+        "formatted": "3.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.2,
+        "unit": "percentage",
+        "formatted": "8.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 137500,
+        "unit": "count",
+        "formatted": "137,500",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1684400,
+        "unit": "count",
+        "formatted": "1,684,400",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1.5,
+        "unit": "percentage",
+        "formatted": "1.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.1,
+        "unit": "percentage",
+        "formatted": "8.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 65600,
+        "unit": "count",
+        "formatted": "65,600",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 806300,
+        "unit": "count",
+        "formatted": "806,300",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.2,
+        "unit": "percentage",
+        "formatted": "2.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.2,
+        "unit": "percentage",
+        "formatted": "8.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 71900,
+        "unit": "count",
+        "formatted": "71,900",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 878100,
+        "unit": "count",
+        "formatted": "878,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.1,
+        "unit": "percentage",
+        "formatted": "2.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 22.5,
+        "unit": "percentage",
+        "formatted": "22.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 478700,
+        "unit": "count",
+        "formatted": "478,700",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2126000,
+        "unit": "count",
+        "formatted": "2,126,000",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.1,
+        "unit": "percentage",
+        "formatted": "2.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 21.7,
+        "unit": "percentage",
+        "formatted": "21.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 217200,
+        "unit": "count",
+        "formatted": "217,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1000800,
+        "unit": "count",
+        "formatted": "1,000,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.1,
+        "unit": "percentage",
+        "formatted": "3.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 23.2,
+        "unit": "percentage",
+        "formatted": "23.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 261400,
+        "unit": "count",
+        "formatted": "261,400",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1125100,
+        "unit": "count",
+        "formatted": "1,125,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.9,
+        "unit": "percentage",
+        "formatted": "2.9%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 75.3,
+        "unit": "percentage",
+        "formatted": "75.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 31467400,
+        "unit": "count",
+        "formatted": "31,467,400",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 41799200,
+        "unit": "count",
+        "formatted": "41,799,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "45",
+        "source_variable_name": "Employment rate - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.3,
+        "unit": "percentage",
+        "formatted": "0.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.7,
+        "unit": "percentage",
+        "formatted": "3.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1271900,
+        "unit": "count",
+        "formatted": "1,271,900",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 34158300,
+        "unit": "count",
+        "formatted": "34,158,300",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "83",
+        "source_variable_name": "Unemployment rate - aged 16+",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.1,
+        "unit": "percentage",
+        "formatted": "0.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 21.7,
+        "unit": "percentage",
+        "formatted": "21.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 9090700,
+        "unit": "count",
+        "formatted": "9,090,700",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 41799200,
+        "unit": "count",
+        "formatted": "41,799,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "111",
+        "source_variable_name": "% who are economically inactive - aged 16-64",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 0.3,
+        "unit": "percentage",
+        "formatted": "0.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 70.9,
+        "unit": "percentage",
+        "formatted": "70.9%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1361100,
+        "unit": "count",
+        "formatted": "1,361,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1919800,
+        "unit": "count",
+        "formatted": "1,919,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "807",
+        "source_variable_name": "aged 16-64 employment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.7,
+        "unit": "percentage",
+        "formatted": "2.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 72.9,
+        "unit": "percentage",
+        "formatted": "72.9%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 634500,
+        "unit": "count",
+        "formatted": "634,500",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 870300,
+        "unit": "count",
+        "formatted": "870,300",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "812",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British  males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.9,
+        "unit": "percentage",
+        "formatted": "3.9%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 69.2,
+        "unit": "percentage",
+        "formatted": "69.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 726600,
+        "unit": "count",
+        "formatted": "726,600",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1049600,
+        "unit": "count",
+        "formatted": "1,049,600",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "employment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "817",
+        "source_variable_name": "aged 16-64 employment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.6,
+        "unit": "percentage",
+        "formatted": "3.6%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 7.6,
+        "unit": "percentage",
+        "formatted": "7.6%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 114200,
+        "unit": "count",
+        "formatted": "114,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1506100,
+        "unit": "count",
+        "formatted": "1,506,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "828",
+        "source_variable_name": "16+ unemployment rate for all Black or black British",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1.7,
+        "unit": "percentage",
+        "formatted": "1.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.7,
+        "unit": "percentage",
+        "formatted": "8.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 62200,
+        "unit": "count",
+        "formatted": "62,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 716900,
+        "unit": "count",
+        "formatted": "716,900",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "833",
+        "source_variable_name": "16+ unemployment rate for Black or Black British males",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.7,
+        "unit": "percentage",
+        "formatted": "2.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 6.6,
+        "unit": "percentage",
+        "formatted": "6.6%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 52100,
+        "unit": "count",
+        "formatted": "52,100",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 789200,
+        "unit": "count",
+        "formatted": "789,200",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "unemployment_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "838",
+        "source_variable_name": "16+ unemployment rate for Black or Black British females",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.2,
+        "unit": "percentage",
+        "formatted": "2.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 23.2,
+        "unit": "percentage",
+        "formatted": "23.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 444800,
+        "unit": "count",
+        "formatted": "444,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1919800,
+        "unit": "count",
+        "formatted": "1,919,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "all",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "849",
+        "source_variable_name": "% of  Black or Black British of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 2.5,
+        "unit": "percentage",
+        "formatted": "2.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 20,
+        "unit": "percentage",
+        "formatted": "20.0%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 173800,
+        "unit": "count",
+        "formatted": "173,800",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 870300,
+        "unit": "count",
+        "formatted": "870,300",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "male",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "854",
+        "source_variable_name": "% of  Black or Black British males of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.5,
+        "unit": "percentage",
+        "formatted": "3.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "value",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 25.8,
+        "unit": "percentage",
+        "formatted": "25.8%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "numerator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 271000,
+        "unit": "count",
+        "formatted": "271,000",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "denominator",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 1049600,
+        "unit": "count",
+        "formatted": "1,049,600",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2024-09",
+      "sex": "female",
+      "attributes": {
+        "metric": "inactivity_rate",
+        "measure": "confidence_margin",
+        "time_label": "Oct 2023-Sep 2024",
+        "source_variable_code": "859",
+        "source_variable_name": "% of  Black or Black British females of  aged 16-64 who are economically inactive ",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.5,
+        "unit": "percentage",
+        "formatted": "3.5%",
+        "provisional": false
+      }
+    }
+  ]
+}

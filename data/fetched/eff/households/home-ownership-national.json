@@ -1,0 +1,685 @@
+{
+  "id": "eff-home-ownership-national",
+  "title": "Home ownership by ethnicity",
+  "description": "Percentage of households that own their home in England, with Black subgroup detail and derived Black aggregates.",
+  "siteCategory": "households",
+  "siteSubcategory": "housing",
+  "metadata": {
+    "id": "eff-home-ownership",
+    "name": "Ethnicity Facts and Figures: Home ownership",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest/downloads/home-ownership-data.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-22, 2022-23",
+    "referencePeriod": "2021-22, 2022-23",
+    "geographicCoverage": "England",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures home ownership download. This implementation uses the latest England-wide rows with all other dimensions set to All, then derives Black aggregates from published subgroup numerators and denominators.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The live households slice currently covers England only because that is how this published breakdown is released.",
+      "The latest official release combines two survey years, so values should be read as pooled estimates rather than a single-year snapshot.",
+      "Derived all-Black aggregates are recomputed from published subgroup counts to avoid mixing incompatible percentage averages."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "measure",
+    "time"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 64.5,
+        "unit": "percentage",
+        "formatted": "64.5%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 14914000,
+        "unit": "count",
+        "formatted": "14,914,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 23105000,
+        "unit": "count",
+        "formatted": "23,105,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 15.5,
+        "unit": "percentage",
+        "formatted": "15.5%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 8000,
+        "unit": "count",
+        "formatted": "8,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 49000,
+        "unit": "count",
+        "formatted": "49,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "Other Black"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 21.8,
+        "unit": "percentage",
+        "formatted": "21.8%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "Black African"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 108000,
+        "unit": "count",
+        "formatted": "108,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "Black African"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 496000,
+        "unit": "count",
+        "formatted": "496,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "Black African"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 31.3,
+        "unit": "percentage",
+        "formatted": "31.3%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 73000,
+        "unit": "count",
+        "formatted": "73,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 232000,
+        "unit": "count",
+        "formatted": "232,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 14.4,
+        "unit": "percentage",
+        "formatted": "14.4%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "White and Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 21000,
+        "unit": "count",
+        "formatted": "21,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "White and Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 147000,
+        "unit": "count",
+        "formatted": "147,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "White and Black African"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 37,
+        "unit": "percentage",
+        "formatted": "37.0%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "White and Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 34000,
+        "unit": "count",
+        "formatted": "34,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "White and Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 92000,
+        "unit": "count",
+        "formatted": "92,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "White and Black Caribbean"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 65.8,
+        "unit": "percentage",
+        "formatted": "65.8%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 13930000,
+        "unit": "count",
+        "formatted": "13,930,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 21169000,
+        "unit": "count",
+        "formatted": "21,169,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 64.5,
+        "unit": "percentage",
+        "formatted": "64.5%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 14914000,
+        "unit": "count",
+        "formatted": "14,914,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 23105000,
+        "unit": "count",
+        "formatted": "23,105,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 64.5,
+        "unit": "percentage",
+        "formatted": "64.5%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 14914000,
+        "unit": "count",
+        "formatted": "14,914,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 23105000,
+        "unit": "count",
+        "formatted": "23,105,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 64.5,
+        "unit": "percentage",
+        "formatted": "64.5%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 14914000,
+        "unit": "count",
+        "formatted": "14,914,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 23105000,
+        "unit": "count",
+        "formatted": "23,105,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All ethnicities"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 24.324324324324326,
+        "unit": "percentage",
+        "formatted": "24.3%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All Black"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 189000,
+        "unit": "count",
+        "formatted": "189,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All Black"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 777000,
+        "unit": "count",
+        "formatted": "777,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All Black"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 24.015748031496063,
+        "unit": "percentage",
+        "formatted": "24.0%"
+      },
+      "attributes": {
+        "measure": "rate",
+        "label": "All Black incl. mixed"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 244000,
+        "unit": "count",
+        "formatted": "244,000"
+      },
+      "attributes": {
+        "measure": "homeowners",
+        "label": "All Black incl. mixed"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021-22, 2022-23",
+      "value": {
+        "value": 1016000,
+        "unit": "count",
+        "formatted": "1,016,000"
+      },
+      "attributes": {
+        "measure": "households",
+        "label": "All Black incl. mixed"
+      }
+    }
+  ]
+}

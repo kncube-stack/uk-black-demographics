@@ -1,0 +1,488 @@
+{
+  "id": "nomis-aps-occupation-profile-national",
+  "title": "Occupation Profile by Broad Black Group",
+  "description": "Great Britain occupation shares from the Nomis Annual Population Survey percentages dataset, comparing the broad Black or Black British group with the all-population employed baseline using SOC2020 major groups.",
+  "siteCategory": "economics",
+  "siteSubcategory": "employment",
+  "metadata": {
+    "id": "nomis-aps-nm17-5",
+    "name": "Annual Population Survey (variables - percentages)",
+    "publisher": "Office for National Statistics via Nomis",
+    "url": "https://www.nomisweb.co.uk/datasets/apsnew",
+    "apiEndpoint": "https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv?date=2025-09&geography=K02000001&variable=45%2C83%2C111%2C807%2C828%2C849&measures=20599",
+    "datePublished": "2026-01-20",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "Oct 2024-Sep 2025",
+    "referencePeriod": "Oct 2024-Sep 2025",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Fetched from the Nomis Annual Population Survey percentages dataset (NM_17_5). APS estimates are rolling annual survey estimates. This implementation uses the current broad 'Black or Black British' variables because the live Nomis APS percentage dataset does not expose Black African, Black Caribbean, and Other Black rates separately for these labour-market measures.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The national slice uses the United Kingdom row, while the regional slice uses the UK regional and country breakdown that includes Northern Ireland.",
+      "The current live APS percentage dataset exposes a broad Black or Black British group for these labour-market rates rather than separate Black African, Black Caribbean, and Other Black series.",
+      "APS estimates are survey-based and confidence margins widen sharply for smaller populations and smaller geographies."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnicGroup",
+    "geography",
+    "timePeriod",
+    "occupation"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "managers",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1054",
+        "source_variable_name": "% 16+ Black or Black British in employment employed as managers & senior officials (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 6,
+        "unit": "percentage",
+        "formatted": "6.0%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "professional",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1055",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in prof. occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 23.8,
+        "unit": "percentage",
+        "formatted": "23.8%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "associate_professional",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1056",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in associate prof. & tech. occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 13.1,
+        "unit": "percentage",
+        "formatted": "13.1%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "administrative",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1057",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in admin. & secretarial occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 7.5,
+        "unit": "percentage",
+        "formatted": "7.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "skilled_trades",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1058",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in skilled trades occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 3.3,
+        "unit": "percentage",
+        "formatted": "3.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "caring_leisure_service",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1059",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in personal service occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 23.5,
+        "unit": "percentage",
+        "formatted": "23.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "sales_customer_service",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1060",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in sales & consumer service occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 5.4,
+        "unit": "percentage",
+        "formatted": "5.4%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "process_plant_machine",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1061",
+        "source_variable_name": "% 16+ Black or Black British in employment employed as process, plant & mach. operatives (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 5.6,
+        "unit": "percentage",
+        "formatted": "5.6%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "elementary",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1062",
+        "source_variable_name": "% 16+ Black or Black British in employment employed in elementary occups. (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 11.9,
+        "unit": "percentage",
+        "formatted": "11.9%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "managers",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1815",
+        "source_variable_name": "% all in employment who are - 1: managers, directors and senior officials (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 11.3,
+        "unit": "percentage",
+        "formatted": "11.3%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "professional",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1816",
+        "source_variable_name": "% all in employment who are - 2: professional occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 27,
+        "unit": "percentage",
+        "formatted": "27.0%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "associate_professional",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1817",
+        "source_variable_name": "% all in employment who are - 3: associate professional occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 14.8,
+        "unit": "percentage",
+        "formatted": "14.8%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "administrative",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1818",
+        "source_variable_name": "% all in employment who are - 4: administrative and secretarial occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 9.2,
+        "unit": "percentage",
+        "formatted": "9.2%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "skilled_trades",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1819",
+        "source_variable_name": "% all in employment who are - 5: skilled trades occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.5,
+        "unit": "percentage",
+        "formatted": "8.5%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "caring_leisure_service",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1820",
+        "source_variable_name": "% all in employment who are - 6: caring, leisure and other service occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.7,
+        "unit": "percentage",
+        "formatted": "8.7%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "sales_customer_service",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1821",
+        "source_variable_name": "% all in employment who are - 7: sales and customer service occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 5.8,
+        "unit": "percentage",
+        "formatted": "5.8%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "process_plant_machine",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1822",
+        "source_variable_name": "% all in employment who are - 8: process, plant and machine operatives (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 5.6,
+        "unit": "percentage",
+        "formatted": "5.6%",
+        "provisional": false
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2025-09",
+      "attributes": {
+        "metric": "occupation_share",
+        "measure": "value",
+        "occupation": "elementary",
+        "time_label": "Oct 2024-Sep 2025",
+        "source_variable_code": "1823",
+        "source_variable_name": "% all in employment who are - 9: elementary occupations (SOC2020)",
+        "obs_status": "A",
+        "obs_status_name": "Normal Value"
+      },
+      "value": {
+        "value": 8.9,
+        "unit": "percentage",
+        "formatted": "8.9%",
+        "provisional": false
+      }
+    }
+  ]
+}

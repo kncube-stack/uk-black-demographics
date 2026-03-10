@@ -1,0 +1,75 @@
+{
+  "category": "education",
+  "title": "Education",
+  "description": "Qualifications, school attainment, university access, and exclusions.",
+  "headlines": [
+    {
+      "label": "White and Black Caribbean suspension rate",
+      "sublabel": "Autumn term 2024/25",
+      "value": {
+        "value": 7.21465,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Suspensions and permanent exclusions in England (Autumn term 2024/25)",
+        "publisher": "Department for Education via Explore Education Statistics",
+        "referenceDate": "Autumn term 2024/25, England",
+        "url": "https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2024-25-autumn-term"
+      },
+      "trend": {
+        "direction": "down",
+        "description": "-0.35 pts vs Autumn term 2023/24"
+      }
+    },
+    {
+      "label": "Black Caribbean suspension rate",
+      "sublabel": "Autumn term 2024/25",
+      "value": {
+        "value": 5.10315,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Suspensions and permanent exclusions in England (Autumn term 2024/25)",
+        "publisher": "Department for Education via Explore Education Statistics",
+        "referenceDate": "Autumn term 2024/25, England",
+        "url": "https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2024-25-autumn-term"
+      }
+    },
+    {
+      "label": "All-pupil England baseline",
+      "sublabel": "Autumn term 2024/25",
+      "value": {
+        "value": 3.99833,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Suspensions and permanent exclusions in England (Autumn term 2024/25)",
+        "publisher": "Department for Education via Explore Education Statistics",
+        "referenceDate": "Autumn term 2024/25, England",
+        "url": "https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2024-25-autumn-term"
+      }
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "attainment",
+      "title": "Qualifications",
+      "description": "Highest level of qualification by ethnicity"
+    },
+    {
+      "slug": "gcse-a-level",
+      "title": "GCSE & A-Level",
+      "description": "School-level exam results by ethnicity"
+    },
+    {
+      "slug": "university",
+      "title": "University",
+      "description": "Higher education access and the degree awarding gap"
+    },
+    {
+      "slug": "exclusions",
+      "title": "Exclusions",
+      "description": "School exclusions and suspensions"
+    }
+  ]
+}

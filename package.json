@@ -4,9 +4,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run data:validate && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch:population": "tsx scripts/fetch-nomis-population.ts",
+    "fetch:households": "tsx scripts/fetch-eff-households.ts",
+    "fetch:education": "tsx scripts/fetch-dfe-education.ts",
+    "fetch:economics": "tsx scripts/fetch-nomis-economics.ts",
+    "fetch:health": "tsx scripts/fetch-eff-health.ts",
+    "fetch:culture": "tsx scripts/fetch-eff-culture.ts",
+    "build:derived": "tsx scripts/build-derived.ts",
+    "data:sync": "npm run fetch:population && npm run fetch:households && npm run fetch:economics && npm run fetch:education && npm run fetch:health && npm run fetch:culture && npm run build:derived",
+    "data:validate": "tsx data/schemas/validate.ts"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",

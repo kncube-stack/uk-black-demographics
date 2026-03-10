@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UK Black Demographics
 
-## Getting Started
+Official, citation-grade UK demographic data focused on Black British populations and related mixed White/Black groups.
 
-First, run the development server:
+Project documentation:
+
+- [docs/project-overview.md](docs/project-overview.md)
+
+## Current Live Routes
+
+- `/`
+- `/population`
+- `/households`
+- `/economics`
+- `/education`
+- `/health`
+- `/culture-geography`
+- `/methodology`
+- `/{category}/[subcategory]` for every configured category and subcategory
+
+The current production build prerenders 41 static routes.
+
+## Current Data Coverage
+
+Implemented charted slices now:
+
+- Population
+  - ONS Census 2021 `TS021` totals, regions, and local authorities
+  - ONS Census 2021 `RM032` age and sex breakdowns
+- Households
+  - Ethnicity Facts and Figures home ownership release for England
+- Economics
+  - ONS Annual Population Survey via Nomis `NM_17_5`
+  - UK labour-market rates for Black or Black British and all ethnicities
+  - regional employment comparisons, sex split, and occupation shares
+- Education
+  - DfE suspensions and permanent exclusions national characteristic extract
+  - ethnicity, education phase, FSM eligibility, counts, and rates
+- Health
+  - Ethnicity Facts and Figures detentions under the Mental Health Act for England
+- Culture & Geography
+  - Ethnicity Facts and Figures stop and search release for England and Wales
+- Methodology
+  - source registry generated from live datasets
+
+Every remaining subcategory is still routed in the site and currently appears as a source-backed briefing page with official links and caveats instead of an empty placeholder.
+
+## Research
+
+The main source inventory lives at [research/uk_black_demographics_data_sources.md](research/uk_black_demographics_data_sources.md).
+
+## Data Workflow
+
+Raw and curated datasets live under `data/`.
+
+- `data/fetched/`: machine-fetched source datasets
+- `data/manual/`: manually curated datasets for sources that do not expose structured downloads
+- `data/derived/`: homepage and section summary data derived from fetched/manual datasets
+- `data/schemas/`: Zod schemas and validation scripts
+
+## Scripts
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run lint
+npm run data:validate
+npm run fetch:population
+npm run fetch:households
+npm run fetch:economics
+npm run fetch:education
+npm run fetch:health
+npm run fetch:culture
+npm run build:derived
+npm run data:sync
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Build Principles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Use official UK sources first
+- Keep provenance and caveats attached to every dataset
+- Prefer the most disaggregated ethnic breakdown available
+- Be explicit about structural UK data gaps where ethnicity is not collected directly
+- Treat the methodology and source pages as part of the product, not optional extras
+- Prefer honest unavailable states over synthetic or over-smoothed figures

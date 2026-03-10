@@ -1,0 +1,6951 @@
+{
+  "id": "nomis-population-age-sex-census-2021",
+  "title": "Population by Ethnic Group, Sex, and Age, Census 2021",
+  "description": "Population counts for England and Wales, England, and Wales by ethnic group, sex, and broad age band from Census 2021 RM032.",
+  "siteCategory": "population",
+  "siteSubcategory": "age-distribution",
+  "metadata": {
+    "id": "nomis-census-2021-rm032",
+    "name": "Census 2021: Ethnic group by sex by age (RM032)",
+    "publisher": "Office for National Statistics via Nomis",
+    "url": "https://www.nomisweb.co.uk/datasets/c2021rm032",
+    "apiEndpoint": "https://www.nomisweb.co.uk/api/v01/dataset/nm_2132_1.data.csv?time=2021&geography=TYPE499&c2021_eth_20=0%2C6%2C7%2C8%2C10%2C11&c2021_age_6=0%2C1%2C2%2C3%2C4%2C5&c_sex=0%2C1%2C2&measures=20100&select=geography_code%2Cgeography_name%2Cc2021_eth_20%2Cc2021_age_6%2Cc_sex%2Cobs_value",
+    "datePublished": "2023-03-28",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Downloaded from the Nomis CSV endpoint for Census 2021 RM032. Counts refer to usual residents on Census Day, 21 March 2021. The source provides broad age bands and sex categories; this project additionally derives the all_black and all_black_including_mixed aggregates from the detailed ethnic group rows.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The live official Nomis dataset for ethnicity by sex and age is RM032.",
+      "Census 2021 outputs use statistical disclosure control, including targeted record swapping and cell key perturbation.",
+      "Age is grouped into broad bands in this release rather than five-year bands."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnicGroup",
+    "geography",
+    "timePeriod",
+    "ageGroup",
+    "sex"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 931500,
+        "unit": "count",
+        "formatted": "931,500"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 461397,
+        "unit": "count",
+        "formatted": "461,397"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 470103,
+        "unit": "count",
+        "formatted": "470,103"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 337168,
+        "unit": "count",
+        "formatted": "337,168"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 182444,
+        "unit": "count",
+        "formatted": "182,444"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 154724,
+        "unit": "count",
+        "formatted": "154,724"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 519171,
+        "unit": "count",
+        "formatted": "519,171"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 287447,
+        "unit": "count",
+        "formatted": "287,447"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 231724,
+        "unit": "count",
+        "formatted": "231,724"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 439675,
+        "unit": "count",
+        "formatted": "439,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 232311,
+        "unit": "count",
+        "formatted": "232,311"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 207364,
+        "unit": "count",
+        "formatted": "207,364"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 154210,
+        "unit": "count",
+        "formatted": "154,210"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 89603,
+        "unit": "count",
+        "formatted": "89,603"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 64607,
+        "unit": "count",
+        "formatted": "64,607"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 2381724,
+        "unit": "count",
+        "formatted": "2,381,724"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1253202,
+        "unit": "count",
+        "formatted": "1,253,202"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 1128522,
+        "unit": "count",
+        "formatted": "1,128,522"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 1386588,
+        "unit": "count",
+        "formatted": "1,386,588"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 686182,
+        "unit": "count",
+        "formatted": "686,182"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 700406,
+        "unit": "count",
+        "formatted": "700,406"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 452578,
+        "unit": "count",
+        "formatted": "452,578"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 243644,
+        "unit": "count",
+        "formatted": "243,644"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 208934,
+        "unit": "count",
+        "formatted": "208,934"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 615965,
+        "unit": "count",
+        "formatted": "615,965"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 339051,
+        "unit": "count",
+        "formatted": "339,051"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 276914,
+        "unit": "count",
+        "formatted": "276,914"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 496798,
+        "unit": "count",
+        "formatted": "496,798"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 262644,
+        "unit": "count",
+        "formatted": "262,644"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 234154,
+        "unit": "count",
+        "formatted": "234,154"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 170633,
+        "unit": "count",
+        "formatted": "170,633"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 98907,
+        "unit": "count",
+        "formatted": "98,907"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 71726,
+        "unit": "count",
+        "formatted": "71,726"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 3122562,
+        "unit": "count",
+        "formatted": "3,122,562"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1630428,
+        "unit": "count",
+        "formatted": "1,630,428"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 1492134,
+        "unit": "count",
+        "formatted": "1,492,134"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 16472320,
+        "unit": "count",
+        "formatted": "16,472,320"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 8070010,
+        "unit": "count",
+        "formatted": "8,070,010"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 8402310,
+        "unit": "count",
+        "formatted": "8,402,310"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 7667863,
+        "unit": "count",
+        "formatted": "7,667,863"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 3941729,
+        "unit": "count",
+        "formatted": "3,941,729"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 3726134,
+        "unit": "count",
+        "formatted": "3,726,134"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 10978434,
+        "unit": "count",
+        "formatted": "10,978,434"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 5605745,
+        "unit": "count",
+        "formatted": "5,605,745"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 5372689,
+        "unit": "count",
+        "formatted": "5,372,689"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 10970119,
+        "unit": "count",
+        "formatted": "10,970,119"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 5575629,
+        "unit": "count",
+        "formatted": "5,575,629"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 5394490,
+        "unit": "count",
+        "formatted": "5,394,490"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 10401301,
+        "unit": "count",
+        "formatted": "10,401,301"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 5640591,
+        "unit": "count",
+        "formatted": "5,640,591"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 4760710,
+        "unit": "count",
+        "formatted": "4,760,710"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 56490037,
+        "unit": "count",
+        "formatted": "56,490,037"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 28833704,
+        "unit": "count",
+        "formatted": "28,833,704"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 27656333,
+        "unit": "count",
+        "formatted": "27,656,333"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 611901,
+        "unit": "count",
+        "formatted": "611,901"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 304840,
+        "unit": "count",
+        "formatted": "304,840"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 307061,
+        "unit": "count",
+        "formatted": "307,061"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 222542,
+        "unit": "count",
+        "formatted": "222,542"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 122304,
+        "unit": "count",
+        "formatted": "122,304"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 100238,
+        "unit": "count",
+        "formatted": "100,238"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 362012,
+        "unit": "count",
+        "formatted": "362,012"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 201123,
+        "unit": "count",
+        "formatted": "201,123"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 160889,
+        "unit": "count",
+        "formatted": "160,889"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 220025,
+        "unit": "count",
+        "formatted": "220,025"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 112554,
+        "unit": "count",
+        "formatted": "112,554"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 107471,
+        "unit": "count",
+        "formatted": "107,471"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 51994,
+        "unit": "count",
+        "formatted": "51,994"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 29238,
+        "unit": "count",
+        "formatted": "29,238"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 22756,
+        "unit": "count",
+        "formatted": "22,756"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 1468474,
+        "unit": "count",
+        "formatted": "1,468,474"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 770059,
+        "unit": "count",
+        "formatted": "770,059"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 698415,
+        "unit": "count",
+        "formatted": "698,415"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 153168,
+        "unit": "count",
+        "formatted": "153,168"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 76130,
+        "unit": "count",
+        "formatted": "76,130"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 77038,
+        "unit": "count",
+        "formatted": "77,038"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 85002,
+        "unit": "count",
+        "formatted": "85,002"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 45455,
+        "unit": "count",
+        "formatted": "45,455"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 39547,
+        "unit": "count",
+        "formatted": "39,547"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 117995,
+        "unit": "count",
+        "formatted": "117,995"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 65411,
+        "unit": "count",
+        "formatted": "65,411"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 52584,
+        "unit": "count",
+        "formatted": "52,584"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 172681,
+        "unit": "count",
+        "formatted": "172,681"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 94947,
+        "unit": "count",
+        "formatted": "94,947"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 77734,
+        "unit": "count",
+        "formatted": "77,734"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 90572,
+        "unit": "count",
+        "formatted": "90,572"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 53486,
+        "unit": "count",
+        "formatted": "53,486"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 37086,
+        "unit": "count",
+        "formatted": "37,086"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 619418,
+        "unit": "count",
+        "formatted": "619,418"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 335429,
+        "unit": "count",
+        "formatted": "335,429"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 283989,
+        "unit": "count",
+        "formatted": "283,989"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 156079,
+        "unit": "count",
+        "formatted": "156,079"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 77268,
+        "unit": "count",
+        "formatted": "77,268"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 78811,
+        "unit": "count",
+        "formatted": "78,811"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 28336,
+        "unit": "count",
+        "formatted": "28,336"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 14938,
+        "unit": "count",
+        "formatted": "14,938"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 13398,
+        "unit": "count",
+        "formatted": "13,398"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 32768,
+        "unit": "count",
+        "formatted": "32,768"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 17408,
+        "unit": "count",
+        "formatted": "17,408"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 15360,
+        "unit": "count",
+        "formatted": "15,360"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 18445,
+        "unit": "count",
+        "formatted": "18,445"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 9789,
+        "unit": "count",
+        "formatted": "9,789"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 8656,
+        "unit": "count",
+        "formatted": "8,656"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 5900,
+        "unit": "count",
+        "formatted": "5,900"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 3422,
+        "unit": "count",
+        "formatted": "3,422"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 2478,
+        "unit": "count",
+        "formatted": "2,478"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 241528,
+        "unit": "count",
+        "formatted": "241,528"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 122825,
+        "unit": "count",
+        "formatted": "122,825"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 118703,
+        "unit": "count",
+        "formatted": "118,703"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 299009,
+        "unit": "count",
+        "formatted": "299,009"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 147517,
+        "unit": "count",
+        "formatted": "147,517"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 151492,
+        "unit": "count",
+        "formatted": "151,492"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 87074,
+        "unit": "count",
+        "formatted": "87,074"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 46262,
+        "unit": "count",
+        "formatted": "46,262"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 40812,
+        "unit": "count",
+        "formatted": "40,812"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 64026,
+        "unit": "count",
+        "formatted": "64,026"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 34196,
+        "unit": "count",
+        "formatted": "34,196"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 29830,
+        "unit": "count",
+        "formatted": "29,830"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 38678,
+        "unit": "count",
+        "formatted": "38,678"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 20544,
+        "unit": "count",
+        "formatted": "20,544"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 18134,
+        "unit": "count",
+        "formatted": "18,134"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 10523,
+        "unit": "count",
+        "formatted": "10,523"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 5882,
+        "unit": "count",
+        "formatted": "5,882"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 4641,
+        "unit": "count",
+        "formatted": "4,641"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 499310,
+        "unit": "count",
+        "formatted": "499,310"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 254401,
+        "unit": "count",
+        "formatted": "254,401"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 244909,
+        "unit": "count",
+        "formatted": "244,909"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 166431,
+        "unit": "count",
+        "formatted": "166,431"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 80427,
+        "unit": "count",
+        "formatted": "80,427"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 86004,
+        "unit": "count",
+        "formatted": "86,004"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 29624,
+        "unit": "count",
+        "formatted": "29,624"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 14685,
+        "unit": "count",
+        "formatted": "14,685"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 14939,
+        "unit": "count",
+        "formatted": "14,939"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 39164,
+        "unit": "count",
+        "formatted": "39,164"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 20913,
+        "unit": "count",
+        "formatted": "20,913"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 18251,
+        "unit": "count",
+        "formatted": "18,251"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 46969,
+        "unit": "count",
+        "formatted": "46,969"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 24810,
+        "unit": "count",
+        "formatted": "24,810"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 22159,
+        "unit": "count",
+        "formatted": "22,159"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 11644,
+        "unit": "count",
+        "formatted": "11,644"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 6879,
+        "unit": "count",
+        "formatted": "6,879"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 4765,
+        "unit": "count",
+        "formatted": "4,765"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 293832,
+        "unit": "count",
+        "formatted": "293,832"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 147714,
+        "unit": "count",
+        "formatted": "147,714"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 146118,
+        "unit": "count",
+        "formatted": "146,118"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 943074,
+        "unit": "count",
+        "formatted": "943,074"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 466969,
+        "unit": "count",
+        "formatted": "466,969"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 476105,
+        "unit": "count",
+        "formatted": "476,105"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 341641,
+        "unit": "count",
+        "formatted": "341,641"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 184622,
+        "unit": "count",
+        "formatted": "184,622"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 157019,
+        "unit": "count",
+        "formatted": "157,019"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 525700,
+        "unit": "count",
+        "formatted": "525,700"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 290786,
+        "unit": "count",
+        "formatted": "290,786"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 234914,
+        "unit": "count",
+        "formatted": "234,914"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 443311,
+        "unit": "count",
+        "formatted": "443,311"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 234060,
+        "unit": "count",
+        "formatted": "234,060"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 209251,
+        "unit": "count",
+        "formatted": "209,251"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 155553,
+        "unit": "count",
+        "formatted": "155,553"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 90258,
+        "unit": "count",
+        "formatted": "90,258"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 65295,
+        "unit": "count",
+        "formatted": "65,295"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 2409279,
+        "unit": "count",
+        "formatted": "2,409,279"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1266695,
+        "unit": "count",
+        "formatted": "1,266,695"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 1142584,
+        "unit": "count",
+        "formatted": "1,142,584"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 1410741,
+        "unit": "count",
+        "formatted": "1,410,741"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 698016,
+        "unit": "count",
+        "formatted": "698,016"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 712725,
+        "unit": "count",
+        "formatted": "712,725"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 460161,
+        "unit": "count",
+        "formatted": "460,161"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 247449,
+        "unit": "count",
+        "formatted": "247,449"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 212712,
+        "unit": "count",
+        "formatted": "212,712"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 625405,
+        "unit": "count",
+        "formatted": "625,405"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 343951,
+        "unit": "count",
+        "formatted": "343,951"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 281454,
+        "unit": "count",
+        "formatted": "281,454"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 502631,
+        "unit": "count",
+        "formatted": "502,631"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 265531,
+        "unit": "count",
+        "formatted": "265,531"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 237100,
+        "unit": "count",
+        "formatted": "237,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 172980,
+        "unit": "count",
+        "formatted": "172,980"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 100068,
+        "unit": "count",
+        "formatted": "100,068"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 72912,
+        "unit": "count",
+        "formatted": "72,912"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 3171918,
+        "unit": "count",
+        "formatted": "3,171,918"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1655015,
+        "unit": "count",
+        "formatted": "1,655,015"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 1516903,
+        "unit": "count",
+        "formatted": "1,516,903"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 17349482,
+        "unit": "count",
+        "formatted": "17,349,482"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 8497469,
+        "unit": "count",
+        "formatted": "8,497,469"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 8852013,
+        "unit": "count",
+        "formatted": "8,852,013"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 8050541,
+        "unit": "count",
+        "formatted": "8,050,541"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 4137039,
+        "unit": "count",
+        "formatted": "4,137,039"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 3913502,
+        "unit": "count",
+        "formatted": "3,913,502"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 11526101,
+        "unit": "count",
+        "formatted": "11,526,101"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 5886345,
+        "unit": "count",
+        "formatted": "5,886,345"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 5639756,
+        "unit": "count",
+        "formatted": "5,639,756"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 11608080,
+        "unit": "count",
+        "formatted": "11,608,080"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 5902644,
+        "unit": "count",
+        "formatted": "5,902,644"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 5705436,
+        "unit": "count",
+        "formatted": "5,705,436"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 11063344,
+        "unit": "count",
+        "formatted": "11,063,344"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 5996708,
+        "unit": "count",
+        "formatted": "5,996,708"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 5066636,
+        "unit": "count",
+        "formatted": "5,066,636"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 59597548,
+        "unit": "count",
+        "formatted": "59,597,548"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 30420205,
+        "unit": "count",
+        "formatted": "30,420,205"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 29177343,
+        "unit": "count",
+        "formatted": "29,177,343"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 620625,
+        "unit": "count",
+        "formatted": "620,625"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 309047,
+        "unit": "count",
+        "formatted": "309,047"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 311578,
+        "unit": "count",
+        "formatted": "311,578"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 226158,
+        "unit": "count",
+        "formatted": "226,158"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 124099,
+        "unit": "count",
+        "formatted": "124,099"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 102059,
+        "unit": "count",
+        "formatted": "102,059"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 367150,
+        "unit": "count",
+        "formatted": "367,150"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 203791,
+        "unit": "count",
+        "formatted": "203,791"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 163359,
+        "unit": "count",
+        "formatted": "163,359"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 221931,
+        "unit": "count",
+        "formatted": "221,931"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 113476,
+        "unit": "count",
+        "formatted": "113,476"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 108455,
+        "unit": "count",
+        "formatted": "108,455"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 52517,
+        "unit": "count",
+        "formatted": "52,517"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 29528,
+        "unit": "count",
+        "formatted": "29,528"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 22989,
+        "unit": "count",
+        "formatted": "22,989"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 1488381,
+        "unit": "count",
+        "formatted": "1,488,381"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 779941,
+        "unit": "count",
+        "formatted": "779,941"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 708440,
+        "unit": "count",
+        "formatted": "708,440"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 153899,
+        "unit": "count",
+        "formatted": "153,899"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 76448,
+        "unit": "count",
+        "formatted": "76,448"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 77451,
+        "unit": "count",
+        "formatted": "77,451"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 85506,
+        "unit": "count",
+        "formatted": "85,506"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 45688,
+        "unit": "count",
+        "formatted": "45,688"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 39818,
+        "unit": "count",
+        "formatted": "39,818"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 118758,
+        "unit": "count",
+        "formatted": "118,758"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 65764,
+        "unit": "count",
+        "formatted": "65,764"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 52994,
+        "unit": "count",
+        "formatted": "52,994"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 173776,
+        "unit": "count",
+        "formatted": "173,776"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 95453,
+        "unit": "count",
+        "formatted": "95,453"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 78323,
+        "unit": "count",
+        "formatted": "78,323"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 91180,
+        "unit": "count",
+        "formatted": "91,180"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 53747,
+        "unit": "count",
+        "formatted": "53,747"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 37433,
+        "unit": "count",
+        "formatted": "37,433"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 623119,
+        "unit": "count",
+        "formatted": "623,119"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 337100,
+        "unit": "count",
+        "formatted": "337,100"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 286019,
+        "unit": "count",
+        "formatted": "286,019"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 161384,
+        "unit": "count",
+        "formatted": "161,384"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 79929,
+        "unit": "count",
+        "formatted": "79,929"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 81455,
+        "unit": "count",
+        "formatted": "81,455"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 29164,
+        "unit": "count",
+        "formatted": "29,164"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 15360,
+        "unit": "count",
+        "formatted": "15,360"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 13804,
+        "unit": "count",
+        "formatted": "13,804"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 33766,
+        "unit": "count",
+        "formatted": "33,766"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 17957,
+        "unit": "count",
+        "formatted": "17,957"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 15809,
+        "unit": "count",
+        "formatted": "15,809"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 19103,
+        "unit": "count",
+        "formatted": "19,103"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 10159,
+        "unit": "count",
+        "formatted": "10,159"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 8944,
+        "unit": "count",
+        "formatted": "8,944"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 6180,
+        "unit": "count",
+        "formatted": "6,180"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 3573,
+        "unit": "count",
+        "formatted": "3,573"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 2607,
+        "unit": "count",
+        "formatted": "2,607"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 249597,
+        "unit": "count",
+        "formatted": "249,597"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 126978,
+        "unit": "count",
+        "formatted": "126,978"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 122619,
+        "unit": "count",
+        "formatted": "122,619"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 306283,
+        "unit": "count",
+        "formatted": "306,283"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 151118,
+        "unit": "count",
+        "formatted": "151,118"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 155165,
+        "unit": "count",
+        "formatted": "155,165"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 89356,
+        "unit": "count",
+        "formatted": "89,356"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 47467,
+        "unit": "count",
+        "formatted": "47,467"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 41889,
+        "unit": "count",
+        "formatted": "41,889"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 65939,
+        "unit": "count",
+        "formatted": "65,939"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 35208,
+        "unit": "count",
+        "formatted": "35,208"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 30731,
+        "unit": "count",
+        "formatted": "30,731"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 40217,
+        "unit": "count",
+        "formatted": "40,217"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 21312,
+        "unit": "count",
+        "formatted": "21,312"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 18905,
+        "unit": "count",
+        "formatted": "18,905"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 11247,
+        "unit": "count",
+        "formatted": "11,247"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 6237,
+        "unit": "count",
+        "formatted": "6,237"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 5010,
+        "unit": "count",
+        "formatted": "5,010"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 513042,
+        "unit": "count",
+        "formatted": "513,042"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 261342,
+        "unit": "count",
+        "formatted": "261,342"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 251700,
+        "unit": "count",
+        "formatted": "251,700"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 168550,
+        "unit": "count",
+        "formatted": "168,550"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 81474,
+        "unit": "count",
+        "formatted": "81,474"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 87076,
+        "unit": "count",
+        "formatted": "87,076"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 29977,
+        "unit": "count",
+        "formatted": "29,977"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 14835,
+        "unit": "count",
+        "formatted": "14,835"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 15142,
+        "unit": "count",
+        "formatted": "15,142"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 39792,
+        "unit": "count",
+        "formatted": "39,792"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 21231,
+        "unit": "count",
+        "formatted": "21,231"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 18561,
+        "unit": "count",
+        "formatted": "18,561"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 47604,
+        "unit": "count",
+        "formatted": "47,604"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 25131,
+        "unit": "count",
+        "formatted": "25,131"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 22473,
+        "unit": "count",
+        "formatted": "22,473"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 11856,
+        "unit": "count",
+        "formatted": "11,856"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 6983,
+        "unit": "count",
+        "formatted": "6,983"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 4873,
+        "unit": "count",
+        "formatted": "4,873"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 297779,
+        "unit": "count",
+        "formatted": "297,779"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 149654,
+        "unit": "count",
+        "formatted": "149,654"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 148125,
+        "unit": "count",
+        "formatted": "148,125"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 11574,
+        "unit": "count",
+        "formatted": "11,574"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 5572,
+        "unit": "count",
+        "formatted": "5,572"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 6002,
+        "unit": "count",
+        "formatted": "6,002"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 4472,
+        "unit": "count",
+        "formatted": "4,472"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 2177,
+        "unit": "count",
+        "formatted": "2,177"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 2295,
+        "unit": "count",
+        "formatted": "2,295"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 6526,
+        "unit": "count",
+        "formatted": "6,526"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 3338,
+        "unit": "count",
+        "formatted": "3,338"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 3188,
+        "unit": "count",
+        "formatted": "3,188"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 3637,
+        "unit": "count",
+        "formatted": "3,637"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 1749,
+        "unit": "count",
+        "formatted": "1,749"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 1888,
+        "unit": "count",
+        "formatted": "1,888"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 1343,
+        "unit": "count",
+        "formatted": "1,343"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 655,
+        "unit": "count",
+        "formatted": "655"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 688,
+        "unit": "count",
+        "formatted": "688"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 27552,
+        "unit": "count",
+        "formatted": "27,552"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 13491,
+        "unit": "count",
+        "formatted": "13,491"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 14061,
+        "unit": "count",
+        "formatted": "14,061"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 24153,
+        "unit": "count",
+        "formatted": "24,153"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 11834,
+        "unit": "count",
+        "formatted": "11,834"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 12319,
+        "unit": "count",
+        "formatted": "12,319"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 7580,
+        "unit": "count",
+        "formatted": "7,580"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 3804,
+        "unit": "count",
+        "formatted": "3,804"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 3776,
+        "unit": "count",
+        "formatted": "3,776"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 9437,
+        "unit": "count",
+        "formatted": "9,437"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 4899,
+        "unit": "count",
+        "formatted": "4,899"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 4538,
+        "unit": "count",
+        "formatted": "4,538"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 5832,
+        "unit": "count",
+        "formatted": "5,832"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 2887,
+        "unit": "count",
+        "formatted": "2,887"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 2945,
+        "unit": "count",
+        "formatted": "2,945"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 2347,
+        "unit": "count",
+        "formatted": "2,347"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 1161,
+        "unit": "count",
+        "formatted": "1,161"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 1186,
+        "unit": "count",
+        "formatted": "1,186"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 49349,
+        "unit": "count",
+        "formatted": "49,349"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 24585,
+        "unit": "count",
+        "formatted": "24,585"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 24764,
+        "unit": "count",
+        "formatted": "24,764"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 877158,
+        "unit": "count",
+        "formatted": "877,158"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 427458,
+        "unit": "count",
+        "formatted": "427,458"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 449700,
+        "unit": "count",
+        "formatted": "449,700"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 382672,
+        "unit": "count",
+        "formatted": "382,672"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 195303,
+        "unit": "count",
+        "formatted": "195,303"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 187369,
+        "unit": "count",
+        "formatted": "187,369"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 547660,
+        "unit": "count",
+        "formatted": "547,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 280594,
+        "unit": "count",
+        "formatted": "280,594"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 267066,
+        "unit": "count",
+        "formatted": "267,066"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 637955,
+        "unit": "count",
+        "formatted": "637,955"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 327014,
+        "unit": "count",
+        "formatted": "327,014"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 310941,
+        "unit": "count",
+        "formatted": "310,941"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 662042,
+        "unit": "count",
+        "formatted": "662,042"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 356117,
+        "unit": "count",
+        "formatted": "356,117"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 305925,
+        "unit": "count",
+        "formatted": "305,925"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 3107487,
+        "unit": "count",
+        "formatted": "3,107,487"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1586486,
+        "unit": "count",
+        "formatted": "1,586,486"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 1521001,
+        "unit": "count",
+        "formatted": "1,521,001"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 8724,
+        "unit": "count",
+        "formatted": "8,724"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 4207,
+        "unit": "count",
+        "formatted": "4,207"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 4517,
+        "unit": "count",
+        "formatted": "4,517"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 3616,
+        "unit": "count",
+        "formatted": "3,616"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 1795,
+        "unit": "count",
+        "formatted": "1,795"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 1821,
+        "unit": "count",
+        "formatted": "1,821"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 5137,
+        "unit": "count",
+        "formatted": "5,137"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 2667,
+        "unit": "count",
+        "formatted": "2,667"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 2470,
+        "unit": "count",
+        "formatted": "2,470"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 1906,
+        "unit": "count",
+        "formatted": "1,906"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 922,
+        "unit": "count",
+        "formatted": "922"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 984,
+        "unit": "count",
+        "formatted": "984"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 523,
+        "unit": "count",
+        "formatted": "523"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 290,
+        "unit": "count",
+        "formatted": "290"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 233,
+        "unit": "count",
+        "formatted": "233"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 19906,
+        "unit": "count",
+        "formatted": "19,906"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 9881,
+        "unit": "count",
+        "formatted": "9,881"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 10025,
+        "unit": "count",
+        "formatted": "10,025"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 731,
+        "unit": "count",
+        "formatted": "731"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 318,
+        "unit": "count",
+        "formatted": "318"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 413,
+        "unit": "count",
+        "formatted": "413"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 503,
+        "unit": "count",
+        "formatted": "503"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 232,
+        "unit": "count",
+        "formatted": "232"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 271,
+        "unit": "count",
+        "formatted": "271"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 762,
+        "unit": "count",
+        "formatted": "762"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 353,
+        "unit": "count",
+        "formatted": "353"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 409,
+        "unit": "count",
+        "formatted": "409"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 1095,
+        "unit": "count",
+        "formatted": "1,095"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 506,
+        "unit": "count",
+        "formatted": "506"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 589,
+        "unit": "count",
+        "formatted": "589"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 608,
+        "unit": "count",
+        "formatted": "608"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 261,
+        "unit": "count",
+        "formatted": "261"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 347,
+        "unit": "count",
+        "formatted": "347"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 3699,
+        "unit": "count",
+        "formatted": "3,699"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1670,
+        "unit": "count",
+        "formatted": "1,670"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 2029,
+        "unit": "count",
+        "formatted": "2,029"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 5305,
+        "unit": "count",
+        "formatted": "5,305"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 2661,
+        "unit": "count",
+        "formatted": "2,661"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 2644,
+        "unit": "count",
+        "formatted": "2,644"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 826,
+        "unit": "count",
+        "formatted": "826"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 422,
+        "unit": "count",
+        "formatted": "422"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 404,
+        "unit": "count",
+        "formatted": "404"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 998,
+        "unit": "count",
+        "formatted": "998"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 549,
+        "unit": "count",
+        "formatted": "549"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 449,
+        "unit": "count",
+        "formatted": "449"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 657,
+        "unit": "count",
+        "formatted": "657"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 370,
+        "unit": "count",
+        "formatted": "370"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 287,
+        "unit": "count",
+        "formatted": "287"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 280,
+        "unit": "count",
+        "formatted": "280"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 151,
+        "unit": "count",
+        "formatted": "151"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 129,
+        "unit": "count",
+        "formatted": "129"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 8066,
+        "unit": "count",
+        "formatted": "8,066"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 4153,
+        "unit": "count",
+        "formatted": "4,153"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 3913,
+        "unit": "count",
+        "formatted": "3,913"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 7274,
+        "unit": "count",
+        "formatted": "7,274"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 3601,
+        "unit": "count",
+        "formatted": "3,601"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 3673,
+        "unit": "count",
+        "formatted": "3,673"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 2282,
+        "unit": "count",
+        "formatted": "2,282"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 1205,
+        "unit": "count",
+        "formatted": "1,205"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 1077,
+        "unit": "count",
+        "formatted": "1,077"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 1913,
+        "unit": "count",
+        "formatted": "1,913"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 1012,
+        "unit": "count",
+        "formatted": "1,012"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 901,
+        "unit": "count",
+        "formatted": "901"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 1538,
+        "unit": "count",
+        "formatted": "1,538"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 768,
+        "unit": "count",
+        "formatted": "768"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 770,
+        "unit": "count",
+        "formatted": "770"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 724,
+        "unit": "count",
+        "formatted": "724"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 355,
+        "unit": "count",
+        "formatted": "355"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 369,
+        "unit": "count",
+        "formatted": "369"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 13731,
+        "unit": "count",
+        "formatted": "13,731"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 6941,
+        "unit": "count",
+        "formatted": "6,941"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 6790,
+        "unit": "count",
+        "formatted": "6,790"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "all",
+      "value": {
+        "value": 2119,
+        "unit": "count",
+        "formatted": "2,119"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "female",
+      "value": {
+        "value": 1047,
+        "unit": "count",
+        "formatted": "1,047"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "24-and-under",
+      "sex": "male",
+      "value": {
+        "value": 1072,
+        "unit": "count",
+        "formatted": "1,072"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "all",
+      "value": {
+        "value": 353,
+        "unit": "count",
+        "formatted": "353"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "female",
+      "value": {
+        "value": 150,
+        "unit": "count",
+        "formatted": "150"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "25-34",
+      "sex": "male",
+      "value": {
+        "value": 203,
+        "unit": "count",
+        "formatted": "203"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "all",
+      "value": {
+        "value": 627,
+        "unit": "count",
+        "formatted": "627"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "female",
+      "value": {
+        "value": 318,
+        "unit": "count",
+        "formatted": "318"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "35-49",
+      "sex": "male",
+      "value": {
+        "value": 309,
+        "unit": "count",
+        "formatted": "309"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "all",
+      "value": {
+        "value": 636,
+        "unit": "count",
+        "formatted": "636"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "female",
+      "value": {
+        "value": 321,
+        "unit": "count",
+        "formatted": "321"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "50-64",
+      "sex": "male",
+      "value": {
+        "value": 315,
+        "unit": "count",
+        "formatted": "315"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "all",
+      "value": {
+        "value": 212,
+        "unit": "count",
+        "formatted": "212"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "female",
+      "value": {
+        "value": 104,
+        "unit": "count",
+        "formatted": "104"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "65-plus",
+      "sex": "male",
+      "value": {
+        "value": 108,
+        "unit": "count",
+        "formatted": "108"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "all",
+      "value": {
+        "value": 3947,
+        "unit": "count",
+        "formatted": "3,947"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "female",
+      "value": {
+        "value": 1940,
+        "unit": "count",
+        "formatted": "1,940"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "ageGroup": "all",
+      "sex": "male",
+      "value": {
+        "value": 2007,
+        "unit": "count",
+        "formatted": "2,007"
+      }
+    }
+  ]
+}

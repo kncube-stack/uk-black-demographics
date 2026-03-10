@@ -1,0 +1,66 @@
+{
+  "category": "economics",
+  "title": "Economics",
+  "description": "Employment rates, unemployment, occupations, and business ownership.",
+  "headlines": [
+    {
+      "label": "Black employment rate",
+      "sublabel": "Oct 2024-Sep 2025",
+      "value": {
+        "value": 71.1,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Annual Population Survey (variables - percentages)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "Oct 2024-Sep 2025",
+        "url": "https://www.nomisweb.co.uk/datasets/apsnew"
+      }
+    },
+    {
+      "label": "Black unemployment rate",
+      "sublabel": "Oct 2024-Sep 2025",
+      "value": {
+        "value": 8.2,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Annual Population Survey (variables - percentages)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "Oct 2024-Sep 2025",
+        "url": "https://www.nomisweb.co.uk/datasets/apsnew"
+      }
+    },
+    {
+      "label": "Black inactivity rate",
+      "sublabel": "Oct 2024-Sep 2025",
+      "value": {
+        "value": 22.5,
+        "unit": "percentage"
+      },
+      "source": {
+        "name": "Annual Population Survey (variables - percentages)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "Oct 2024-Sep 2025",
+        "url": "https://www.nomisweb.co.uk/datasets/apsnew"
+      }
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "employment",
+      "title": "Employment",
+      "description": "Employment rates and occupational breakdown"
+    },
+    {
+      "slug": "unemployment",
+      "title": "Unemployment",
+      "description": "Unemployment and economic inactivity rates"
+    },
+    {
+      "slug": "businesses",
+      "title": "Businesses",
+      "description": "Self-employment and business ownership"
+    }
+  ]
+}

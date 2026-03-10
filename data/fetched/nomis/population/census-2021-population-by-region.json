@@ -1,0 +1,1156 @@
+{
+  "id": "nomis-by-region-population-census-2021",
+  "title": "Population by Region and Ethnic Group, Census 2021",
+  "description": "Population counts for the 9 English regions and Wales using the detailed Census 2021 ethnic group classification.",
+  "siteCategory": "population",
+  "siteSubcategory": "by-region",
+  "metadata": {
+    "id": "nomis-census-2021-ts021",
+    "name": "Census 2021: Ethnic group (TS021)",
+    "publisher": "Office for National Statistics via Nomis",
+    "url": "https://www.nomisweb.co.uk/datasets/c2021ts021",
+    "apiEndpoint": "https://www.nomisweb.co.uk/api/v01/dataset/nm_2041_1.bulk.csv?time=2021&geography=TYPE480&c2021_eth_20=0%2C6%2C7%2C15%2C16%2C17&measures=20100",
+    "datePublished": "2022-11-29",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Downloaded from the Nomis bulk CSV endpoint for Census 2021 table TS021. Counts refer to usual residents on Census Day, 21 March 2021. This project derives the all_black and all_black_including_mixed aggregates from the detailed ethnic group rows returned by Nomis.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "Census 2021 outputs use statistical disclosure control, including targeted record swapping and cell key perturbation.",
+      "The all_black aggregate sums Black African, Black Caribbean, and Other Black. The all_black_including_mixed aggregate additionally includes White and Black African and White and Black Caribbean."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnicGroup",
+    "geography",
+    "timePeriod"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 2647014,
+        "unit": "count",
+        "formatted": "2,647,014"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 5650,
+        "unit": "count",
+        "formatted": "5,650"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 6527,
+        "unit": "count",
+        "formatted": "6,527"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 1704,
+        "unit": "count",
+        "formatted": "1,704"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 22066,
+        "unit": "count",
+        "formatted": "22,066"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 2865,
+        "unit": "count",
+        "formatted": "2,865"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 26635,
+        "unit": "count",
+        "formatted": "26,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000001",
+        "name": "North East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 38812,
+        "unit": "count",
+        "formatted": "38,812"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 7417398,
+        "unit": "count",
+        "formatted": "7,417,398"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 46962,
+        "unit": "count",
+        "formatted": "46,962"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 30011,
+        "unit": "count",
+        "formatted": "30,011"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 25919,
+        "unit": "count",
+        "formatted": "25,919"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 126608,
+        "unit": "count",
+        "formatted": "126,608"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 21391,
+        "unit": "count",
+        "formatted": "21,391"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 173918,
+        "unit": "count",
+        "formatted": "173,918"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000002",
+        "name": "North West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 250891,
+        "unit": "count",
+        "formatted": "250,891"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 5480774,
+        "unit": "count",
+        "formatted": "5,480,774"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 39296,
+        "unit": "count",
+        "formatted": "39,296"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 15644,
+        "unit": "count",
+        "formatted": "15,644"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 22736,
+        "unit": "count",
+        "formatted": "22,736"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 80907,
+        "unit": "count",
+        "formatted": "80,907"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 14000,
+        "unit": "count",
+        "formatted": "14,000"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 117643,
+        "unit": "count",
+        "formatted": "117,643"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000003",
+        "name": "Yorkshire and The Humber",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 172583,
+        "unit": "count",
+        "formatted": "172,583"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 4880054,
+        "unit": "count",
+        "formatted": "4,880,054"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 46400,
+        "unit": "count",
+        "formatted": "46,400"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 14341,
+        "unit": "count",
+        "formatted": "14,341"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 30828,
+        "unit": "count",
+        "formatted": "30,828"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 83161,
+        "unit": "count",
+        "formatted": "83,161"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 15997,
+        "unit": "count",
+        "formatted": "15,997"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 129986,
+        "unit": "count",
+        "formatted": "129,986"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000004",
+        "name": "East Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 190727,
+        "unit": "count",
+        "formatted": "190,727"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 5950757,
+        "unit": "count",
+        "formatted": "5,950,757"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 81193,
+        "unit": "count",
+        "formatted": "81,193"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 16011,
+        "unit": "count",
+        "formatted": "16,011"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 90192,
+        "unit": "count",
+        "formatted": "90,192"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 146089,
+        "unit": "count",
+        "formatted": "146,089"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 32738,
+        "unit": "count",
+        "formatted": "32,738"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 269019,
+        "unit": "count",
+        "formatted": "269,019"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000005",
+        "name": "West Midlands",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 366223,
+        "unit": "count",
+        "formatted": "366,223"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 6335068,
+        "unit": "count",
+        "formatted": "6,335,068"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 51950,
+        "unit": "count",
+        "formatted": "51,950"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 27376,
+        "unit": "count",
+        "formatted": "27,376"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 41884,
+        "unit": "count",
+        "formatted": "41,884"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 118731,
+        "unit": "count",
+        "formatted": "118,731"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 24334,
+        "unit": "count",
+        "formatted": "24,334"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 184949,
+        "unit": "count",
+        "formatted": "184,949"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000006",
+        "name": "East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 264275,
+        "unit": "count",
+        "formatted": "264,275"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 8799725,
+        "unit": "count",
+        "formatted": "8,799,725"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 132555,
+        "unit": "count",
+        "formatted": "132,555"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 77341,
+        "unit": "count",
+        "formatted": "77,341"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 345405,
+        "unit": "count",
+        "formatted": "345,405"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 697054,
+        "unit": "count",
+        "formatted": "697,054"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 145911,
+        "unit": "count",
+        "formatted": "145,911"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 1188370,
+        "unit": "count",
+        "formatted": "1,188,370"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000007",
+        "name": "London",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 1398266,
+        "unit": "count",
+        "formatted": "1,398,266"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 9278063,
+        "unit": "count",
+        "formatted": "9,278,063"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 62087,
+        "unit": "count",
+        "formatted": "62,087"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 38633,
+        "unit": "count",
+        "formatted": "38,633"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 43523,
+        "unit": "count",
+        "formatted": "43,523"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 150540,
+        "unit": "count",
+        "formatted": "150,540"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 27521,
+        "unit": "count",
+        "formatted": "27,521"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 221584,
+        "unit": "count",
+        "formatted": "221,584"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000008",
+        "name": "South East",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 322304,
+        "unit": "count",
+        "formatted": "322,304"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 5701186,
+        "unit": "count",
+        "formatted": "5,701,186"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 33217,
+        "unit": "count",
+        "formatted": "33,217"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 15644,
+        "unit": "count",
+        "formatted": "15,644"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 17226,
+        "unit": "count",
+        "formatted": "17,226"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 43318,
+        "unit": "count",
+        "formatted": "43,318"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 9070,
+        "unit": "count",
+        "formatted": "9,070"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 69614,
+        "unit": "count",
+        "formatted": "69,614"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E12000009",
+        "name": "South West",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 118475,
+        "unit": "count",
+        "formatted": "118,475"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3107494,
+        "unit": "count",
+        "formatted": "3,107,494"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 13732,
+        "unit": "count",
+        "formatted": "13,732"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 8068,
+        "unit": "count",
+        "formatted": "8,068"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3700,
+        "unit": "count",
+        "formatted": "3,700"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 19907,
+        "unit": "count",
+        "formatted": "19,907"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 3947,
+        "unit": "count",
+        "formatted": "3,947"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 27554,
+        "unit": "count",
+        "formatted": "27,554"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "W92000004",
+        "name": "Wales",
+        "level": "regional"
+      },
+      "timePeriod": "2021",
+      "value": {
+        "value": 49354,
+        "unit": "count",
+        "formatted": "49,354"
+      }
+    }
+  ]
+}

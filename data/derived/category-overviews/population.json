@@ -1,0 +1,88 @@
+{
+  "category": "population",
+  "title": "Population",
+  "description": "Total Black population, regional distribution, demographics by age and sex.",
+  "headlines": [
+    {
+      "label": "Core Black population",
+      "sublabel": "England and Wales",
+      "value": {
+        "value": 2409278,
+        "unit": "count",
+        "formatted": "2,409,278"
+      },
+      "source": {
+        "name": "Census 2021: Ethnic group (TS021)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "2021-03-21",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+      }
+    },
+    {
+      "label": "Including mixed White/Black groups",
+      "sublabel": "England and Wales",
+      "value": {
+        "value": 3171916,
+        "unit": "count",
+        "formatted": "3,171,916"
+      },
+      "source": {
+        "name": "Census 2021: Ethnic group (TS021)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "2021-03-21",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+      }
+    },
+    {
+      "label": "Largest regional population",
+      "sublabel": "London",
+      "value": {
+        "value": 1188370,
+        "unit": "count",
+        "formatted": "1,188,370"
+      },
+      "source": {
+        "name": "Census 2021: Ethnic group (TS021)",
+        "publisher": "Office for National Statistics via Nomis",
+        "referenceDate": "2021-03-21",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts021"
+      },
+      "trend": {
+        "direction": "stable",
+        "description": "13.5% of London's population"
+      }
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "total",
+      "title": "Total Population",
+      "description": "Total Black population of England and Wales"
+    },
+    {
+      "slug": "by-region",
+      "title": "By Region",
+      "description": "Black population across the 9 English regions and Wales"
+    },
+    {
+      "slug": "by-local-authority",
+      "title": "By Local Authority",
+      "description": "Black population in every local authority district"
+    },
+    {
+      "slug": "male",
+      "title": "Male",
+      "description": "Black male population and age distribution"
+    },
+    {
+      "slug": "female",
+      "title": "Female",
+      "description": "Black female population and age distribution"
+    },
+    {
+      "slug": "age-distribution",
+      "title": "Age Distribution",
+      "description": "Age structure of the Black population"
+    }
+  ]
+}

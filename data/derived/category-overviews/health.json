@@ -1,0 +1,85 @@
+{
+  "category": "health",
+  "title": "Health",
+  "description": "Life expectancy, obesity, mental health, maternal health, HIV, and COVID-19.",
+  "headlines": [
+    {
+      "label": "All Black detention rate",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 227.9,
+        "unit": "rate_per_100000"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Detentions under the Mental Health Act",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/"
+      },
+      "trend": {
+        "direction": "stable",
+        "description": "Standardised rate per 100,000 vs 2021/22"
+      }
+    },
+    {
+      "label": "Black Caribbean detention rate",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 222.8,
+        "unit": "rate_per_100000"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Detentions under the Mental Health Act",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/"
+      }
+    },
+    {
+      "label": "Other Black detention rate",
+      "sublabel": "2022/23",
+      "value": {
+        "value": 715.4,
+        "unit": "rate_per_100000"
+      },
+      "source": {
+        "name": "Ethnicity Facts and Figures: Detentions under the Mental Health Act",
+        "publisher": "Race Disparity Unit / Cabinet Office",
+        "referenceDate": "2022/23",
+        "url": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/"
+      }
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "life-expectancy",
+      "title": "Life Expectancy",
+      "description": "Health status and life expectancy"
+    },
+    {
+      "slug": "obesity",
+      "title": "Obesity",
+      "description": "Adult and child obesity rates"
+    },
+    {
+      "slug": "mental-health",
+      "title": "Mental Health",
+      "description": "Mental Health Act detentions and services"
+    },
+    {
+      "slug": "maternal-health",
+      "title": "Maternal Health",
+      "description": "Maternal mortality disparities"
+    },
+    {
+      "slug": "hiv-aids",
+      "title": "HIV & AIDS",
+      "description": "HIV diagnoses and care by ethnicity"
+    },
+    {
+      "slug": "covid-19",
+      "title": "COVID-19",
+      "description": "COVID-19 mortality and vaccination disparities"
+    }
+  ]
+}
