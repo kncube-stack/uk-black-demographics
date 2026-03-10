@@ -16,6 +16,12 @@ export function SiteFooter() {
             </p>
           </div>
           <div className="flex flex-wrap gap-2 text-sm font-semibold">
+            <Link href="/key-findings" className="rounded-full px-3 py-2 hover:bg-white/70">
+              Findings
+            </Link>
+            <Link href="/search" className="rounded-full px-3 py-2 hover:bg-white/70">
+              Search
+            </Link>
             <Link href="/population" className="rounded-full px-3 py-2 hover:bg-white/70">
               Population
             </Link>
@@ -31,11 +37,20 @@ export function SiteFooter() {
             <Link href="/health" className="rounded-full px-3 py-2 hover:bg-white/70">
               Health
             </Link>
-            <Link href="/culture-geography" className="rounded-full px-3 py-2 hover:bg-white/70">
-              Culture
+            <Link href="/justice-policing" className="rounded-full px-3 py-2 hover:bg-white/70">
+              Justice
+            </Link>
+            <Link href="/identity-civic-life" className="rounded-full px-3 py-2 hover:bg-white/70">
+              Identity
+            </Link>
+            <Link href="/about" className="rounded-full px-3 py-2 hover:bg-white/70">
+              About
             </Link>
             <Link href="/methodology" className="rounded-full px-3 py-2 hover:bg-white/70">
               Methodology
+            </Link>
+            <Link href="/culture-geography" className="rounded-full px-3 py-2 hover:bg-white/70">
+              Legacy culture route
             </Link>
           </div>
         </div>

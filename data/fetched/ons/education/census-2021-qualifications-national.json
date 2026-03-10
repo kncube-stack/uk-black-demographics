@@ -1,0 +1,568 @@
+{
+  "id": "ons-census-2021-qualifications-national",
+  "title": "Highest qualification by broad Black group",
+  "description": "England and Wales Census 2021 highest qualification counts and shares for the broad Black group compared with the all-population baseline.",
+  "siteCategory": "education",
+  "siteSubcategory": "attainment",
+  "metadata": {
+    "id": "ons-rm049-qualifications",
+    "name": "Census 2021: Highest level of qualification by ethnic group (RM049)",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/datasets/RM049/editions/2021/versions/1",
+    "apiEndpoint": "https://download.ons.gov.uk/downloads/datasets/RM049/editions/2021/versions/1.csv",
+    "datePublished": "2023-02-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "Census 2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Fetched from the official ONS RM049 Census 2021 download. This implementation aggregates local-authority rows to England and Wales and keeps the broad Black group plus the all-population comparator.",
+    "qualityFlags": [
+      "national_statistic"
+    ],
+    "caveats": [
+      "This Census route currently uses the broad Black category available in RM049 rather than Black subgroup detail."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "category",
+    "measure",
+    "time"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-qualifications",
+      "attributes": {
+        "label": "No qualifications",
+        "measure": "count"
+      },
+      "value": {
+        "value": 255036,
+        "unit": "count",
+        "formatted": "255,036"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-qualifications",
+      "attributes": {
+        "label": "No qualifications",
+        "measure": "share"
+      },
+      "value": {
+        "value": 14.068196298104372,
+        "unit": "percentage",
+        "formatted": "14.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-qualifications",
+      "attributes": {
+        "label": "No qualifications",
+        "measure": "count"
+      },
+      "value": {
+        "value": 8827493,
+        "unit": "count",
+        "formatted": "8,827,493"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-qualifications",
+      "attributes": {
+        "label": "No qualifications",
+        "measure": "share"
+      },
+      "value": {
+        "value": 18.176080037327758,
+        "unit": "percentage",
+        "formatted": "18.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-1-and-entry-level-qualifications-1-to-4-gcses-grade-a-to-c-any-gcses-at-other-grades-o-levels-or-cses-any-grades-1-as-level-nvq-level-1-foundation-gnvq-basic-or-essential-skills",
+      "attributes": {
+        "label": "Level 1 and entry level qualifications: 1 to 4 GCSEs grade A* to C, Any GCSEs at other grades, O levels or CSEs (any grades), 1 AS level, NVQ level 1, Foundation GNVQ, Basic or Essential Skills",
+        "measure": "count"
+      },
+      "value": {
+        "value": 157008,
+        "unit": "count",
+        "formatted": "157,008"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-1-and-entry-level-qualifications-1-to-4-gcses-grade-a-to-c-any-gcses-at-other-grades-o-levels-or-cses-any-grades-1-as-level-nvq-level-1-foundation-gnvq-basic-or-essential-skills",
+      "attributes": {
+        "label": "Level 1 and entry level qualifications: 1 to 4 GCSEs grade A* to C, Any GCSEs at other grades, O levels or CSEs (any grades), 1 AS level, NVQ level 1, Foundation GNVQ, Basic or Essential Skills",
+        "measure": "share"
+      },
+      "value": {
+        "value": 8.660814019874728,
+        "unit": "percentage",
+        "formatted": "8.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-1-and-entry-level-qualifications-1-to-4-gcses-grade-a-to-c-any-gcses-at-other-grades-o-levels-or-cses-any-grades-1-as-level-nvq-level-1-foundation-gnvq-basic-or-essential-skills",
+      "attributes": {
+        "label": "Level 1 and entry level qualifications: 1 to 4 GCSEs grade A* to C, Any GCSEs at other grades, O levels or CSEs (any grades), 1 AS level, NVQ level 1, Foundation GNVQ, Basic or Essential Skills",
+        "measure": "count"
+      },
+      "value": {
+        "value": 4679269,
+        "unit": "count",
+        "formatted": "4,679,269"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-1-and-entry-level-qualifications-1-to-4-gcses-grade-a-to-c-any-gcses-at-other-grades-o-levels-or-cses-any-grades-1-as-level-nvq-level-1-foundation-gnvq-basic-or-essential-skills",
+      "attributes": {
+        "label": "Level 1 and entry level qualifications: 1 to 4 GCSEs grade A* to C, Any GCSEs at other grades, O levels or CSEs (any grades), 1 AS level, NVQ level 1, Foundation GNVQ, Basic or Essential Skills",
+        "measure": "share"
+      },
+      "value": {
+        "value": 9.634759026168203,
+        "unit": "percentage",
+        "formatted": "9.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-2-qualifications-5-or-more-gcses-a-to-c-or-9-to-4-o-levels-passes-cses-grade-1-school-certification-1-a-level-2-to-3-as-levels-vces-intermediate-or-higher-diploma-welsh-baccalaureate-intermediate-diploma-nvq-level-2-intermediate-gnvq-city-and-guilds-craft-btec-first-or-general-diploma-rsa-diploma",
+      "attributes": {
+        "label": "Level 2 qualifications: 5 or more GCSEs (A* to C or 9 to 4), O levels (passes), CSEs (grade 1), School Certification, 1 A level, 2 to 3 AS levels, VCEs, Intermediate or Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First or General Diploma, RSA Diploma",
+        "measure": "count"
+      },
+      "value": {
+        "value": 215862,
+        "unit": "count",
+        "formatted": "215,862"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-2-qualifications-5-or-more-gcses-a-to-c-or-9-to-4-o-levels-passes-cses-grade-1-school-certification-1-a-level-2-to-3-as-levels-vces-intermediate-or-higher-diploma-welsh-baccalaureate-intermediate-diploma-nvq-level-2-intermediate-gnvq-city-and-guilds-craft-btec-first-or-general-diploma-rsa-diploma",
+      "attributes": {
+        "label": "Level 2 qualifications: 5 or more GCSEs (A* to C or 9 to 4), O levels (passes), CSEs (grade 1), School Certification, 1 A level, 2 to 3 AS levels, VCEs, Intermediate or Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First or General Diploma, RSA Diploma",
+        "measure": "share"
+      },
+      "value": {
+        "value": 11.907295398694325,
+        "unit": "percentage",
+        "formatted": "11.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-2-qualifications-5-or-more-gcses-a-to-c-or-9-to-4-o-levels-passes-cses-grade-1-school-certification-1-a-level-2-to-3-as-levels-vces-intermediate-or-higher-diploma-welsh-baccalaureate-intermediate-diploma-nvq-level-2-intermediate-gnvq-city-and-guilds-craft-btec-first-or-general-diploma-rsa-diploma",
+      "attributes": {
+        "label": "Level 2 qualifications: 5 or more GCSEs (A* to C or 9 to 4), O levels (passes), CSEs (grade 1), School Certification, 1 A level, 2 to 3 AS levels, VCEs, Intermediate or Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First or General Diploma, RSA Diploma",
+        "measure": "count"
+      },
+      "value": {
+        "value": 6493527,
+        "unit": "count",
+        "formatted": "6,493,527"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-2-qualifications-5-or-more-gcses-a-to-c-or-9-to-4-o-levels-passes-cses-grade-1-school-certification-1-a-level-2-to-3-as-levels-vces-intermediate-or-higher-diploma-welsh-baccalaureate-intermediate-diploma-nvq-level-2-intermediate-gnvq-city-and-guilds-craft-btec-first-or-general-diploma-rsa-diploma",
+      "attributes": {
+        "label": "Level 2 qualifications: 5 or more GCSEs (A* to C or 9 to 4), O levels (passes), CSEs (grade 1), School Certification, 1 A level, 2 to 3 AS levels, VCEs, Intermediate or Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First or General Diploma, RSA Diploma",
+        "measure": "share"
+      },
+      "value": {
+        "value": 13.37037214037426,
+        "unit": "percentage",
+        "formatted": "13.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "apprenticeship",
+      "attributes": {
+        "label": "Apprenticeship",
+        "measure": "count"
+      },
+      "value": {
+        "value": 60027,
+        "unit": "count",
+        "formatted": "60,027"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "apprenticeship",
+      "attributes": {
+        "label": "Apprenticeship",
+        "measure": "share"
+      },
+      "value": {
+        "value": 3.3111859470283065,
+        "unit": "percentage",
+        "formatted": "3.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "apprenticeship",
+      "attributes": {
+        "label": "Apprenticeship",
+        "measure": "count"
+      },
+      "value": {
+        "value": 2590270,
+        "unit": "count",
+        "formatted": "2,590,270"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "apprenticeship",
+      "attributes": {
+        "label": "Apprenticeship",
+        "measure": "share"
+      },
+      "value": {
+        "value": 5.333445728961663,
+        "unit": "percentage",
+        "formatted": "5.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-3-qualifications-2-or-more-a-levels-or-vces-4-or-more-as-levels-higher-school-certificate-progression-or-advanced-diploma-welsh-baccalaureate-advance-diploma-nvq-level-3-advanced-gnvq-city-and-guilds-advanced-craft-onc-ond-btec-national-rsa-advanced-diploma",
+      "attributes": {
+        "label": "Level 3 qualifications: 2 or more A levels or VCEs, 4 or more AS levels, Higher School Certificate, Progression or Advanced Diploma, Welsh Baccalaureate Advance Diploma, NVQ level 3; Advanced GNVQ, City and Guilds Advanced Craft, ONC, OND, BTEC National, RSA Advanced Diploma",
+        "measure": "count"
+      },
+      "value": {
+        "value": 291546,
+        "unit": "count",
+        "formatted": "291,546"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-3-qualifications-2-or-more-a-levels-or-vces-4-or-more-as-levels-higher-school-certificate-progression-or-advanced-diploma-welsh-baccalaureate-advance-diploma-nvq-level-3-advanced-gnvq-city-and-guilds-advanced-craft-onc-ond-btec-national-rsa-advanced-diploma",
+      "attributes": {
+        "label": "Level 3 qualifications: 2 or more A levels or VCEs, 4 or more AS levels, Higher School Certificate, Progression or Advanced Diploma, Welsh Baccalaureate Advance Diploma, NVQ level 3; Advanced GNVQ, City and Guilds Advanced Craft, ONC, OND, BTEC National, RSA Advanced Diploma",
+        "measure": "share"
+      },
+      "value": {
+        "value": 16.0821466692041,
+        "unit": "percentage",
+        "formatted": "16.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-3-qualifications-2-or-more-a-levels-or-vces-4-or-more-as-levels-higher-school-certificate-progression-or-advanced-diploma-welsh-baccalaureate-advance-diploma-nvq-level-3-advanced-gnvq-city-and-guilds-advanced-craft-onc-ond-btec-national-rsa-advanced-diploma",
+      "attributes": {
+        "label": "Level 3 qualifications: 2 or more A levels or VCEs, 4 or more AS levels, Higher School Certificate, Progression or Advanced Diploma, Welsh Baccalaureate Advance Diploma, NVQ level 3; Advanced GNVQ, City and Guilds Advanced Craft, ONC, OND, BTEC National, RSA Advanced Diploma",
+        "measure": "count"
+      },
+      "value": {
+        "value": 8225644,
+        "unit": "count",
+        "formatted": "8,225,644"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-3-qualifications-2-or-more-a-levels-or-vces-4-or-more-as-levels-higher-school-certificate-progression-or-advanced-diploma-welsh-baccalaureate-advance-diploma-nvq-level-3-advanced-gnvq-city-and-guilds-advanced-craft-onc-ond-btec-national-rsa-advanced-diploma",
+      "attributes": {
+        "label": "Level 3 qualifications: 2 or more A levels or VCEs, 4 or more AS levels, Higher School Certificate, Progression or Advanced Diploma, Welsh Baccalaureate Advance Diploma, NVQ level 3; Advanced GNVQ, City and Guilds Advanced Craft, ONC, OND, BTEC National, RSA Advanced Diploma",
+        "measure": "share"
+      },
+      "value": {
+        "value": 16.93685440504624,
+        "unit": "percentage",
+        "formatted": "16.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-4-qualifications-or-above-degree-ba-bsc-higher-degree-ma-phd-pgce-nvq-level-4-to-5-hnc-hnd-rsa-higher-diploma-btec-higher-level-professional-qualifications-for-example-teaching-nursing-accountancy",
+      "attributes": {
+        "label": "Level 4 qualifications or above: degree (BA, BSc), higher degree (MA, PhD, PGCE), NVQ level 4 to 5, HNC, HND, RSA Higher Diploma, BTEC Higher level, professional qualifications (for example, teaching, nursing, accountancy)",
+        "measure": "count"
+      },
+      "value": {
+        "value": 785232,
+        "unit": "count",
+        "formatted": "785,232"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-4-qualifications-or-above-degree-ba-bsc-higher-degree-ma-phd-pgce-nvq-level-4-to-5-hnc-hnd-rsa-higher-diploma-btec-higher-level-professional-qualifications-for-example-teaching-nursing-accountancy",
+      "attributes": {
+        "label": "Level 4 qualifications or above: degree (BA, BSc), higher degree (MA, PhD, PGCE), NVQ level 4 to 5, HNC, HND, RSA Higher Diploma, BTEC Higher level, professional qualifications (for example, teaching, nursing, accountancy)",
+        "measure": "share"
+      },
+      "value": {
+        "value": 43.31466112844105,
+        "unit": "percentage",
+        "formatted": "43.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-4-qualifications-or-above-degree-ba-bsc-higher-degree-ma-phd-pgce-nvq-level-4-to-5-hnc-hnd-rsa-higher-diploma-btec-higher-level-professional-qualifications-for-example-teaching-nursing-accountancy",
+      "attributes": {
+        "label": "Level 4 qualifications or above: degree (BA, BSc), higher degree (MA, PhD, PGCE), NVQ level 4 to 5, HNC, HND, RSA Higher Diploma, BTEC Higher level, professional qualifications (for example, teaching, nursing, accountancy)",
+        "measure": "count"
+      },
+      "value": {
+        "value": 16413248,
+        "unit": "count",
+        "formatted": "16,413,248"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "level-4-qualifications-or-above-degree-ba-bsc-higher-degree-ma-phd-pgce-nvq-level-4-to-5-hnc-hnd-rsa-higher-diploma-btec-higher-level-professional-qualifications-for-example-teaching-nursing-accountancy",
+      "attributes": {
+        "label": "Level 4 qualifications or above: degree (BA, BSc), higher degree (MA, PhD, PGCE), NVQ level 4 to 5, HNC, HND, RSA Higher Diploma, BTEC Higher level, professional qualifications (for example, teaching, nursing, accountancy)",
+        "measure": "share"
+      },
+      "value": {
+        "value": 33.795383278186655,
+        "unit": "percentage",
+        "formatted": "33.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-vocational-or-work-related-qualifications-other-qualifications-achieved-in-england-or-wales-qualifications-achieved-outside-england-or-wales-equivalent-not-stated-or-unknown",
+      "attributes": {
+        "label": "Other: vocational or work-related qualifications, other qualifications achieved in England or Wales, qualifications achieved outside England or Wales (equivalent not stated or unknown)",
+        "measure": "count"
+      },
+      "value": {
+        "value": 48144,
+        "unit": "count",
+        "formatted": "48,144"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-vocational-or-work-related-qualifications-other-qualifications-achieved-in-england-or-wales-qualifications-achieved-outside-england-or-wales-equivalent-not-stated-or-unknown",
+      "attributes": {
+        "label": "Other: vocational or work-related qualifications, other qualifications achieved in England or Wales, qualifications achieved outside England or Wales (equivalent not stated or unknown)",
+        "measure": "share"
+      },
+      "value": {
+        "value": 2.655700538653119,
+        "unit": "percentage",
+        "formatted": "2.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-vocational-or-work-related-qualifications-other-qualifications-achieved-in-england-or-wales-qualifications-achieved-outside-england-or-wales-equivalent-not-stated-or-unknown",
+      "attributes": {
+        "label": "Other: vocational or work-related qualifications, other qualifications achieved in England or Wales, qualifications achieved outside England or Wales (equivalent not stated or unknown)",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1337088,
+        "unit": "count",
+        "formatted": "1,337,088"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-vocational-or-work-related-qualifications-other-qualifications-achieved-in-england-or-wales-qualifications-achieved-outside-england-or-wales-equivalent-not-stated-or-unknown",
+      "attributes": {
+        "label": "Other: vocational or work-related qualifications, other qualifications achieved in England or Wales, qualifications achieved outside England or Wales (equivalent not stated or unknown)",
+        "measure": "share"
+      },
+      "value": {
+        "value": 2.7531053839352233,
+        "unit": "percentage",
+        "formatted": "2.8%"
+      }
+    }
+  ]
+}

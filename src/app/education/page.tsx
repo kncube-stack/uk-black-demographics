@@ -101,7 +101,11 @@ export default async function EducationPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} eyebrow="Current release" />
+            <SourceCard
+              metadata={source}
+              eyebrow="Current release"
+              downloadHref={source.apiEndpoint}
+            />
           </div>
         </section>
 

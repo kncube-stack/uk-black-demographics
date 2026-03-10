@@ -1,0 +1,569 @@
+{
+  "id": "eff-low-income-households-national",
+  "title": "People in low-income households by ethnicity",
+  "description": "Percentage of people living in low-income households after housing costs in the United Kingdom, comparing the broad Black group with the all-population baseline.",
+  "siteCategory": "households",
+  "siteSubcategory": "income",
+  "metadata": {
+    "id": "eff-low-income-households",
+    "name": "Ethnicity Facts and Figures: People in low-income households",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest/downloads/low-income-households-data-2008-09-to-2023-24.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021/22; 2022/23; 2023/24",
+    "referencePeriod": "2021/22; 2022/23; 2023/24",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures low-income households download. This implementation keeps the after-housing-costs UK time series for the broad Black group and the all-population baseline.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The published ethnicity split for this measure is broad-group only; it does not separate Black African, Black Caribbean, and Other Black.",
+      "This release uses pooled multi-year averages rather than single-year estimates."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "measure",
+    "average_type"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22; 2022/23; 2023/24",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22; 2022/23",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20; 2021/22",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19; 2019/20",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18; 2018/19; 2019/20",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17; 2017/18; 2018/19",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16; 2016/17; 2017/18",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15; 2015/16; 2016/17",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2013/14; 2014/15; 2015/16",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2012/13; 2013/14; 2014/15",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2011/12; 2012/13; 2013/14",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2010/11; 2011/12; 2012/13",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2009/10; 2010/11; 2011/12",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 21,
+        "unit": "percentage",
+        "formatted": "21.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2008/09; 2009/10; 2010/11",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 22,
+        "unit": "percentage",
+        "formatted": "22.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22; 2022/23; 2023/24",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 39,
+        "unit": "percentage",
+        "formatted": "39.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22; 2022/23",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20; 2021/22",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19; 2019/20",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "2-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18; 2018/19; 2019/20",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17; 2017/18; 2018/19",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 42,
+        "unit": "percentage",
+        "formatted": "42.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16; 2016/17; 2017/18",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 42,
+        "unit": "percentage",
+        "formatted": "42.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15; 2015/16; 2016/17",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 41,
+        "unit": "percentage",
+        "formatted": "41.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2013/14; 2014/15; 2015/16",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2012/13; 2013/14; 2014/15",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 40,
+        "unit": "percentage",
+        "formatted": "40.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2011/12; 2012/13; 2013/14",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 41,
+        "unit": "percentage",
+        "formatted": "41.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2010/11; 2011/12; 2012/13",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 39,
+        "unit": "percentage",
+        "formatted": "39.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2009/10; 2010/11; 2011/12",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 39,
+        "unit": "percentage",
+        "formatted": "39.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2008/09; 2009/10; 2010/11",
+      "attributes": {
+        "measure": "rate",
+        "average_type": "3-Year average",
+        "housing_costs": "after"
+      },
+      "value": {
+        "value": 42,
+        "unit": "percentage",
+        "formatted": "42.0%"
+      }
+    }
+  ]
+}

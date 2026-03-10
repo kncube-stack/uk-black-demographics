@@ -14,6 +14,13 @@ type Props = {
 };
 
 export function TopicGuidePage({ guide, snapshot }: Props) {
+  const statusLabel =
+    guide.status === "live"
+      ? "Live data"
+      : guide.status === "snapshot"
+        ? "Data snapshot"
+        : "Coming next";
+
   return (
     <main className="px-5 py-6 sm:px-8 lg:px-12">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6">
@@ -31,10 +38,12 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
                   className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] ${
                     guide.status === "live"
                       ? "bg-[var(--accent-soft)] text-[var(--accent)]"
-                      : "border border-[var(--border)] text-[var(--muted)]"
+                      : guide.status === "snapshot"
+                        ? "bg-[#f1e5be] text-[#5d4c14]"
+                        : "border border-[var(--border)] text-[var(--muted)]"
                   }`}
                 >
-                  {guide.status === "live" ? "Live data" : "Official source brief"}
+                  {statusLabel}
                 </span>
               </div>
               <div className="max-w-3xl space-y-4">
@@ -76,14 +85,20 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
             </div>
 
             {snapshot?.source ? (
-              <SourceCard metadata={snapshot.source} eyebrow="Current source" />
+              <SourceCard
+                metadata={snapshot.source}
+                eyebrow={guide.status === "snapshot" ? "Current snapshot" : "Current source"}
+                downloadHref={snapshot.downloadHref}
+              />
             ) : (
               <article className="rounded-[28px] bg-[#173022] p-6 text-[#f7f2e9] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b8d3c0]">
                   Current status
                 </p>
                 <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
-                  Official source base mapped, pipeline pending
+                  {guide.targetDate
+                    ? `Next build target: ${guide.targetDate}`
+                    : "Official source base mapped"}
                 </h2>
                 <div className="mt-5 grid gap-3 text-sm leading-6 text-[#c8d7cb]">
                   <p>{guide.description}</p>

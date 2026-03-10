@@ -105,7 +105,11 @@ export default async function EconomicsPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} eyebrow="Current release" />
+            <SourceCard
+              metadata={source}
+              eyebrow="Current release"
+              downloadHref={source.apiEndpoint}
+            />
           </div>
         </section>
 
@@ -245,6 +249,7 @@ export default async function EconomicsPage() {
             pageTitle="Economics"
             pagePath="/economics"
             metadata={source}
+            downloadHref={source.apiEndpoint}
             note="If you cite a number from this page, include the route, the APS reference period, and the fact that the current labour-market slice uses the published broad Black or Black British series."
           />
         </section>

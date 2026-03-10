@@ -1,0 +1,872 @@
+{
+  "id": "ons-census-2021-country-of-birth-national",
+  "title": "Country of birth by broad Black group",
+  "description": "England and Wales Census 2021 country-of-birth distribution for the broad Black group compared with the all-population baseline.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "heritage-migration",
+  "metadata": {
+    "id": "ons-rm010-country-of-birth",
+    "name": "Census 2021: Country of birth by ethnic group (RM010)",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/datasets/RM010/editions/2021/versions/1",
+    "apiEndpoint": "https://download.ons.gov.uk/downloads/datasets/RM010/editions/2021/versions/1.csv",
+    "datePublished": "2022-11-29",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "Census 2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Fetched from the official ONS RM010 Census 2021 download. This implementation aggregates local-authority rows to England and Wales and keeps the broad Black group plus the all-population comparator.",
+    "qualityFlags": [
+      "national_statistic"
+    ],
+    "caveats": [
+      "This Census route currently uses the broad Black category available in RM010."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "category",
+    "measure",
+    "time"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-united-kingdom",
+      "attributes": {
+        "label": "Europe: United Kingdom",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1169748,
+        "unit": "count",
+        "formatted": "1,169,748"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-united-kingdom",
+      "attributes": {
+        "label": "Europe: United Kingdom",
+        "measure": "share"
+      },
+      "value": {
+        "value": 48.55120225392519,
+        "unit": "percentage",
+        "formatted": "48.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-united-kingdom",
+      "attributes": {
+        "label": "Europe: United Kingdom",
+        "measure": "count"
+      },
+      "value": {
+        "value": 49579560,
+        "unit": "count",
+        "formatted": "49,579,560"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-united-kingdom",
+      "attributes": {
+        "label": "Europe: United Kingdom",
+        "measure": "share"
+      },
+      "value": {
+        "value": 83.19063724862127,
+        "unit": "percentage",
+        "formatted": "83.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu14",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU14",
+        "measure": "count"
+      },
+      "value": {
+        "value": 99279,
+        "unit": "count",
+        "formatted": "99,279"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu14",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU14",
+        "measure": "share"
+      },
+      "value": {
+        "value": 4.120643769912356,
+        "unit": "percentage",
+        "formatted": "4.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu14",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU14",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1620262,
+        "unit": "count",
+        "formatted": "1,620,262"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu14",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU14",
+        "measure": "share"
+      },
+      "value": {
+        "value": 2.718673346228276,
+        "unit": "percentage",
+        "formatted": "2.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu8",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU8",
+        "measure": "count"
+      },
+      "value": {
+        "value": 869,
+        "unit": "count",
+        "formatted": "869"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu8",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU8",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.03606844786967876,
+        "unit": "percentage",
+        "formatted": "0.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu8",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU8",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1225608,
+        "unit": "count",
+        "formatted": "1,225,608"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu8",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU8",
+        "measure": "share"
+      },
+      "value": {
+        "value": 2.056474695156799,
+        "unit": "percentage",
+        "formatted": "2.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu2",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU2",
+        "measure": "count"
+      },
+      "value": {
+        "value": 590,
+        "unit": "count",
+        "formatted": "590"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu2",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU2",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.02448835931313057,
+        "unit": "percentage",
+        "formatted": "0.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu2",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU2",
+        "measure": "count"
+      },
+      "value": {
+        "value": 689091,
+        "unit": "count",
+        "formatted": "689,091"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-european-union-eu2",
+      "attributes": {
+        "label": "Europe: EU countries: European Union EU2",
+        "measure": "share"
+      },
+      "value": {
+        "value": 1.156240987461157,
+        "unit": "percentage",
+        "formatted": "1.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-all-other-eu-countries",
+      "attributes": {
+        "label": "Europe: EU countries: All other EU countries",
+        "measure": "count"
+      },
+      "value": {
+        "value": 255,
+        "unit": "count",
+        "formatted": "255"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-all-other-eu-countries",
+      "attributes": {
+        "label": "Europe: EU countries: All other EU countries",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.010583951906522537,
+        "unit": "percentage",
+        "formatted": "0.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-all-other-eu-countries",
+      "attributes": {
+        "label": "Europe: EU countries: All other EU countries",
+        "measure": "count"
+      },
+      "value": {
+        "value": 108254,
+        "unit": "count",
+        "formatted": "108,254"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-eu-countries-all-other-eu-countries",
+      "attributes": {
+        "label": "Europe: EU countries: All other EU countries",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.18164177424552067,
+        "unit": "percentage",
+        "formatted": "0.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-non-eu-countries-all-other-non-eu-countries",
+      "attributes": {
+        "label": "Europe: Non-EU countries: All other non-EU countries",
+        "measure": "count"
+      },
+      "value": {
+        "value": 4088,
+        "unit": "count",
+        "formatted": "4,088"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-non-eu-countries-all-other-non-eu-countries",
+      "attributes": {
+        "label": "Europe: Non-EU countries: All other non-EU countries",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.16967527605436913,
+        "unit": "percentage",
+        "formatted": "0.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-non-eu-countries-all-other-non-eu-countries",
+      "attributes": {
+        "label": "Europe: Non-EU countries: All other non-EU countries",
+        "measure": "count"
+      },
+      "value": {
+        "value": 499734,
+        "unit": "count",
+        "formatted": "499,734"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "europe-non-eu-countries-all-other-non-eu-countries",
+      "attributes": {
+        "label": "Europe: Non-EU countries: All other non-EU countries",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.838514700711392,
+        "unit": "percentage",
+        "formatted": "0.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "africa",
+      "attributes": {
+        "label": "Africa",
+        "measure": "count"
+      },
+      "value": {
+        "value": 883712,
+        "unit": "count",
+        "formatted": "883,712"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "africa",
+      "attributes": {
+        "label": "Africa",
+        "measure": "share"
+      },
+      "value": {
+        "value": 36.679079636144486,
+        "unit": "percentage",
+        "formatted": "36.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "africa",
+      "attributes": {
+        "label": "Africa",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1584580,
+        "unit": "count",
+        "formatted": "1,584,580"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "africa",
+      "attributes": {
+        "label": "Africa",
+        "measure": "share"
+      },
+      "value": {
+        "value": 2.6588017314276344,
+        "unit": "percentage",
+        "formatted": "2.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "middle-east-and-asia",
+      "attributes": {
+        "label": "Middle East and Asia",
+        "measure": "count"
+      },
+      "value": {
+        "value": 8042,
+        "unit": "count",
+        "formatted": "8,042"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "middle-east-and-asia",
+      "attributes": {
+        "label": "Middle East and Asia",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.33378878914609506,
+        "unit": "percentage",
+        "formatted": "0.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "middle-east-and-asia",
+      "attributes": {
+        "label": "Middle East and Asia",
+        "measure": "count"
+      },
+      "value": {
+        "value": 3311044,
+        "unit": "count",
+        "formatted": "3,311,044"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "middle-east-and-asia",
+      "attributes": {
+        "label": "Middle East and Asia",
+        "measure": "share"
+      },
+      "value": {
+        "value": 5.555673755842609,
+        "unit": "percentage",
+        "formatted": "5.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "the-americas-and-the-caribbean",
+      "attributes": {
+        "label": "The Americas and the Caribbean",
+        "measure": "count"
+      },
+      "value": {
+        "value": 229507,
+        "unit": "count",
+        "formatted": "229,507"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "the-americas-and-the-caribbean",
+      "attributes": {
+        "label": "The Americas and the Caribbean",
+        "measure": "share"
+      },
+      "value": {
+        "value": 9.525847255726541,
+        "unit": "percentage",
+        "formatted": "9.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "the-americas-and-the-caribbean",
+      "attributes": {
+        "label": "The Americas and the Caribbean",
+        "measure": "count"
+      },
+      "value": {
+        "value": 785752,
+        "unit": "count",
+        "formatted": "785,752"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "the-americas-and-the-caribbean",
+      "attributes": {
+        "label": "The Americas and the Caribbean",
+        "measure": "share"
+      },
+      "value": {
+        "value": 1.3184306113119733,
+        "unit": "percentage",
+        "formatted": "1.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "antarctica-and-oceania-including-australasia-and-other",
+      "attributes": {
+        "label": "Antarctica and Oceania (including Australasia) and Other",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1955,
+        "unit": "count",
+        "formatted": "1,955"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "antarctica-and-oceania-including-australasia-and-other",
+      "attributes": {
+        "label": "Antarctica and Oceania (including Australasia) and Other",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.08114363128333946,
+        "unit": "percentage",
+        "formatted": "0.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "antarctica-and-oceania-including-australasia-and-other",
+      "attributes": {
+        "label": "Antarctica and Oceania (including Australasia) and Other",
+        "measure": "count"
+      },
+      "value": {
+        "value": 172541,
+        "unit": "count",
+        "formatted": "172,541"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "antarctica-and-oceania-including-australasia-and-other",
+      "attributes": {
+        "label": "Antarctica and Oceania (including Australasia) and Other",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.2895103494567996,
+        "unit": "percentage",
+        "formatted": "0.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "british-overseas",
+      "attributes": {
+        "label": "British Overseas",
+        "measure": "count"
+      },
+      "value": {
+        "value": 11263,
+        "unit": "count",
+        "formatted": "11,263"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "british-overseas",
+      "attributes": {
+        "label": "British Overseas",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.4674786287182876,
+        "unit": "percentage",
+        "formatted": "0.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "british-overseas",
+      "attributes": {
+        "label": "British Overseas",
+        "measure": "count"
+      },
+      "value": {
+        "value": 21098,
+        "unit": "count",
+        "formatted": "21,098"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "british-overseas",
+      "attributes": {
+        "label": "British Overseas",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.035400799536571353,
+        "unit": "percentage",
+        "formatted": "0.0%"
+      }
+    }
+  ]
+}

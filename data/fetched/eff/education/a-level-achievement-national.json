@@ -1,0 +1,1022 @@
+{
+  "id": "eff-a-level-achievement-national",
+  "title": "A-level high-grade attainment by ethnicity",
+  "description": "Percentage of students aged 16 to 18 in England achieving at least 3 A grades at A level, including Black subgroup rows and a derived all-Black-including-mixed aggregate.",
+  "siteCategory": "education",
+  "siteSubcategory": "gcse-a-level",
+  "metadata": {
+    "id": "eff-a-level-achievement",
+    "name": "Ethnicity Facts and Figures: Students achieving 3 A grades or better at A level",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/a-levels-apprenticeships-further-education/students-aged-16-to-18-achieving-3-a-grades-or-better-at-a-level/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/a-levels-apprenticeships-further-education/students-aged-16-to-18-achieving-3-a-grades-or-better-at-a-level/latest/downloads/students-aged-16-to-18-achieving-at-least-3-a-grades-at-a-level.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022/23",
+    "referencePeriod": "2022/23",
+    "geographicCoverage": "England",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures A-level achievement download. This implementation keeps national rows and derives all_black_including_mixed using the published cohort counts and weighted achievement rates.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "This A-level slice is England only.",
+      "The published broad Black row is retained for all_black; the inclusive aggregate is derived from subgroup rows."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 22.91,
+        "unit": "percentage",
+        "formatted": "22.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 214749,
+        "unit": "count",
+        "formatted": "214,749"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 29.111,
+        "unit": "percentage",
+        "formatted": "29.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 212661,
+        "unit": "count",
+        "formatted": "212,661"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 23.059,
+        "unit": "percentage",
+        "formatted": "23.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 216172,
+        "unit": "count",
+        "formatted": "216,172"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 16.137,
+        "unit": "percentage",
+        "formatted": "16.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 221694,
+        "unit": "count",
+        "formatted": "221,694"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 12.367,
+        "unit": "percentage",
+        "formatted": "12.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 10439,
+        "unit": "count",
+        "formatted": "10,439"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 16.715,
+        "unit": "percentage",
+        "formatted": "16.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 10583,
+        "unit": "count",
+        "formatted": "10,583"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 12.262,
+        "unit": "percentage",
+        "formatted": "12.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 11393,
+        "unit": "count",
+        "formatted": "11,393"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 7.883,
+        "unit": "percentage",
+        "formatted": "7.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 12140,
+        "unit": "count",
+        "formatted": "12,140"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 13.132,
+        "unit": "percentage",
+        "formatted": "13.1%"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 7668,
+        "unit": "count",
+        "formatted": "7,668"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 17.548,
+        "unit": "percentage",
+        "formatted": "17.5%"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 7813,
+        "unit": "count",
+        "formatted": "7,813"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 13.163,
+        "unit": "percentage",
+        "formatted": "13.2%"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 8463,
+        "unit": "count",
+        "formatted": "8,463"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 8.562,
+        "unit": "percentage",
+        "formatted": "8.6%"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 9227,
+        "unit": "count",
+        "formatted": "9,227"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 9.414,
+        "unit": "percentage",
+        "formatted": "9.4%"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1604,
+        "unit": "count",
+        "formatted": "1,604"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 12.183,
+        "unit": "percentage",
+        "formatted": "12.2%"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1576,
+        "unit": "count",
+        "formatted": "1,576"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 8.241,
+        "unit": "percentage",
+        "formatted": "8.2%"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1626,
+        "unit": "count",
+        "formatted": "1,626"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 4.944,
+        "unit": "percentage",
+        "formatted": "4.9%"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1517,
+        "unit": "count",
+        "formatted": "1,517"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 11.397,
+        "unit": "percentage",
+        "formatted": "11.4%"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1167,
+        "unit": "count",
+        "formatted": "1,167"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 17.253,
+        "unit": "percentage",
+        "formatted": "17.3%"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1194,
+        "unit": "count",
+        "formatted": "1,194"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 11.426,
+        "unit": "percentage",
+        "formatted": "11.4%"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1304,
+        "unit": "count",
+        "formatted": "1,304"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 6.59,
+        "unit": "percentage",
+        "formatted": "6.6%"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1396,
+        "unit": "count",
+        "formatted": "1,396"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 16.096,
+        "unit": "percentage",
+        "formatted": "16.1%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1081,
+        "unit": "count",
+        "formatted": "1,081"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 21.097,
+        "unit": "percentage",
+        "formatted": "21.1%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1185,
+        "unit": "count",
+        "formatted": "1,185"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 19.35,
+        "unit": "percentage",
+        "formatted": "19.4%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1323,
+        "unit": "count",
+        "formatted": "1,323"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 10.198,
+        "unit": "percentage",
+        "formatted": "10.2%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1412,
+        "unit": "count",
+        "formatted": "1,412"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 14.682,
+        "unit": "percentage",
+        "formatted": "14.7%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1730,
+        "unit": "count",
+        "formatted": "1,730"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 18.69,
+        "unit": "percentage",
+        "formatted": "18.7%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1680,
+        "unit": "count",
+        "formatted": "1,680"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 14.028,
+        "unit": "percentage",
+        "formatted": "14.0%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1832,
+        "unit": "count",
+        "formatted": "1,832"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 9.293,
+        "unit": "percentage",
+        "formatted": "9.3%"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 1754,
+        "unit": "count",
+        "formatted": "1,754"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "three_a_rate"
+      },
+      "value": {
+        "value": 12.777554657660206,
+        "unit": "percentage",
+        "formatted": "12.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black_including_mixed",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "students"
+      },
+      "value": {
+        "value": 56552,
+        "unit": "count",
+        "formatted": "56,552"
+      }
+    }
+  ]
+}

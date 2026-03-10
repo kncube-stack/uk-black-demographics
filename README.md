@@ -9,16 +9,21 @@ Project documentation:
 ## Current Live Routes
 
 - `/`
+- `/key-findings`
+- `/search`
+- `/about`
 - `/population`
 - `/households`
 - `/economics`
 - `/education`
 - `/health`
-- `/culture-geography`
+- `/justice-policing`
+- `/identity-civic-life`
+- `/culture-geography` as a legacy bridge route
 - `/methodology`
 - `/{category}/[subcategory]` for every configured category and subcategory
 
-The current production build prerenders 41 static routes.
+The current production build prerenders 46 static routes.
 
 ## Current Data Coverage
 
@@ -38,12 +43,16 @@ Implemented charted slices now:
   - ethnicity, education phase, FSM eligibility, counts, and rates
 - Health
   - Ethnicity Facts and Figures detentions under the Mental Health Act for England
-- Culture & Geography
+- Justice & Policing
   - Ethnicity Facts and Figures stop and search release for England and Wales
+- Identity & Civic Life
+  - Census 2021 religion and country-of-birth snapshots
+- Key Findings / Search / About
+  - public entry pages for discovery, citation, and project context
 - Methodology
   - source registry generated from live datasets
 
-Every remaining subcategory is still routed in the site and currently appears as a source-backed briefing page with official links and caveats instead of an empty placeholder.
+Remaining topic pages are now either `snapshot` pages with a real official headline figure or explicit `coming-next` pages with a target window and mapped source base.
 
 ## Research
 
@@ -66,10 +75,12 @@ npm run lint
 npm run data:validate
 npm run fetch:population
 npm run fetch:households
+npm run fetch:households:supplemental
 npm run fetch:economics
 npm run fetch:education
 npm run fetch:health
 npm run fetch:culture
+npm run fetch:census-topics
 npm run build:derived
 npm run data:sync
 npm run build

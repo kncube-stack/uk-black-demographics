@@ -1,0 +1,720 @@
+{
+  "id": "ons-census-2021-religion-national",
+  "title": "Religion by broad Black group",
+  "description": "England and Wales Census 2021 religion counts and shares for the broad Black group compared with the all-population baseline.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "religion",
+  "metadata": {
+    "id": "ons-rm031-religion",
+    "name": "Census 2021: Religion by ethnic group (RM031)",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/datasets/RM031/editions/2021/versions/1",
+    "apiEndpoint": "https://download.ons.gov.uk/downloads/datasets/RM031/editions/2021/versions/1.csv",
+    "datePublished": "2022-11-29",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021-03-21",
+    "referencePeriod": "Census 2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Fetched from the official ONS RM031 Census 2021 download. This implementation aggregates local-authority rows to England and Wales and keeps the broad Black group plus the all-population comparator.",
+    "qualityFlags": [
+      "national_statistic"
+    ],
+    "caveats": [
+      "This Census route currently uses the broad Black category available in RM031."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "category",
+    "measure",
+    "time"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-religion",
+      "attributes": {
+        "label": "No religion",
+        "measure": "count"
+      },
+      "value": {
+        "value": 205378,
+        "unit": "count",
+        "formatted": "205,378"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-religion",
+      "attributes": {
+        "label": "No religion",
+        "measure": "share"
+      },
+      "value": {
+        "value": 8.524451900795299,
+        "unit": "percentage",
+        "formatted": "8.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-religion",
+      "attributes": {
+        "label": "No religion",
+        "measure": "count"
+      },
+      "value": {
+        "value": 22162055,
+        "unit": "count",
+        "formatted": "22,162,055"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "no-religion",
+      "attributes": {
+        "label": "No religion",
+        "measure": "share"
+      },
+      "value": {
+        "value": 37.1861634525319,
+        "unit": "percentage",
+        "formatted": "37.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "christian",
+      "attributes": {
+        "label": "Christian",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1613765,
+        "unit": "count",
+        "formatted": "1,613,765"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "christian",
+      "attributes": {
+        "label": "Christian",
+        "measure": "share"
+      },
+      "value": {
+        "value": 66.9811865033593,
+        "unit": "percentage",
+        "formatted": "67.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "christian",
+      "attributes": {
+        "label": "Christian",
+        "measure": "count"
+      },
+      "value": {
+        "value": 27522700,
+        "unit": "count",
+        "formatted": "27,522,700"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "christian",
+      "attributes": {
+        "label": "Christian",
+        "measure": "share"
+      },
+      "value": {
+        "value": 46.180898876706145,
+        "unit": "percentage",
+        "formatted": "46.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "buddhist",
+      "attributes": {
+        "label": "Buddhist",
+        "measure": "count"
+      },
+      "value": {
+        "value": 2324,
+        "unit": "count",
+        "formatted": "2,324"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "buddhist",
+      "attributes": {
+        "label": "Buddhist",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.09646031326358362,
+        "unit": "percentage",
+        "formatted": "0.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "buddhist",
+      "attributes": {
+        "label": "Buddhist",
+        "measure": "count"
+      },
+      "value": {
+        "value": 272499,
+        "unit": "count",
+        "formatted": "272,499"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "buddhist",
+      "attributes": {
+        "label": "Buddhist",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.4572316220066907,
+        "unit": "percentage",
+        "formatted": "0.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "hindu",
+      "attributes": {
+        "label": "Hindu",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1918,
+        "unit": "count",
+        "formatted": "1,918"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "hindu",
+      "attributes": {
+        "label": "Hindu",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.07960881275368047,
+        "unit": "percentage",
+        "formatted": "0.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "hindu",
+      "attributes": {
+        "label": "Hindu",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1032797,
+        "unit": "count",
+        "formatted": "1,032,797"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "hindu",
+      "attributes": {
+        "label": "Hindu",
+        "measure": "share"
+      },
+      "value": {
+        "value": 1.7329511209716153,
+        "unit": "percentage",
+        "formatted": "1.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "jewish",
+      "attributes": {
+        "label": "Jewish",
+        "measure": "count"
+      },
+      "value": {
+        "value": 1625,
+        "unit": "count",
+        "formatted": "1,625"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "jewish",
+      "attributes": {
+        "label": "Jewish",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.06744750819850404,
+        "unit": "percentage",
+        "formatted": "0.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "jewish",
+      "attributes": {
+        "label": "Jewish",
+        "measure": "count"
+      },
+      "value": {
+        "value": 271329,
+        "unit": "count",
+        "formatted": "271,329"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "jewish",
+      "attributes": {
+        "label": "Jewish",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.4552684551776461,
+        "unit": "percentage",
+        "formatted": "0.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "muslim",
+      "attributes": {
+        "label": "Muslim",
+        "measure": "count"
+      },
+      "value": {
+        "value": 416334,
+        "unit": "count",
+        "formatted": "416,334"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "muslim",
+      "attributes": {
+        "label": "Muslim",
+        "measure": "share"
+      },
+      "value": {
+        "value": 17.280425155886757,
+        "unit": "percentage",
+        "formatted": "17.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "muslim",
+      "attributes": {
+        "label": "Muslim",
+        "measure": "count"
+      },
+      "value": {
+        "value": 3868143,
+        "unit": "count",
+        "formatted": "3,868,143"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "muslim",
+      "attributes": {
+        "label": "Muslim",
+        "measure": "share"
+      },
+      "value": {
+        "value": 6.490435921026598,
+        "unit": "percentage",
+        "formatted": "6.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "sikh",
+      "attributes": {
+        "label": "Sikh",
+        "measure": "count"
+      },
+      "value": {
+        "value": 306,
+        "unit": "count",
+        "formatted": "306"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "sikh",
+      "attributes": {
+        "label": "Sikh",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.012700884620764453,
+        "unit": "percentage",
+        "formatted": "0.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "sikh",
+      "attributes": {
+        "label": "Sikh",
+        "measure": "count"
+      },
+      "value": {
+        "value": 524155,
+        "unit": "count",
+        "formatted": "524,155"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "sikh",
+      "attributes": {
+        "label": "Sikh",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.8794903498101534,
+        "unit": "percentage",
+        "formatted": "0.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-religion",
+      "attributes": {
+        "label": "Other religion",
+        "measure": "count"
+      },
+      "value": {
+        "value": 13406,
+        "unit": "count",
+        "formatted": "13,406"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-religion",
+      "attributes": {
+        "label": "Other religion",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.5564315660979355,
+        "unit": "percentage",
+        "formatted": "0.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-religion",
+      "attributes": {
+        "label": "Other religion",
+        "measure": "count"
+      },
+      "value": {
+        "value": 348308,
+        "unit": "count",
+        "formatted": "348,308"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "other-religion",
+      "attributes": {
+        "label": "Other religion",
+        "measure": "share"
+      },
+      "value": {
+        "value": 0.5844330870862148,
+        "unit": "percentage",
+        "formatted": "0.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "not-answered",
+      "attributes": {
+        "label": "Not answered",
+        "measure": "count"
+      },
+      "value": {
+        "value": 154225,
+        "unit": "count",
+        "formatted": "154,225"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "not-answered",
+      "attributes": {
+        "label": "Not answered",
+        "measure": "share"
+      },
+      "value": {
+        "value": 6.401287355024175,
+        "unit": "percentage",
+        "formatted": "6.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "not-answered",
+      "attributes": {
+        "label": "Not answered",
+        "measure": "count"
+      },
+      "value": {
+        "value": 3595598,
+        "unit": "count",
+        "formatted": "3,595,598"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "category": "not-answered",
+      "attributes": {
+        "label": "Not answered",
+        "measure": "share"
+      },
+      "value": {
+        "value": 6.033127114683038,
+        "unit": "percentage",
+        "formatted": "6.0%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+import { CitationCard } from "@/components/citation-card";
+import { TopicSnapshotCard } from "@/components/topic-snapshot-card";
+import { loadCulturePageData } from "@/lib/culture-summary";
+import { formatRate } from "@/lib/format";
+import { loadTopicSnapshot } from "@/lib/topic-snapshots";
+
+export default async function JusticePolicingPage() {
+  const [stopSearch, stopSearchSnapshot, crimeSnapshot, incarcerationSnapshot] =
+    await Promise.all([
+      loadCulturePageData(),
+      loadTopicSnapshot("culture-geography", "stop-search"),
+      loadTopicSnapshot("culture-geography", "crime"),
+      loadTopicSnapshot("culture-geography", "incarceration"),
+    ]);
+
+  return (
+    <main className="px-5 py-6 sm:px-8 lg:px-12">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-6">
+        <section className="overflow-hidden rounded-[32px] border border-[var(--border)] bg-[var(--surface)] shadow-[0_24px_80px_rgba(19,31,22,0.08)]">
+          <div className="grid gap-8 px-6 py-7 sm:px-8 lg:grid-cols-[1.15fr_0.85fr] lg:px-10 lg:py-10">
+            <div className="space-y-5">
+              <div className="inline-flex w-fit items-center rounded-full border border-[var(--border)] bg-white/65 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+                Justice & Policing
+              </div>
+              <div className="max-w-3xl space-y-4">
+                <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
+                  Policing, crime, and custody data in one clearer section.
+                </h1>
+                <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
+                  This section breaks the old culture bucket apart. It keeps
+                  stop and search live, adds crime-victim and prison-population
+                  snapshots, and groups the justice material where visitors
+                  expect to find it.
+                </p>
+              </div>
+
+              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                  <p className="text-sm font-medium text-[var(--muted)]">
+                    Black stop and search rate
+                  </p>
+                  <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
+                    {formatRate(stopSearch.headline.allBlackRate, 1_000)}
+                  </p>
+                  <p className="mt-2 text-sm text-[var(--muted)]">
+                    {stopSearch.headline.disproportionalityRatio.toFixed(1)}x overall rate
+                  </p>
+                </article>
+                <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                  <p className="text-sm font-medium text-[var(--muted)]">
+                    Overall stop and search rate
+                  </p>
+                  <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
+                    {formatRate(stopSearch.headline.overallRate, 1_000)}
+                  </p>
+                  <p className="mt-2 text-sm text-[var(--muted)]">{stopSearch.latestLabel}</p>
+                </article>
+                {crimeSnapshot?.stats[0] ? (
+                  <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                    <p className="text-sm font-medium text-[var(--muted)]">
+                      {crimeSnapshot.stats[0].label}
+                    </p>
+                    <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
+                      {crimeSnapshot.stats[0].value}
+                    </p>
+                    <p className="mt-2 text-sm text-[var(--muted)]">
+                      {crimeSnapshot.stats[0].note}
+                    </p>
+                  </article>
+                ) : null}
+                {incarcerationSnapshot?.stats[0] ? (
+                  <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                    <p className="text-sm font-medium text-[var(--muted)]">
+                      {incarcerationSnapshot.stats[0].label}
+                    </p>
+                    <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
+                      {incarcerationSnapshot.stats[0].value}
+                    </p>
+                    <p className="mt-2 text-sm text-[var(--muted)]">
+                      {incarcerationSnapshot.stats[0].note}
+                    </p>
+                  </article>
+                ) : null}
+              </div>
+            </div>
+
+            <CitationCard
+              pageTitle="Justice & Policing"
+              pagePath="/justice-policing"
+              metadata={stopSearch.source}
+              downloadHref={stopSearch.source.apiEndpoint}
+              note="Use the topic cards below for the crime and incarceration snapshots. The stop-and-search route remains the full live policing view."
+            />
+          </div>
+        </section>
+
+        <section className="grid gap-6 xl:grid-cols-3">
+          <TopicSnapshotCard
+            eyebrow="Policing"
+            title="Stop & Search"
+            description="Long-run trend, disproportionality, legislation splits, and exact figures."
+            href="/culture-geography/stop-search"
+            snapshot={stopSearchSnapshot}
+          />
+          <TopicSnapshotCard
+            eyebrow="Crime"
+            title="Crime"
+            description="Latest official victimisation snapshot from the CSEW."
+            href="/culture-geography/crime"
+            snapshot={crimeSnapshot}
+          />
+          <TopicSnapshotCard
+            eyebrow="Custody"
+            title="Incarceration"
+            description="Official prison-population disparity snapshot while the fuller prison build is assembled."
+            href="/culture-geography/incarceration"
+            snapshot={incarcerationSnapshot}
+          />
+        </section>
+      </div>
+    </main>
+  );
+}

@@ -9,12 +9,14 @@
     "lint": "eslint",
     "fetch:population": "tsx scripts/fetch-nomis-population.ts",
     "fetch:households": "tsx scripts/fetch-eff-households.ts",
+    "fetch:households:supplemental": "tsx scripts/fetch-eff-supplemental.ts",
     "fetch:education": "tsx scripts/fetch-dfe-education.ts",
     "fetch:economics": "tsx scripts/fetch-nomis-economics.ts",
     "fetch:health": "tsx scripts/fetch-eff-health.ts",
     "fetch:culture": "tsx scripts/fetch-eff-culture.ts",
+    "fetch:census-topics": "tsx scripts/fetch-ons-census-topics.ts",
     "build:derived": "tsx scripts/build-derived.ts",
-    "data:sync": "npm run fetch:population && npm run fetch:households && npm run fetch:economics && npm run fetch:education && npm run fetch:health && npm run fetch:culture && npm run build:derived",
+    "data:sync": "npm run fetch:population && npm run fetch:households && npm run fetch:households:supplemental && npm run fetch:economics && npm run fetch:education && npm run fetch:health && npm run fetch:culture && npm run fetch:census-topics && npm run build:derived",
     "data:validate": "tsx data/schemas/validate.ts"
   },
   "dependencies": {

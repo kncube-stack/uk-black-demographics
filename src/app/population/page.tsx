@@ -76,7 +76,7 @@ export default async function PopulationPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} />
+            <SourceCard metadata={source} downloadHref={source.apiEndpoint} />
           </div>
         </section>
 

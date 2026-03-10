@@ -1,0 +1,309 @@
+{
+  "id": "eff-crime-victims-national",
+  "title": "Victims of crime by ethnicity",
+  "description": "Proportion of adults who were victims of all CSEW crime, including fraud and computer misuse, in England and Wales.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "crime",
+  "metadata": {
+    "id": "eff-crime-victims",
+    "name": "Ethnicity Facts and Figures: Crime victims",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/crime-and-reoffending/crime-victims/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/crime-and-reoffending/crime-victims/latest/downloads/victims-of-crime-data.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022/23",
+    "referencePeriod": "2022/23",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures crime victims download. This implementation keeps the latest England and Wales adult victimisation rate and confidence interval rows.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "This is a survey-based measure from the Crime Survey for England and Wales.",
+      "Rates are published for the latest year only in this implementation, using the all-adults national rows."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 16.07526489,
+        "unit": "percentage",
+        "formatted": "16.1%",
+        "confidence": {
+          "lower": 15.66758322,
+          "upper": 16.48294656,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 31183,
+        "unit": "count",
+        "formatted": "31,183"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 15.30255522,
+        "unit": "percentage",
+        "formatted": "15.3%",
+        "confidence": {
+          "lower": 13.05081928,
+          "upper": 17.55429116,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 982,
+        "unit": "count",
+        "formatted": "982"
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 15.0403062,
+        "unit": "percentage",
+        "formatted": "15.0%",
+        "confidence": {
+          "lower": 12.28370068,
+          "upper": 17.79691171,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 646,
+        "unit": "count",
+        "formatted": "646"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 14.68863449,
+        "unit": "percentage",
+        "formatted": "14.7%",
+        "confidence": {
+          "lower": 10.54961883,
+          "upper": 18.82765016,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 281,
+        "unit": "count",
+        "formatted": "281"
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 22.07888731,
+        "unit": "percentage",
+        "formatted": "22.1%",
+        "confidence": {
+          "lower": 11.11685972,
+          "upper": 33.0409149,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "other_black",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 55,
+        "unit": "count",
+        "formatted": "55"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 24.60289085,
+        "unit": "percentage",
+        "formatted": "24.6%",
+        "confidence": {
+          "lower": 15.10531123,
+          "upper": 34.10047047,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_african",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 79,
+        "unit": "count",
+        "formatted": "79"
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "victimisation_rate"
+      },
+      "value": {
+        "value": 26.67142454,
+        "unit": "percentage",
+        "formatted": "26.7%",
+        "confidence": {
+          "lower": 18.75871583,
+          "upper": 34.58413326,
+          "level": 95
+        }
+      }
+    },
+    {
+      "ethnicGroup": "mixed_white_black_caribbean",
+      "geography": {
+        "code": "K04000001",
+        "name": "England and Wales",
+        "level": "national"
+      },
+      "timePeriod": "2022/23",
+      "attributes": {
+        "measure": "sample_size"
+      },
+      "value": {
+        "value": 120,
+        "unit": "count",
+        "formatted": "120"
+      }
+    }
+  ]
+}

@@ -79,7 +79,11 @@ export default async function HealthPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} eyebrow="Current release" />
+            <SourceCard
+              metadata={source}
+              eyebrow="Current release"
+              downloadHref={source.apiEndpoint}
+            />
           </div>
         </section>
 
@@ -124,10 +128,9 @@ export default async function HealthPage() {
                 them from rounded rates.
               </p>
               <p>
-                This first live health route is mental-health-specific. Life
-                expectancy, maternal health, obesity, HIV, and COVID-19 now have
-                dedicated topic pages in the site structure, but remain source-backed
-                briefings until their own pipelines are implemented.
+                This live route is still mental-health-specific, but maternal
+                health now opens with a sourced snapshot and the remaining health
+                gaps are labeled as coming next with their source base mapped.
               </p>
             </div>
           </article>
@@ -150,6 +153,7 @@ export default async function HealthPage() {
             pageTitle="Health"
             pagePath="/health"
             metadata={source}
+            downloadHref={source.apiEndpoint}
             note="If you cite a figure from this page, say that it is a Mental Health Act detention rate for England and specify that the chart uses the published standardised rate."
           />
         </section>

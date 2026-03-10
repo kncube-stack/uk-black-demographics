@@ -29,15 +29,26 @@ export function SubcategoryGrid({ category }: Props) {
                 className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] ${
                   guide.status === "live"
                     ? "bg-[var(--accent-soft)] text-[var(--accent)]"
-                    : "border border-[var(--border)] text-[var(--muted)]"
+                    : guide.status === "snapshot"
+                      ? "bg-[#f1e5be] text-[#5d4c14]"
+                      : "border border-[var(--border)] text-[var(--muted)]"
                 }`}
               >
-                {guide.status === "live" ? "Live data" : "Source brief"}
+                {guide.status === "live"
+                  ? "Live data"
+                  : guide.status === "snapshot"
+                    ? "Snapshot"
+                    : "Coming next"}
               </span>
             </div>
             <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
               {guide.description}
             </p>
+            {guide.targetDate ? (
+              <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+                Target: {guide.targetDate}
+              </p>
+            ) : null}
             <div className="mt-4 flex flex-wrap gap-3 text-sm font-semibold">
               <Link
                 href={`${getCategoryRoute(category)}/${guide.slug}`}

@@ -6,15 +6,23 @@ type Props = {
   pagePath: string;
   metadata: SourceMetadata;
   note?: string;
+  downloadHref?: string;
 };
 
 const LONG_DATE_FORMAT = new Intl.DateTimeFormat("en-GB", {
   dateStyle: "long",
 });
 
-export function CitationCard({ pageTitle, pagePath, metadata, note }: Props) {
+export function CitationCard({
+  pageTitle,
+  pagePath,
+  metadata,
+  note,
+  downloadHref,
+}: Props) {
   const accessedDate = formatLongDate(metadata.dateAccessed);
   const reference = metadata.referencePeriod ?? metadata.referenceDate;
+  const csvHref = downloadHref ?? metadata.apiEndpoint;
 
   return (
     <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
@@ -41,6 +49,16 @@ export function CitationCard({ pageTitle, pagePath, metadata, note }: Props) {
         >
           Primary publication
         </a>
+        {csvHref ? (
+          <a
+            href={csvHref}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border border-[var(--border)] px-4 py-2 transition-colors hover:bg-white/70"
+          >
+            Download CSV
+          </a>
+        ) : null}
         <Link
           href="/methodology"
           className="rounded-full bg-[var(--accent)] px-4 py-2 text-[#f7f2e9] transition-opacity hover:opacity-90"

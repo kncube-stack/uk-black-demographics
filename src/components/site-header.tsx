@@ -5,13 +5,16 @@ import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   { href: "/", label: "Home" },
+  { href: "/key-findings", label: "Findings" },
+  { href: "/search", label: "Search" },
   { href: "/population", label: "Population" },
   { href: "/households", label: "Households" },
   { href: "/economics", label: "Economics" },
   { href: "/education", label: "Education" },
   { href: "/health", label: "Health" },
-  { href: "/culture-geography", label: "Culture" },
-  { href: "/methodology", label: "Methodology" },
+  { href: "/justice-policing", label: "Justice" },
+  { href: "/identity-civic-life", label: "Identity" },
+  { href: "/about", label: "About" },
 ] as const;
 
 export function SiteHeader() {

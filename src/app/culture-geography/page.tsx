@@ -30,17 +30,17 @@ export default async function CultureGeographyPage() {
           <div className="grid gap-8 px-6 py-7 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:px-10 lg:py-10">
             <div className="space-y-5">
               <div className="inline-flex w-fit items-center rounded-full border border-[var(--border)] bg-white/65 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-                Culture & Geography
+                Legacy culture route
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Stop and search is now live, with both the long-run trend and current disproportionality.
+                  This route now acts as a bridge into justice and identity, while stop and search stays live here.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  The first live culture and geography slice uses the official stop
-                  and search release for England and Wales. It keeps Black subgroup
-                  detail where published, carries the all-force context, and avoids
-                  hiding the gap between Black and overall search rates.
+                  Visitors now reach policing through Justice & Policing and religion,
+                  migration, and representation through Identity & Civic Life. This
+                  legacy route remains available because the full stop-and-search build
+                  already lives here and existing links should keep working.
                 </p>
               </div>
 
@@ -90,7 +90,11 @@ export default async function CultureGeographyPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} eyebrow="Current release" />
+            <SourceCard
+              metadata={source}
+              eyebrow="Current release"
+              downloadHref={source.apiEndpoint}
+            />
           </div>
         </section>
 
@@ -120,19 +124,31 @@ export default async function CultureGeographyPage() {
             </h2>
             <div className="mt-5 grid gap-3 text-sm leading-7 text-[var(--muted)]">
               <p>
-                This first live culture and geography route is policing-led and
-                uses the national all-force England and Wales rows including BTP.
+                The public-facing navigation now splits this material into Justice & Policing
+                and Identity & Civic Life because those topics are easier to browse separately.
               </p>
               <p>
-                The same official release also includes force-level and legislation
-                splits. The legislation split is live below; force-level views are
-                a sensible next extension once the wider category surface is stable.
+                This page keeps the national all-force England and Wales stop-and-search
+                data live, including BTP and legislation splits.
               </p>
               <p>
-                Politics, religion, heritage and migration, crime, and incarceration
-                now have dedicated topic pages in the site structure, but they remain
-                source-backed briefings until their own datasets are ingested.
+                Crime, incarceration, politics, religion, and heritage topics now open
+                with sourced snapshot pages rather than empty placeholders.
               </p>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold">
+              <a
+                href="/justice-policing"
+                className="rounded-full bg-[var(--accent)] px-4 py-2 text-[#f7f2e9]"
+              >
+                Justice & Policing
+              </a>
+              <a
+                href="/identity-civic-life"
+                className="rounded-full border border-[var(--border)] px-4 py-2"
+              >
+                Identity & Civic Life
+              </a>
             </div>
           </article>
         </section>
@@ -154,6 +170,7 @@ export default async function CultureGeographyPage() {
             pageTitle="Culture and Geography"
             pagePath="/culture-geography"
             metadata={source}
+            downloadHref={source.apiEndpoint}
             note="If you cite this page, note that the live policing slice uses the England and Wales all-force stop-and-search rows including BTP."
           />
         </section>

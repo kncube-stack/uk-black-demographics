@@ -1,0 +1,3557 @@
+{
+  "id": "eff-undergraduate-degree-results-national",
+  "title": "Undergraduate degree results by ethnicity",
+  "description": "Degree classification outcomes in the United Kingdom, comparing the broad Black group with the all-students baseline.",
+  "siteCategory": "education",
+  "siteSubcategory": "university",
+  "metadata": {
+    "id": "eff-undergraduate-degree-results",
+    "name": "Ethnicity Facts and Figures: Undergraduate degree results",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/undergraduate-degree-results/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/undergraduate-degree-results/latest/downloads/undergraduate-degree-results-2014-to-2022.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2021/22",
+    "referencePeriod": "2014/15 to 2021/22",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures undergraduate degree results download. This implementation keeps the broad Black and all-students series across degree classifications.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The published ethnicity split for this measure is broad-group only.",
+      "This series currently ends at academic year 2021/22 on the official page."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "classification",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 22.6,
+        "unit": "percentage",
+        "formatted": "22.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 69905,
+        "unit": "count",
+        "formatted": "69,905"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 309690,
+        "unit": "count",
+        "formatted": "309,690"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 23.9,
+        "unit": "percentage",
+        "formatted": "23.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 75780,
+        "unit": "count",
+        "formatted": "75,780"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 316660,
+        "unit": "count",
+        "formatted": "316,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 26.1,
+        "unit": "percentage",
+        "formatted": "26.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 86190,
+        "unit": "count",
+        "formatted": "86,190"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 329675,
+        "unit": "count",
+        "formatted": "329,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 28.2,
+        "unit": "percentage",
+        "formatted": "28.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 93600,
+        "unit": "count",
+        "formatted": "93,600"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 332100,
+        "unit": "count",
+        "formatted": "332,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 28.6,
+        "unit": "percentage",
+        "formatted": "28.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 95955,
+        "unit": "count",
+        "formatted": "95,955"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 335065,
+        "unit": "count",
+        "formatted": "335,065"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 35.3,
+        "unit": "percentage",
+        "formatted": "35.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 115480,
+        "unit": "count",
+        "formatted": "115,480"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 326960,
+        "unit": "count",
+        "formatted": "326,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 36.8,
+        "unit": "percentage",
+        "formatted": "36.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 128825,
+        "unit": "count",
+        "formatted": "128,825"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 350530,
+        "unit": "count",
+        "formatted": "350,530"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 32.8,
+        "unit": "percentage",
+        "formatted": "32.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 110250,
+        "unit": "count",
+        "formatted": "110,250"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 336215,
+        "unit": "count",
+        "formatted": "336,215"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 26.7,
+        "unit": "percentage",
+        "formatted": "26.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 82600,
+        "unit": "count",
+        "formatted": "82,600"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 309690,
+        "unit": "count",
+        "formatted": "309,690"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 25.5,
+        "unit": "percentage",
+        "formatted": "25.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 80900,
+        "unit": "count",
+        "formatted": "80,900"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 316660,
+        "unit": "count",
+        "formatted": "316,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 24.1,
+        "unit": "percentage",
+        "formatted": "24.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 79540,
+        "unit": "count",
+        "formatted": "79,540"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 329675,
+        "unit": "count",
+        "formatted": "329,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 22.9,
+        "unit": "percentage",
+        "formatted": "22.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 75960,
+        "unit": "count",
+        "formatted": "75,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 332100,
+        "unit": "count",
+        "formatted": "332,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 22.5,
+        "unit": "percentage",
+        "formatted": "22.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 75510,
+        "unit": "count",
+        "formatted": "75,510"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 335065,
+        "unit": "count",
+        "formatted": "335,065"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 17.3,
+        "unit": "percentage",
+        "formatted": "17.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 56535,
+        "unit": "count",
+        "formatted": "56,535"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 326960,
+        "unit": "count",
+        "formatted": "326,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 17,
+        "unit": "percentage",
+        "formatted": "17.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 59525,
+        "unit": "count",
+        "formatted": "59,525"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 350530,
+        "unit": "count",
+        "formatted": "350,530"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 20.6,
+        "unit": "percentage",
+        "formatted": "20.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 69325,
+        "unit": "count",
+        "formatted": "69,325"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 336215,
+        "unit": "count",
+        "formatted": "336,215"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 309690,
+        "unit": "count",
+        "formatted": "309,690"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 309690,
+        "unit": "count",
+        "formatted": "309,690"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 316660,
+        "unit": "count",
+        "formatted": "316,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 316660,
+        "unit": "count",
+        "formatted": "316,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 329675,
+        "unit": "count",
+        "formatted": "329,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 329675,
+        "unit": "count",
+        "formatted": "329,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 332100,
+        "unit": "count",
+        "formatted": "332,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 332100,
+        "unit": "count",
+        "formatted": "332,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 335065,
+        "unit": "count",
+        "formatted": "335,065"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 335065,
+        "unit": "count",
+        "formatted": "335,065"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 326960,
+        "unit": "count",
+        "formatted": "326,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 326960,
+        "unit": "count",
+        "formatted": "326,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 350530,
+        "unit": "count",
+        "formatted": "350,530"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 350530,
+        "unit": "count",
+        "formatted": "350,530"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 336215,
+        "unit": "count",
+        "formatted": "336,215"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 336215,
+        "unit": "count",
+        "formatted": "336,215"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 50.8,
+        "unit": "percentage",
+        "formatted": "50.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 157185,
+        "unit": "count",
+        "formatted": "157,185"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 309690,
+        "unit": "count",
+        "formatted": "309,690"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 50.5,
+        "unit": "percentage",
+        "formatted": "50.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 159980,
+        "unit": "count",
+        "formatted": "159,980"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 316660,
+        "unit": "count",
+        "formatted": "316,660"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 49.7,
+        "unit": "percentage",
+        "formatted": "49.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 163945,
+        "unit": "count",
+        "formatted": "163,945"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 329675,
+        "unit": "count",
+        "formatted": "329,675"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 48.9,
+        "unit": "percentage",
+        "formatted": "48.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 162540,
+        "unit": "count",
+        "formatted": "162,540"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 332100,
+        "unit": "count",
+        "formatted": "332,100"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 48.8,
+        "unit": "percentage",
+        "formatted": "48.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 163600,
+        "unit": "count",
+        "formatted": "163,600"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 335065,
+        "unit": "count",
+        "formatted": "335,065"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 47.4,
+        "unit": "percentage",
+        "formatted": "47.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 154945,
+        "unit": "count",
+        "formatted": "154,945"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 326960,
+        "unit": "count",
+        "formatted": "326,960"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 46.3,
+        "unit": "percentage",
+        "formatted": "46.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 162180,
+        "unit": "count",
+        "formatted": "162,180"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 350530,
+        "unit": "count",
+        "formatted": "350,530"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 46.6,
+        "unit": "percentage",
+        "formatted": "46.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 156640,
+        "unit": "count",
+        "formatted": "156,640"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 336215,
+        "unit": "count",
+        "formatted": "336,215"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 9.7,
+        "unit": "percentage",
+        "formatted": "9.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 1910,
+        "unit": "count",
+        "formatted": "1,910"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 19595,
+        "unit": "count",
+        "formatted": "19,595"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 10.6,
+        "unit": "percentage",
+        "formatted": "10.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 2195,
+        "unit": "count",
+        "formatted": "2,195"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 20630,
+        "unit": "count",
+        "formatted": "20,630"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 11.9,
+        "unit": "percentage",
+        "formatted": "11.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 2575,
+        "unit": "count",
+        "formatted": "2,575"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 21665,
+        "unit": "count",
+        "formatted": "21,665"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 13.4,
+        "unit": "percentage",
+        "formatted": "13.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 3040,
+        "unit": "count",
+        "formatted": "3,040"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22635,
+        "unit": "count",
+        "formatted": "22,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 14,
+        "unit": "percentage",
+        "formatted": "14.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 3265,
+        "unit": "count",
+        "formatted": "3,265"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23285,
+        "unit": "count",
+        "formatted": "23,285"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 19,
+        "unit": "percentage",
+        "formatted": "19.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 4340,
+        "unit": "count",
+        "formatted": "4,340"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22785,
+        "unit": "count",
+        "formatted": "22,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 20,
+        "unit": "percentage",
+        "formatted": "20.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 4880,
+        "unit": "count",
+        "formatted": "4,880"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 24435,
+        "unit": "count",
+        "formatted": "24,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 17.3,
+        "unit": "percentage",
+        "formatted": "17.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "first class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "first class honours"
+      },
+      "value": {
+        "value": 4130,
+        "unit": "count",
+        "formatted": "4,130"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23825,
+        "unit": "count",
+        "formatted": "23,825"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 49.2,
+        "unit": "percentage",
+        "formatted": "49.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 9640,
+        "unit": "count",
+        "formatted": "9,640"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 19595,
+        "unit": "count",
+        "formatted": "19,595"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 47.5,
+        "unit": "percentage",
+        "formatted": "47.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 9795,
+        "unit": "count",
+        "formatted": "9,795"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 20630,
+        "unit": "count",
+        "formatted": "20,630"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 45.5,
+        "unit": "percentage",
+        "formatted": "45.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 9850,
+        "unit": "count",
+        "formatted": "9,850"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 21665,
+        "unit": "count",
+        "formatted": "21,665"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 44,
+        "unit": "percentage",
+        "formatted": "44.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 9970,
+        "unit": "count",
+        "formatted": "9,970"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22635,
+        "unit": "count",
+        "formatted": "22,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 42.3,
+        "unit": "percentage",
+        "formatted": "42.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 9850,
+        "unit": "count",
+        "formatted": "9,850"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23285,
+        "unit": "count",
+        "formatted": "23,285"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 34.3,
+        "unit": "percentage",
+        "formatted": "34.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 7805,
+        "unit": "count",
+        "formatted": "7,805"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22785,
+        "unit": "count",
+        "formatted": "22,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 32.9,
+        "unit": "percentage",
+        "formatted": "32.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 8045,
+        "unit": "count",
+        "formatted": "8,045"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 24435,
+        "unit": "count",
+        "formatted": "24,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "share",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 37.3,
+        "unit": "percentage",
+        "formatted": "37.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "lower second, third or pass",
+      "attributes": {
+        "measure": "count",
+        "classification": "lower second, third or pass"
+      },
+      "value": {
+        "value": 8885,
+        "unit": "count",
+        "formatted": "8,885"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23825,
+        "unit": "count",
+        "formatted": "23,825"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 19595,
+        "unit": "count",
+        "formatted": "19,595"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 19595,
+        "unit": "count",
+        "formatted": "19,595"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 20630,
+        "unit": "count",
+        "formatted": "20,630"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 20630,
+        "unit": "count",
+        "formatted": "20,630"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 21665,
+        "unit": "count",
+        "formatted": "21,665"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 21665,
+        "unit": "count",
+        "formatted": "21,665"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 22635,
+        "unit": "count",
+        "formatted": "22,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22635,
+        "unit": "count",
+        "formatted": "22,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 23285,
+        "unit": "count",
+        "formatted": "23,285"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23285,
+        "unit": "count",
+        "formatted": "23,285"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 22785,
+        "unit": "count",
+        "formatted": "22,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22785,
+        "unit": "count",
+        "formatted": "22,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 24435,
+        "unit": "count",
+        "formatted": "24,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 24435,
+        "unit": "count",
+        "formatted": "24,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "total classified",
+      "attributes": {
+        "measure": "share",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 100,
+        "unit": "percentage",
+        "formatted": "100.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "total classified",
+      "attributes": {
+        "measure": "count",
+        "classification": "total classified"
+      },
+      "value": {
+        "value": 23825,
+        "unit": "count",
+        "formatted": "23,825"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23825,
+        "unit": "count",
+        "formatted": "23,825"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 41.1,
+        "unit": "percentage",
+        "formatted": "41.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 8045,
+        "unit": "count",
+        "formatted": "8,045"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2014/15",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 19595,
+        "unit": "count",
+        "formatted": "19,595"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 41.9,
+        "unit": "percentage",
+        "formatted": "41.9%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 8640,
+        "unit": "count",
+        "formatted": "8,640"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2015/16",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 20630,
+        "unit": "count",
+        "formatted": "20,630"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 42.6,
+        "unit": "percentage",
+        "formatted": "42.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 9240,
+        "unit": "count",
+        "formatted": "9,240"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2016/17",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 21665,
+        "unit": "count",
+        "formatted": "21,665"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 42.5,
+        "unit": "percentage",
+        "formatted": "42.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 9625,
+        "unit": "count",
+        "formatted": "9,625"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2017/18",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22635,
+        "unit": "count",
+        "formatted": "22,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 43.7,
+        "unit": "percentage",
+        "formatted": "43.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 10170,
+        "unit": "count",
+        "formatted": "10,170"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2018/19",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23285,
+        "unit": "count",
+        "formatted": "23,285"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 46.7,
+        "unit": "percentage",
+        "formatted": "46.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 10640,
+        "unit": "count",
+        "formatted": "10,640"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2019/20",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 22785,
+        "unit": "count",
+        "formatted": "22,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 47.1,
+        "unit": "percentage",
+        "formatted": "47.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 11510,
+        "unit": "count",
+        "formatted": "11,510"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2020/21",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 24435,
+        "unit": "count",
+        "formatted": "24,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "share",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 45.4,
+        "unit": "percentage",
+        "formatted": "45.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "category": "upper second class honours",
+      "attributes": {
+        "measure": "count",
+        "classification": "upper second class honours"
+      },
+      "value": {
+        "value": 10810,
+        "unit": "count",
+        "formatted": "10,810"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K02000001",
+        "name": "United Kingdom",
+        "level": "national"
+      },
+      "timePeriod": "2021/22",
+      "attributes": {
+        "measure": "graduates"
+      },
+      "value": {
+        "value": 23825,
+        "unit": "count",
+        "formatted": "23,825"
+      }
+    }
+  ]
+}

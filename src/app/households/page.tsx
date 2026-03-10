@@ -77,7 +77,11 @@ export default async function HouseholdsPage() {
               </div>
             </div>
 
-            <SourceCard metadata={source} eyebrow="Current release" />
+            <SourceCard
+              metadata={source}
+              eyebrow="Current release"
+              downloadHref={source.apiEndpoint}
+            />
           </div>
         </section>
 
@@ -115,9 +119,9 @@ export default async function HouseholdsPage() {
                 stability but means they are not single-year snapshots.
               </p>
               <p>
-                Income, marriage, wealth, and poverty are part of the live site
-                architecture now, but their dedicated subcategory pages remain
-                source-backed briefings until their own fetch pipelines are added.
+                Income and poverty now open with official snapshot pages, while
+                marriage and wealth are clearly marked as coming next because the
+                UK source base is weaker and more survey-dependent there.
               </p>
             </div>
           </article>
@@ -128,6 +132,7 @@ export default async function HouseholdsPage() {
             pageTitle="Households"
             pagePath="/households"
             metadata={source}
+            downloadHref={source.apiEndpoint}
             note="If you cite a figure from this page, include that it comes from the pooled England home-ownership release and that all-Black aggregates are recomputed from the published subgroup counts."
           />
 

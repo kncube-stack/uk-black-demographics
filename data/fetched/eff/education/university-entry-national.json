@@ -1,0 +1,1974 @@
+{
+  "id": "eff-university-entry-national",
+  "title": "University entry rates by ethnicity",
+  "description": "Percentage of 18-year-old state school pupils in England getting a higher education place, comparing the broad Black group with the all-population baseline.",
+  "siteCategory": "education",
+  "siteSubcategory": "university",
+  "metadata": {
+    "id": "eff-university-entry",
+    "name": "Ethnicity Facts and Figures: Entry rates into higher education",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest/",
+    "apiEndpoint": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest/downloads/entry-rates-into-higher-education-data.csv",
+    "datePublished": "2025-10-21",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2024",
+    "referencePeriod": "2006 to 2024",
+    "geographicCoverage": "England",
+    "methodology": "Fetched from the official Ethnicity Facts and Figures higher-education entry download. This implementation keeps the national broad Black and all-pupils series for state school pupils aged 18.",
+    "qualityFlags": [
+      "official_statistic"
+    ],
+    "caveats": [
+      "The published ethnicity split for this measure is broad-group only.",
+      "This series covers England state school pupils aged 18, not all young people in the UK."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "csv_download"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "time",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 22.8,
+        "unit": "percentage",
+        "formatted": "22.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 129590,
+        "unit": "count",
+        "formatted": "129,590"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 568150,
+        "unit": "count",
+        "formatted": "568,150"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 23.3,
+        "unit": "percentage",
+        "formatted": "23.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 131005,
+        "unit": "count",
+        "formatted": "131,005"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 563130,
+        "unit": "count",
+        "formatted": "563,130"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 24.5,
+        "unit": "percentage",
+        "formatted": "24.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 141785,
+        "unit": "count",
+        "formatted": "141,785"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 578345,
+        "unit": "count",
+        "formatted": "578,345"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 25.2,
+        "unit": "percentage",
+        "formatted": "25.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 147985,
+        "unit": "count",
+        "formatted": "147,985"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 587730,
+        "unit": "count",
+        "formatted": "587,730"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 25.3,
+        "unit": "percentage",
+        "formatted": "25.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 149095,
+        "unit": "count",
+        "formatted": "149,095"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 589270,
+        "unit": "count",
+        "formatted": "589,270"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 27.1,
+        "unit": "percentage",
+        "formatted": "27.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 155025,
+        "unit": "count",
+        "formatted": "155,025"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 571650,
+        "unit": "count",
+        "formatted": "571,650"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 26.1,
+        "unit": "percentage",
+        "formatted": "26.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 149225,
+        "unit": "count",
+        "formatted": "149,225"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 572480,
+        "unit": "count",
+        "formatted": "572,480"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 27.8,
+        "unit": "percentage",
+        "formatted": "27.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 156360,
+        "unit": "count",
+        "formatted": "156,360"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 562750,
+        "unit": "count",
+        "formatted": "562,750"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 29.1,
+        "unit": "percentage",
+        "formatted": "29.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 161975,
+        "unit": "count",
+        "formatted": "161,975"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 557260,
+        "unit": "count",
+        "formatted": "557,260"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 30,
+        "unit": "percentage",
+        "formatted": "30.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 170355,
+        "unit": "count",
+        "formatted": "170,355"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 567495,
+        "unit": "count",
+        "formatted": "567,495"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 31.1,
+        "unit": "percentage",
+        "formatted": "31.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 173620,
+        "unit": "count",
+        "formatted": "173,620"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 558520,
+        "unit": "count",
+        "formatted": "558,520"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 31.8,
+        "unit": "percentage",
+        "formatted": "31.8%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 175655,
+        "unit": "count",
+        "formatted": "175,655"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 552725,
+        "unit": "count",
+        "formatted": "552,725"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 32.2,
+        "unit": "percentage",
+        "formatted": "32.2%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 174130,
+        "unit": "count",
+        "formatted": "174,130"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 540535,
+        "unit": "count",
+        "formatted": "540,535"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 33.6,
+        "unit": "percentage",
+        "formatted": "33.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 177160,
+        "unit": "count",
+        "formatted": "177,160"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 526540,
+        "unit": "count",
+        "formatted": "526,540"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 36.3,
+        "unit": "percentage",
+        "formatted": "36.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 189635,
+        "unit": "count",
+        "formatted": "189,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 522820,
+        "unit": "count",
+        "formatted": "522,820"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 37.3,
+        "unit": "percentage",
+        "formatted": "37.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 201635,
+        "unit": "count",
+        "formatted": "201,635"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 540975,
+        "unit": "count",
+        "formatted": "540,975"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 36.4,
+        "unit": "percentage",
+        "formatted": "36.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 203115,
+        "unit": "count",
+        "formatted": "203,115"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 557380,
+        "unit": "count",
+        "formatted": "557,380"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 34,
+        "unit": "percentage",
+        "formatted": "34.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 194775,
+        "unit": "count",
+        "formatted": "194,775"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 572160,
+        "unit": "count",
+        "formatted": "572,160"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 34.3,
+        "unit": "percentage",
+        "formatted": "34.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 199765,
+        "unit": "count",
+        "formatted": "199,765"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 582835,
+        "unit": "count",
+        "formatted": "582,835"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 21.6,
+        "unit": "percentage",
+        "formatted": "21.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 4280,
+        "unit": "count",
+        "formatted": "4,280"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2006",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 19835,
+        "unit": "count",
+        "formatted": "19,835"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 23.1,
+        "unit": "percentage",
+        "formatted": "23.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 4730,
+        "unit": "count",
+        "formatted": "4,730"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2007",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 20480,
+        "unit": "count",
+        "formatted": "20,480"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 25.7,
+        "unit": "percentage",
+        "formatted": "25.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 5575,
+        "unit": "count",
+        "formatted": "5,575"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2008",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 21680,
+        "unit": "count",
+        "formatted": "21,680"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 27,
+        "unit": "percentage",
+        "formatted": "27.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 5970,
+        "unit": "count",
+        "formatted": "5,970"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2009",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 22125,
+        "unit": "count",
+        "formatted": "22,125"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 28.4,
+        "unit": "percentage",
+        "formatted": "28.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 6415,
+        "unit": "count",
+        "formatted": "6,415"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2010",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 22575,
+        "unit": "count",
+        "formatted": "22,575"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 31.7,
+        "unit": "percentage",
+        "formatted": "31.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 7460,
+        "unit": "count",
+        "formatted": "7,460"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2011",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 23550,
+        "unit": "count",
+        "formatted": "23,550"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 31.4,
+        "unit": "percentage",
+        "formatted": "31.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 7590,
+        "unit": "count",
+        "formatted": "7,590"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2012",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 24195,
+        "unit": "count",
+        "formatted": "24,195"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 34.7,
+        "unit": "percentage",
+        "formatted": "34.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 8870,
+        "unit": "count",
+        "formatted": "8,870"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2013",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 25560,
+        "unit": "count",
+        "formatted": "25,560"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 36,
+        "unit": "percentage",
+        "formatted": "36.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 9435,
+        "unit": "count",
+        "formatted": "9,435"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2014",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 26190,
+        "unit": "count",
+        "formatted": "26,190"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 38.4,
+        "unit": "percentage",
+        "formatted": "38.4%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 10565,
+        "unit": "count",
+        "formatted": "10,565"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2015",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 27500,
+        "unit": "count",
+        "formatted": "27,500"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 39.1,
+        "unit": "percentage",
+        "formatted": "39.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 10655,
+        "unit": "count",
+        "formatted": "10,655"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2016",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 27235,
+        "unit": "count",
+        "formatted": "27,235"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 40.3,
+        "unit": "percentage",
+        "formatted": "40.3%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 11055,
+        "unit": "count",
+        "formatted": "11,055"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2017",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 27410,
+        "unit": "count",
+        "formatted": "27,410"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 41.1,
+        "unit": "percentage",
+        "formatted": "41.1%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 11565,
+        "unit": "count",
+        "formatted": "11,565"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2018",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 28115,
+        "unit": "count",
+        "formatted": "28,115"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 44.5,
+        "unit": "percentage",
+        "formatted": "44.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 12525,
+        "unit": "count",
+        "formatted": "12,525"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2019",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 28135,
+        "unit": "count",
+        "formatted": "28,135"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 47.5,
+        "unit": "percentage",
+        "formatted": "47.5%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 13870,
+        "unit": "count",
+        "formatted": "13,870"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2020",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 29210,
+        "unit": "count",
+        "formatted": "29,210"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 48.6,
+        "unit": "percentage",
+        "formatted": "48.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 15255,
+        "unit": "count",
+        "formatted": "15,255"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2021",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 31405,
+        "unit": "count",
+        "formatted": "31,405"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 50.6,
+        "unit": "percentage",
+        "formatted": "50.6%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 16755,
+        "unit": "count",
+        "formatted": "16,755"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2022",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 33125,
+        "unit": "count",
+        "formatted": "33,125"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 47.7,
+        "unit": "percentage",
+        "formatted": "47.7%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 16840,
+        "unit": "count",
+        "formatted": "16,840"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2023",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 35320,
+        "unit": "count",
+        "formatted": "35,320"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "entry_rate"
+      },
+      "value": {
+        "value": 48,
+        "unit": "percentage",
+        "formatted": "48.0%"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "placed_students"
+      },
+      "value": {
+        "value": 17505,
+        "unit": "count",
+        "formatted": "17,505"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "E92000001",
+        "name": "England",
+        "level": "national"
+      },
+      "timePeriod": "2024",
+      "attributes": {
+        "measure": "state_school_pupils"
+      },
+      "value": {
+        "value": 36470,
+        "unit": "count",
+        "formatted": "36,470"
+      }
+    }
+  ]
+}

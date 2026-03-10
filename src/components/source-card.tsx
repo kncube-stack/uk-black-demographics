@@ -4,9 +4,14 @@ import type { SourceMetadata } from "@/lib/types";
 type Props = {
   metadata: SourceMetadata;
   eyebrow?: string;
+  downloadHref?: string;
 };
 
-export function SourceCard({ metadata, eyebrow = "Source" }: Props) {
+export function SourceCard({
+  metadata,
+  eyebrow = "Source",
+  downloadHref,
+}: Props) {
   return (
     <article className="rounded-[28px] bg-[#173022] p-6 text-[#f7f2e9] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b8d3c0]">
@@ -45,6 +50,16 @@ export function SourceCard({ metadata, eyebrow = "Source" }: Props) {
         >
           Open publication
         </a>
+        {downloadHref ? (
+          <a
+            href={downloadHref}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full bg-white/10 px-4 py-2 text-[#f7f2e9] transition-colors hover:bg-white/16"
+          >
+            Download CSV
+          </a>
+        ) : null}
         <Link
           href="/methodology"
           className="rounded-full border border-white/12 px-4 py-2 text-[#dce7df] transition-colors hover:bg-white/8"
