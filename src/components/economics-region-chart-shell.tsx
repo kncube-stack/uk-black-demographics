@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { DataExportButtons } from "./data-export-buttons";
 import type { EconomicsRegionRow } from "@/lib/economics-summary";
 
 const EconomicsRegionChart = dynamic(
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function EconomicsRegionChartShell({ data }: Props) {
-  return <EconomicsRegionChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <EconomicsRegionChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="economics-by-region"
+        />
+      </div>
+    </div>
+  );
 }

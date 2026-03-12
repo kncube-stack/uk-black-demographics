@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { DataExportButtons } from "./data-export-buttons";
 import type { EducationMetricRow } from "@/lib/education-summary";
 
 const EducationSuspensionRateChart = dynamic(
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function EducationSuspensionRateChartShell({ data }: Props) {
-  return <EducationSuspensionRateChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <EducationSuspensionRateChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="education-suspension-rates"
+        />
+      </div>
+    </div>
+  );
 }

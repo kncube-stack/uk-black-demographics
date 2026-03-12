@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { SourceMetadata } from "@/lib/types";
 import { CitationGenerator } from "./citation-generator";
+import { DataExportButtons } from "./data-export-buttons";
 
 type Props = {
   pageTitle: string;
@@ -52,16 +53,11 @@ export function CitationCard({
         >
           Primary publication
         </a>
-        {csvHref ? (
-          <a
-            href={csvHref}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full border border-[var(--border)] px-4 py-2 transition-colors hover:bg-white/70"
-          >
-            Download CSV
-          </a>
-        ) : null}
+        <DataExportButtons
+          data={metadata}
+          filename={`${pageTitle.toLowerCase().replace(/\s+/g, "-")}-data`}
+          csvHref={csvHref}
+        />
         <Link
           href="/methodology"
           className="rounded-full bg-[var(--accent)] px-4 py-2 text-[#f7f2e9] transition-opacity hover:opacity-90"

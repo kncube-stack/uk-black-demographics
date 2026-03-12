@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import type { StopSearchMetricRow } from "@/lib/culture-summary";
+import { DataExportButtons } from "./data-export-buttons";
 
 const CultureStopSearchRateChart = dynamic(
   () =>
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function CultureStopSearchRateChartShell({ data }: Props) {
-  return <CultureStopSearchRateChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <CultureStopSearchRateChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="stop-search-rates"
+        />
+      </div>
+    </div>
+  );
 }

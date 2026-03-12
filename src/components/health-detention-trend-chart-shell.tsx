@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { DataExportButtons } from "./data-export-buttons";
 import type { HealthTrendRow } from "@/lib/health-summary";
 
 const HealthDetentionTrendChart = dynamic(
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function HealthDetentionTrendChartShell({ data }: Props) {
-  return <HealthDetentionTrendChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <HealthDetentionTrendChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="mental-health-detention-trend"
+        />
+      </div>
+    </div>
+  );
 }

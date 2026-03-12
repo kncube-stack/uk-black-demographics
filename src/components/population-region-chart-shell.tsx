@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { DataExportButtons } from "./data-export-buttons";
 import type { GeographyPopulationSummary } from "@/lib/population-summary";
 
 const PopulationRegionChart = dynamic(
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function PopulationRegionChartShell({ data }: Props) {
-  return <PopulationRegionChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <PopulationRegionChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="population-by-region"
+        />
+      </div>
+    </div>
+  );
 }

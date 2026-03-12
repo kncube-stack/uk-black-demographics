@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { SourceMetadata } from "@/lib/types";
+import { DataExportButtons } from "./data-export-buttons";
 
 type Props = {
   metadata: SourceMetadata;
@@ -50,16 +51,12 @@ export function SourceCard({
         >
           Open publication
         </a>
-        {downloadHref ? (
-          <a
-            href={downloadHref}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full bg-white/10 px-4 py-2 text-[#f7f2e9] transition-colors hover:bg-white/16"
-          >
-            Download CSV
-          </a>
-        ) : null}
+        <DataExportButtons
+          data={metadata}
+          filename={`${metadata.name.toLowerCase().replace(/\s+/g, "-")}-source`}
+          csvHref={downloadHref}
+          variant="solid"
+        />
         <Link
           href="/methodology"
           className="rounded-full border border-white/12 px-4 py-2 text-[#dce7df] transition-colors hover:bg-white/8"

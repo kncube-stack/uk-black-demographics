@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ResearchSourceCard } from "@/components/research-source-card";
 import { SourceCard } from "@/components/source-card";
+import { DataExportButtons } from "@/components/data-export-buttons";
 import {
   getCategoryRoute,
   getCategoryTitle,
@@ -56,21 +57,29 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
               </div>
 
               {snapshot ? (
-                <div className="grid gap-3 sm:grid-cols-2">
-                  {snapshot.stats.map((stat) => (
-                    <article
-                      key={stat.label}
-                      className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4"
-                    >
-                      <p className="text-sm font-medium text-[var(--muted)]">
-                        {stat.label}
-                      </p>
-                      <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
-                        {stat.value}
-                      </p>
-                      <p className="mt-2 text-sm text-[var(--muted)]">{stat.note}</p>
-                    </article>
-                  ))}
+                <div className="space-y-4">
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {snapshot.stats.map((stat) => (
+                      <article
+                        key={stat.label}
+                        className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4"
+                      >
+                        <p className="text-sm font-medium text-[var(--muted)]">
+                          {stat.label}
+                        </p>
+                        <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
+                          {stat.value}
+                        </p>
+                        <p className="mt-2 text-sm text-[var(--muted)]">{stat.note}</p>
+                      </article>
+                    ))}
+                  </div>
+                  <DataExportButtons
+                    data={snapshot.stats}
+                    filename={`${guide.title.toLowerCase().replace(/\s+/g, "-")}-snapshot`}
+                    csvHref={snapshot.downloadHref}
+                    variant="soft"
+                  />
                 </div>
               ) : null}
 

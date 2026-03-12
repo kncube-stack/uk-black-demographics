@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { DataExportButtons } from "./data-export-buttons";
 import type { PopulationAgeProfileRow } from "@/lib/population-summary";
 
 const PopulationAgeProfileChart = dynamic(
@@ -21,5 +22,15 @@ type Props = {
 };
 
 export function PopulationAgeProfileChartShell({ data }: Props) {
-  return <PopulationAgeProfileChart data={data} />;
+  return (
+    <div className="space-y-4">
+      <PopulationAgeProfileChart data={data} />
+      <div className="flex justify-end">
+        <DataExportButtons
+          data={data}
+          filename="population-age-profile"
+        />
+      </div>
+    </div>
+  );
 }
