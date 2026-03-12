@@ -211,6 +211,42 @@ export async function loadTopicSnapshot(
         ],
       };
     }
+    case "households:wealth-and-class": {
+      const source = createManualSource({
+        id: "ons-wealth-by-ethnicity-2016-2018",
+        name: "Household wealth by ethnicity, Great Britain: April 2016 to March 2018",
+        publisher: "Office for National Statistics",
+        url: "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
+        datePublished: "2020-11-17",
+        referenceDate: "April 2016 to March 2018",
+        referencePeriod: "2016 to 2018",
+        geographicCoverage: "Great Britain",
+        methodology:
+          "Official analysis of the Wealth and Assets Survey (WAS) Round 7.",
+        caveats: [
+          "This topic currently uses a manual headline snapshot while a fuller survey-based build is in progress.",
+          "Figures represent median total household wealth (net financial, property, pension, and physical wealth).",
+        ],
+        license: "Open Government Licence v3.0",
+      });
+
+      return {
+        liveRoute: "/households/wealth-and-class",
+        source,
+        stats: [
+          {
+            label: "Black African median wealth",
+            value: "£34,000",
+            note: "Great Britain, 2016 to 2018",
+          },
+          {
+            label: "White British median",
+            value: "£314,000",
+            note: "Compared with £286,600 overall",
+          },
+        ],
+      };
+    }
     case "households:income":
     case "households:poverty": {
       const dataset = await loadDataset(LOW_INCOME_DATASET_PATH);
@@ -653,6 +689,42 @@ export async function loadTopicSnapshot(
             label: "Share of MPs",
             value: "14%",
             note: "Compared with 16% of the UK population",
+          },
+        ],
+      };
+    }
+    case "culture-geography:segregation": {
+      const source = createManualSource({
+        id: "eff-deprived-neighbourhoods-2019",
+        name: "People living in deprived neighbourhoods",
+        publisher: "Race Disparity Unit / Cabinet Office",
+        url: "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/people-living-in-deprived-neighbourhoods/latest/",
+        datePublished: "2020-07-28",
+        referenceDate: "2019",
+        referencePeriod: "2019",
+        geographicCoverage: "England",
+        methodology:
+          "Official analysis of the English Index of Multiple Deprivation (IMD) 2019 by ethnic group.",
+        caveats: [
+          "This topic currently uses a neighborhood-concentration snapshot while a fuller residential-segregation study is in progress.",
+          "The IMD measures deprivation across 7 distinct domains including income, employment, and health.",
+        ],
+        license: "Open Government Licence v3.0",
+      });
+
+      return {
+        liveRoute: "/culture-geography/segregation",
+        source,
+        stats: [
+          {
+            label: "Living in most deprived areas",
+            value: "15.2%",
+            note: "Black people in 10% most deprived areas",
+          },
+          {
+            label: "White comparison",
+            value: "9.0%",
+            note: "Percentage of White people in these areas",
           },
         ],
       };

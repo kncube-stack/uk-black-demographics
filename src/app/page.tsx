@@ -94,11 +94,11 @@ export default async function Home() {
 
               <div className="max-w-4xl space-y-5">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.045em] text-[var(--foreground)] sm:text-6xl lg:text-7xl">
-                  Official UK Black demographic data, structured for people who need to quote it.
+                  The clear, comprehensive data hub for Black life in the UK.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Start with the strongest current findings, jump straight to the topic
-                  you need, and keep the source and caveats beside the number.
+                  Explore official statistics and clear insights that uncover the shape,
+                  strength, and realities of our communities—with the source right beside the number.
                 </p>
               </div>
 
@@ -172,10 +172,10 @@ export default async function Home() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-                Key findings
+                Key Insights
               </p>
               <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-4xl tracking-[-0.04em] text-[var(--foreground)]">
-                Start with the findings most people actually need.
+                The numbers shaping our communities today.
               </h2>
             </div>
             <Link href="/key-findings" className="text-sm font-semibold text-[var(--accent)]">
@@ -225,11 +225,11 @@ export default async function Home() {
                 Explore the site
               </p>
               <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-4xl tracking-[-0.04em] text-[var(--foreground)]">
-                Every section opens with a current headline and a comparator.
+                Context matters: Every data point is grounded in reality.
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-[var(--muted)]">
-              The aim is to answer “compared to what?” before the reader has to hunt for it.
+              The aim is to answer "compared to what?" before you have to hunt for the context.
             </p>
           </div>
 

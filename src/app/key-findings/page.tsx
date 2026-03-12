@@ -13,11 +13,12 @@ export default async function KeyFindingsPage() {
           </div>
           <div className="mt-5 max-w-4xl space-y-4">
             <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-              The fastest way to understand what the official data is actually saying.
+              Clear truths drawn directly from the official numbers.
             </h1>
             <p className="max-w-3xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-              These findings are written for readers who need the headline quickly,
-              with a direct route into the underlying page, exact figures, and source note.
+              Explore the most important headlines shaping Black life in the UK. 
+              Each finding provides the exact figure, a direct route into the detailed topic, 
+              and the underlying official source.
             </p>
           </div>
         </section>

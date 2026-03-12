@@ -68,19 +68,18 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
       ]
     ),
     liveGuide("households", "housing", "Housing", "Home ownership and housing access.", "/households"),
-    comingGuide(
+    snapshotGuide(
       "households",
-      "wealth",
-      "Wealth",
-      "Household wealth and assets.",
-      "Wealth is still best handled through survey sources such as Understanding Society and ONS wealth releases, so this topic is queued for a fuller manual-and-survey build.",
-      "Spring 2026",
+      "wealth-and-class",
+      "Wealth & Class",
+      "Household wealth and socioeconomic distribution.",
+      "This topic now opens with an official median-wealth snapshot from the ONS Wealth and Assets Survey while a fuller social-mobility build follows.",
       [
         {
-          title: "Understanding Society",
-          publisher: "Institute for Social and Economic Research",
-          url: "https://www.understandingsociety.ac.uk/",
-          detail: "Longitudinal source with ethnicity, income, housing, and wealth measures.",
+          title: "Household wealth by ethnicity",
+          publisher: "Office for National Statistics",
+          url: "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
+          detail: "The primary official Great Britain wealth analysis by ethnic group.",
         },
       ]
     ),
@@ -344,6 +343,21 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
           publisher: "HM Prison and Probation Service / Ministry of Justice",
           url: "https://www.gov.uk/government/statistics/hm-prison-and-probation-service-offender-equalities-annual-report-2024-to-2025",
           detail: "Official equality monitoring across the prison population.",
+        },
+      ]
+    ),
+    snapshotGuide(
+      "culture-geography",
+      "segregation",
+      "Segregation & Concentration",
+      "Neighborhood concentration and deprivation indices.",
+      "This topic now opens with an official neighborhood-deprivation snapshot from the Index of Multiple Deprivation while a fuller residential-segregation study follows.",
+      [
+        {
+          title: "People living in deprived neighbourhoods",
+          publisher: "Race Disparity Unit / Cabinet Office",
+          url: "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/people-living-in-deprived-neighbourhoods/latest/",
+          detail: "Official English indices of deprivation by ethnic group.",
         },
       ]
     ),

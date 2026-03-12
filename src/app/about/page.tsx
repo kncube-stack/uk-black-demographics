@@ -10,12 +10,13 @@ export default function AboutPage() {
           </div>
           <div className="mt-5 max-w-4xl space-y-4">
             <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-              A citation-first reference site for Black life in the UK.
+              An accessible data library for our communities.
             </h1>
             <p className="max-w-3xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-              This project exists to make official UK data on Black populations easier
-              to find, compare, and cite without flattening important subgroup differences
-              or pretending the statistical system is more complete than it is.
+              This project exists to make official UK data on Black populations visible, 
+              accessible, and easy to use—for students, advocates, policy-makers, and our community. 
+              We aim to highlight important subgroup realities without flattening the data, 
+              and we proudly call out when the statistical system falls short.
             </p>
           </div>
         </section>
@@ -27,24 +28,32 @@ export default function AboutPage() {
             </p>
             <div className="mt-4 grid gap-3 text-sm leading-7 text-[var(--muted)]">
               <p>
-                The site prefers official and citation-grade sources first: ONS, Nomis,
-                Department for Education, Race Disparity Unit, Ministry of Justice,
-                UKHSA, and other public statistical bodies.
+                The site relies strictly on official, citation-grade sources: ONS, Nomis,
+                Department for Education, NHS, Ministry of Justice, and other public bodies.
               </p>
               <p>
-                It keeps Black African, Black Caribbean, Other Black, and mixed
+                We keep Black African, Black Caribbean, Other Black, and mixed
                 White/Black groups separate whenever the source allows. When an official
-                dataset collapses those groups into a broad Black category, the site says so plainly.
-              </p>
-              <p>
-                Where the UK data system has structural gaps, the site does not fill them
-                with guesswork. It either shows a sourced snapshot with caveats or labels
-                the topic as coming next.
+                dataset collapses those groups into a generic 'Black' category, we clearly note it.
               </p>
             </div>
           </article>
 
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Systemic Data Gaps
+            </p>
+            <div className="mt-4 grid gap-3 text-sm leading-7 text-[var(--muted)]">
+              <p>
+                The UK data system has structural gaps. For example, there is no official dataset on Black-owned businesses, and ethnicity is not recorded on death or marriage certificates in England & Wales. 
+              </p>
+              <p>
+                Rather than filling these gaps with guesswork or unverified proxies, we acknowledge them openly. This approach maintains the integrity of the data hub while pushing for more comprehensive public data collection standards.
+              </p>
+            </div>
+          </article>
+
+          <article className="lg:col-span-2 rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
               How to use it
             </p>
