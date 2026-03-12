@@ -20,7 +20,7 @@ export default function MethodologyPage() {
   return (
     <main className="px-5 py-6 sm:px-8 lg:px-12">
       <div className="mx-auto flex w-full max-w-4xl flex-col gap-10">
-        <header className="space-y-4">
+        <header className="space-y-4 text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center rounded-full border border-[var(--border)] bg-white/65 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
             Reference standards
           </div>
@@ -31,6 +31,30 @@ export default function MethodologyPage() {
             Our commitment to academic and journalistic rigor starts with how we handle, merge, and define official data.
           </p>
         </header>
+
+        <section className="mb-4 rounded-[32px] bg-[#173022] p-8 text-[#f7f2e9] shadow-xl">
+          <h2 className="font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em] mb-4">
+            Plain English Summary
+          </h2>
+          <div className="grid gap-8 md:grid-cols-2 text-[#dce7df] text-base leading-relaxed">
+            <div className="space-y-4">
+              <p>
+                <strong>We only use official sources.</strong> Every number on this site comes directly from the ONS, UK Government departments, or accredited agencies. We do not use third-party polls or unsourced blog figures.
+              </p>
+              <p>
+                <strong>Transparency by default.</strong> If a number looks high or low, you can click "Open Publication" to see the original government report it was taken from.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <p>
+                <strong>We account for gaps.</strong> Sometimes the government doesn't collect data on ethnicity for certain topics. When that happens, we clearly mark the data as a "proxy" or acknowledge the gap rather than making guesses.
+              </p>
+              <p>
+                <strong>Built for checking.</strong> Every chart has an "Export" button so you can take the raw numbers and verify them in your own spreadsheet.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <section className="space-y-8">
           <div className="space-y-4">

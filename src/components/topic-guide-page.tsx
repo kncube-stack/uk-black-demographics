@@ -70,7 +70,10 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
                         <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
                           {stat.value}
                           {stat.confidenceInterval ? (
-                            <span className="ml-2 text-sm font-normal text-[var(--muted)]">
+                            <span 
+                              title="95% Confidence Interval (Margin of Error). This represents total statistical uncertainty for this estimate."
+                              className="ml-2 text-sm font-normal text-[var(--muted)] cursor-help border-b border-dotted border-[var(--muted)/30]"
+                            >
                               (±{((stat.confidenceInterval.upper - stat.confidenceInterval.lower) / 2).toFixed(1)})
                             </span>
                           ) : null}
