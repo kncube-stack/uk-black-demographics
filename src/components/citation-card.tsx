@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { SourceMetadata } from "@/lib/types";
+import { CitationGenerator } from "./citation-generator";
 
 type Props = {
   pageTitle: string;
@@ -32,11 +33,13 @@ export function CitationCard({
       <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
         Suggested citation wording
       </h2>
-      <p className="mt-4 rounded-[22px] border border-[var(--border)] bg-[var(--surface-strong)] p-4 text-sm leading-7 text-[var(--foreground)]">
-        UK Black Demographics. &ldquo;{pageTitle}.&rdquo; Based on{" "}
-        {metadata.publisher}, <em>{metadata.name}</em>. Reference period {reference}.
-        Accessed {accessedDate}. Route {pagePath}.
-      </p>
+      <div className="mt-4">
+        <CitationGenerator
+          pageTitle={pageTitle}
+          pagePath={pagePath}
+          metadata={metadata}
+        />
+      </div>
       {note ? (
         <p className="mt-4 text-sm leading-6 text-[var(--muted)]">{note}</p>
       ) : null}

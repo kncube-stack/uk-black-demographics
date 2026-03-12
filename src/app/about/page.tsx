@@ -76,6 +76,13 @@ export default function AboutPage() {
                 If you need to cite a figure publicly, open the relevant topic page and
                 use the source block and citation card on that route.
               </p>
+              <p>
+                For a deep dive into our data merged rules, definitions, and handling of UK-wide devolved statistics, see our{" "}
+                <Link href="/methodology" className="font-semibold text-[var(--accent)]">
+                  Technical Methodology
+                </Link>
+                .
+              </p>
             </div>
           </article>
         </section>
