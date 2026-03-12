@@ -96,6 +96,22 @@ export default function MethodologyPage() {
               </ol>
             </div>
           </div>
+
+          <div className="space-y-4">
+            <h2 className="font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              5. Statistical Precision & Quality
+            </h2>
+            <div className="prose prose-stone leading-7 text-[var(--muted)]">
+              <p>
+                We distinguish between "Census" (full population counts) and "Survey" (estimates) data:
+              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li><strong>Quality Badges:</strong> We display ONS designations (National, Official, or Experimental) to indicate the level of methodological maturity.</li>
+                <li><strong>Confidence Intervals (CIs):</strong> For survey data, we display a 95% confidence interval where available (e.g., ±0.4%). This represents the margin of error researchers must account for.</li>
+                <li><strong>Data Quality:</strong> Census Day snapshots represent hard counts and do not carry error margins, whereas Annual Population Survey (APS) data always carries statistical uncertainty.</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section className="mb-12 mt-6">

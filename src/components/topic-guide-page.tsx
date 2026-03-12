@@ -69,6 +69,11 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
                         </p>
                         <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
                           {stat.value}
+                          {stat.confidenceInterval ? (
+                            <span className="ml-2 text-sm font-normal text-[var(--muted)]">
+                              (±{((stat.confidenceInterval.upper - stat.confidenceInterval.lower) / 2).toFixed(1)})
+                            </span>
+                          ) : null}
                         </p>
                         <p className="mt-2 text-sm text-[var(--muted)]">{stat.note}</p>
                       </article>

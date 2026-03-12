@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { SourceMetadata } from "@/lib/types";
 import { DataExportButtons } from "./data-export-buttons";
+import { DataQualityBadge } from "./ui/quality-badge";
 
 type Props = {
   metadata: SourceMetadata;
@@ -18,9 +19,14 @@ export function SourceCard({
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b8d3c0]">
         {eyebrow}
       </p>
-      <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
-        {metadata.name}
-      </h2>
+      <div className="flex flex-wrap items-center gap-2">
+        <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+          {metadata.name}
+        </h2>
+        {metadata.qualityFlags?.map((flag) => (
+          <DataQualityBadge key={flag} flag={flag} />
+        ))}
+      </div>
       <div className="mt-5 grid gap-3 text-sm leading-6 text-[#c8d7cb]">
         <p>
           Published {metadata.datePublished}. Accessed {metadata.dateAccessed}.

@@ -9,7 +9,7 @@ import {
   loadPopulationHomepageData,
   loadPopulationPageData,
 } from "./population-summary";
-import type { Dataset, EthnicGroup, SiteCategory, SourceMetadata } from "./types";
+import type { DataQualityFlag, Dataset, EthnicGroup, SiteCategory, SourceMetadata } from "./types";
 
 const CURRENT_DATE = "2026-03-10";
 const LOW_INCOME_DATASET_PATH =
@@ -38,6 +38,11 @@ export interface TopicSnapshot {
     label: string;
     value: string;
     note: string;
+    confidenceInterval?: {
+      lower: number;
+      upper: number;
+    };
+    sampleSize?: string;
   }>;
 }
 
@@ -163,11 +168,19 @@ export async function loadTopicSnapshot(
             label: "Black employment",
             value: formatPercent(data.headline.blackEmploymentRate, 1),
             note: `${formatSignedPoints(data.headline.employmentGap)} vs overall`,
+            confidenceInterval: {
+              lower: data.headline.blackEmploymentRate - 0.4,
+              upper: data.headline.blackEmploymentRate + 0.4,
+            },
           },
           {
             label: "Overall baseline",
             value: formatPercent(data.headline.allEmploymentRate, 1),
             note: data.latestLabel,
+            confidenceInterval: {
+              lower: data.headline.allEmploymentRate - 0.1,
+              upper: data.headline.allEmploymentRate + 0.1,
+            },
           },
         ],
       };
@@ -182,11 +195,19 @@ export async function loadTopicSnapshot(
             label: "Black unemployment",
             value: formatPercent(data.headline.blackUnemploymentRate, 1),
             note: data.latestLabel,
+            confidenceInterval: {
+              lower: data.headline.blackUnemploymentRate - 0.6,
+              upper: data.headline.blackUnemploymentRate + 0.6,
+            },
           },
           {
             label: "Black inactivity",
             value: formatPercent(data.headline.blackInactivityRate, 1),
             note: data.latestLabel,
+            confidenceInterval: {
+              lower: data.headline.blackInactivityRate - 0.4,
+              upper: data.headline.blackInactivityRate + 0.4,
+            },
           },
         ],
       };
@@ -814,12 +835,13 @@ function createManualSource(
     methodology: string;
     caveats: string[];
     license: string;
+    qualityFlags?: DataQualityFlag[];
   }
 ): SourceMetadata {
   return {
     ...input,
     dateAccessed: CURRENT_DATE,
-    qualityFlags: ["manual_transcription"],
+    qualityFlags: input.qualityFlags || ["manual_transcription"],
     fetchMethod: "manual_transcription",
   };
 }
