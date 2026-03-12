@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-03-12T23:32:47.522Z",
+  "datasets": [
+    {
+      "id": "dfe-education-suspensions-national",
+      "name": "Suspensions and permanent exclusions in England (Autumn term 2024/25)",
+      "publisher": "Department for Education via Explore Education Statistics",
+      "category": "education",
+      "subcategory": "exclusions",
+      "url": "https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2024-25-autumn-term",
+      "rawPath": "/data/fetched/dfe/education/suspensions-national.json"
+    },
+    {
+      "id": "eff-crime-victims-national",
+      "name": "Ethnicity Facts and Figures: Crime victims",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "culture-geography",
+      "subcategory": "crime",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/crime-and-reoffending/crime-victims/latest/",
+      "rawPath": "/data/fetched/eff/culture-geography/crime-victims-national.json"
+    },
+    {
+      "id": "eff-stop-and-search-national",
+      "name": "Ethnicity Facts and Figures: Stop and search",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "culture-geography",
+      "subcategory": "stop-search",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest/",
+      "rawPath": "/data/fetched/eff/culture-geography/stop-and-search-national.json"
+    },
+    {
+      "id": "eff-a-level-achievement-national",
+      "name": "Ethnicity Facts and Figures: Students achieving 3 A grades or better at A level",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "education",
+      "subcategory": "gcse-a-level",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/a-levels-apprenticeships-further-education/students-aged-16-to-18-achieving-3-a-grades-or-better-at-a-level/latest/",
+      "rawPath": "/data/fetched/eff/education/a-level-achievement-national.json"
+    },
+    {
+      "id": "eff-gcse-attainment-national",
+      "name": "Ethnicity Facts and Figures: GCSE results (Attainment 8)",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "education",
+      "subcategory": "gcse-a-level",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/11-to-16-years-old/gcse-results-attainment-8-for-children-aged-14-to-16-key-stage-4/latest/",
+      "rawPath": "/data/fetched/eff/education/gcse-attainment-national.json"
+    },
+    {
+      "id": "eff-undergraduate-degree-results-national",
+      "name": "Ethnicity Facts and Figures: Undergraduate degree results",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "education",
+      "subcategory": "university",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/undergraduate-degree-results/latest/",
+      "rawPath": "/data/fetched/eff/education/undergraduate-degree-results-national.json"
+    },
+    {
+      "id": "eff-university-entry-national",
+      "name": "Ethnicity Facts and Figures: Entry rates into higher education",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "education",
+      "subcategory": "university",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest/",
+      "rawPath": "/data/fetched/eff/education/university-entry-national.json"
+    },
+    {
+      "id": "eff-mental-health-act-detentions",
+      "name": "Ethnicity Facts and Figures: Detentions under the Mental Health Act",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "health",
+      "subcategory": "mental-health",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest/",
+      "rawPath": "/data/fetched/eff/health/mental-health-act-detentions.json"
+    },
+    {
+      "id": "eff-home-ownership-national",
+      "name": "Ethnicity Facts and Figures: Home ownership",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "households",
+      "subcategory": "housing",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest/",
+      "rawPath": "/data/fetched/eff/households/home-ownership-national.json"
+    },
+    {
+      "id": "eff-low-income-households-national",
+      "name": "Ethnicity Facts and Figures: People in low-income households",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "households",
+      "subcategory": "income",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest/",
+      "rawPath": "/data/fetched/eff/households/low-income-households-national.json"
+    },
+    {
+      "id": "nomis-aps-labour-market-rates-by-region",
+      "name": "Annual Population Survey (variables - percentages)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "economics",
+      "subcategory": "employment",
+      "url": "https://www.nomisweb.co.uk/datasets/apsnew",
+      "rawPath": "/data/fetched/nomis/economics/aps-labour-market-rates-by-region.json"
+    },
+    {
+      "id": "nomis-aps-labour-market-rates-national",
+      "name": "Annual Population Survey (variables - percentages)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "economics",
+      "subcategory": "employment",
+      "url": "https://www.nomisweb.co.uk/datasets/apsnew",
+      "rawPath": "/data/fetched/nomis/economics/aps-labour-market-rates-national.json"
+    },
+    {
+      "id": "nomis-aps-occupation-profile-national",
+      "name": "Annual Population Survey (variables - percentages)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "economics",
+      "subcategory": "employment",
+      "url": "https://www.nomisweb.co.uk/datasets/apsnew",
+      "rawPath": "/data/fetched/nomis/economics/aps-occupation-profile-national.json"
+    },
+    {
+      "id": "nomis-population-age-sex-census-2021",
+      "name": "Census 2021: Ethnic group by sex by age (RM032)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "population",
+      "subcategory": "age-distribution",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021rm032",
+      "rawPath": "/data/fetched/nomis/population/census-2021-population-age-sex.json"
+    },
+    {
+      "id": "nomis-by-local-authority-population-census-2021",
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "population",
+      "subcategory": "by-local-authority",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021",
+      "rawPath": "/data/fetched/nomis/population/census-2021-population-by-local-authority.json"
+    },
+    {
+      "id": "nomis-by-region-population-census-2021",
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "population",
+      "subcategory": "by-region",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021",
+      "rawPath": "/data/fetched/nomis/population/census-2021-population-by-region.json"
+    },
+    {
+      "id": "nomis-total-population-census-2021",
+      "name": "Census 2021: Ethnic group (TS021)",
+      "publisher": "Office for National Statistics via Nomis",
+      "category": "population",
+      "subcategory": "total",
+      "url": "https://www.nomisweb.co.uk/datasets/c2021ts021",
+      "rawPath": "/data/fetched/nomis/population/census-2021-population-total.json"
+    },
+    {
+      "id": "ons-census-2021-country-of-birth-national",
+      "name": "Census 2021: Country of birth by ethnic group (RM010)",
+      "publisher": "Office for National Statistics",
+      "category": "culture-geography",
+      "subcategory": "heritage-migration",
+      "url": "https://www.ons.gov.uk/datasets/RM010/editions/2021/versions/1",
+      "rawPath": "/data/fetched/ons/culture-geography/census-2021-country-of-birth-national.json"
+    },
+    {
+      "id": "ons-census-2021-religion-national",
+      "name": "Census 2021: Religion by ethnic group (RM031)",
+      "publisher": "Office for National Statistics",
+      "category": "culture-geography",
+      "subcategory": "religion",
+      "url": "https://www.ons.gov.uk/datasets/RM031/editions/2021/versions/1",
+      "rawPath": "/data/fetched/ons/culture-geography/census-2021-religion-national.json"
+    },
+    {
+      "id": "ons-census-2021-qualifications-national",
+      "name": "Census 2021: Highest level of qualification by ethnic group (RM049)",
+      "publisher": "Office for National Statistics",
+      "category": "education",
+      "subcategory": "attainment",
+      "url": "https://www.ons.gov.uk/datasets/RM049/editions/2021/versions/1",
+      "rawPath": "/data/fetched/ons/education/census-2021-qualifications-national.json"
+    }
+  ]
+}

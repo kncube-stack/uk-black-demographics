@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:validate && next build",
+    "build": "npm run data:manifest && npm run data:validate && next build",
     "start": "next start",
     "lint": "eslint",
     "fetch:population": "tsx scripts/fetch-nomis-population.ts",
@@ -17,7 +17,8 @@
     "fetch:census-topics": "tsx scripts/fetch-ons-census-topics.ts",
     "build:derived": "tsx scripts/build-derived.ts",
     "data:sync": "npm run fetch:population && npm run fetch:households && npm run fetch:households:supplemental && npm run fetch:economics && npm run fetch:education && npm run fetch:health && npm run fetch:culture && npm run fetch:census-topics && npm run build:derived",
-    "data:validate": "tsx data/schemas/validate.ts"
+    "data:validate": "tsx data/schemas/validate.ts",
+    "data:manifest": "node scripts/generate-data-manifest.mjs"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",
