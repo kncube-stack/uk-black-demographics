@@ -22,13 +22,13 @@ export default function MethodologyPage() {
       <div className="mx-auto flex w-full max-w-4xl flex-col gap-10">
         <header className="space-y-4 text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center rounded-full border border-[var(--border)] bg-white/65 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-            Reference standards
+            Our approach
           </div>
           <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-7xl">
-            Technical Methodology
+            How we handle the data
           </h1>
           <p className="max-w-2xl text-lg leading-8 text-[var(--muted)]">
-            Our commitment to academic and journalistic rigor starts with how we handle, merge, and define official data.
+            Every number on this site comes from an official source. Here is exactly how we select, merge, and present it.
           </p>
         </header>
 

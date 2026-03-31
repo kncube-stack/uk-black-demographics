@@ -43,11 +43,11 @@ export default async function EconomicsPage() {
                   Employment, unemployment, and occupations by ethnicity.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  The live economics slice starts with official APS labour-market
-                  rates and occupation shares for the United Kingdom. This source
-                  is current and machine-readable, but for these measures it only
-                  exposes a broad Black or Black British group rather than separate
-                  Black African, Black Caribbean, and Other Black series.
+                  Explore employment, unemployment, and occupation data for Black
+                  communities across the UK. Note: the Annual Population Survey
+                  only publishes a broad &ldquo;Black or Black British&rdquo;
+                  group for these measures, so subgroup splits are not yet
+                  available.
                 </p>
               </div>
 

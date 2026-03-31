@@ -20,13 +20,12 @@ export default async function IdentityCivicLifePage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Religion, migration, and representation deserve their own space.
+                  Religion, migration, and political representation in Black communities.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  This section separates civic and identity questions from
-                  justice data. It starts with Census 2021 religion and
-                  country-of-birth snapshots, plus a politics page that is
-                  explicit about the UK&apos;s representation-data gap.
+                  Explore religious affiliation, country of birth, and
+                  parliamentary representation for Black populations —
+                  drawn from the Census 2021 and House of Commons data.
                 </p>
               </div>
             </div>
