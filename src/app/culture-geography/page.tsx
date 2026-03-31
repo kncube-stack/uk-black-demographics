@@ -30,17 +30,17 @@ export default async function CultureGeographyPage() {
           <div className="grid gap-8 px-6 py-7 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:px-10 lg:py-10">
             <div className="space-y-5">
               <div className="inline-flex w-fit items-center rounded-full border border-[var(--border)] bg-white/65 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-                Legacy culture route
+                Culture & Geography
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  This route now acts as a bridge into justice and identity, while stop and search stays live here.
+                  Stop and search, plus routes into justice and identity data.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Visitors now reach policing through Justice & Policing and religion,
-                  migration, and representation through Identity & Civic Life. This
-                  legacy route remains available because the full stop-and-search build
-                  already lives here and existing links should keep working.
+                  This page holds the full stop-and-search breakdown. For
+                  policing and prison data see Justice &amp; Policing; for
+                  religion, migration, and representation see Identity &amp;
+                  Civic Life.
                 </p>
               </div>
 

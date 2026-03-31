@@ -28,10 +28,9 @@ export default async function HouseholdsPage() {
                   Home ownership and housing for Black households.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  The live households slice starts with official Ethnicity Facts and
-                  Figures home-ownership data for England. It keeps Black African,
-                  Black Caribbean, Other Black, and the two mixed White/Black groups
-                  visible, then derives aggregate Black rates from published counts.
+                  Compare home-ownership rates for Black African, Black Caribbean,
+                  Other Black, and mixed White/Black households in England —
+                  and see how they measure against the national baseline.
                 </p>
               </div>
 

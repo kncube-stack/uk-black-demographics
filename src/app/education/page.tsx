@@ -42,10 +42,10 @@ export default async function EducationPage() {
                   School suspensions and exclusions by ethnic group.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  This first education slice uses the latest DfE exclusions release
-                  for England and keeps White and Black Caribbean, White and Black
-                  African, Black Caribbean, Black African, and Other Black visible
-                  as separate groups.
+                  Compare suspension and exclusion rates across Black Caribbean,
+                  Black African, Other Black, and mixed White/Black pupils in
+                  England — drawn from the latest Department for Education
+                  release.
                 </p>
               </div>
 

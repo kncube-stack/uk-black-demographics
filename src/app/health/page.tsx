@@ -30,10 +30,10 @@ export default async function HealthPage() {
                   Mental Health Act detentions, broken down by ethnic group.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  The first live health slice uses official Mental Health Act detention
-                  rates for England. It keeps Black African, Black Caribbean, Other
-                  Black, and the mixed White/Black groups separate, and it keeps the
-                  published confidence margins visible instead of smoothing them away.
+                  See how Mental Health Act detention rates differ across Black
+                  African, Black Caribbean, Other Black, and mixed White/Black
+                  groups in England — with confidence intervals included so
+                  you can judge the precision yourself.
                 </p>
               </div>
 

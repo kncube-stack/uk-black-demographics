@@ -27,10 +27,10 @@ export default async function JusticePolicingPage() {
                   Policing, crime, and custody across Black communities.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  This section breaks the old culture bucket apart. It keeps
-                  stop and search live, adds crime-victim and prison-population
-                  snapshots, and groups the justice material where visitors
-                  expect to find it.
+                  Explore stop-and-search rates, crime victimisation, and
+                  prison-population data for Black communities in England
+                  and Wales — each broken down by ethnic subgroup where the
+                  official source allows.
                 </p>
               </div>
 

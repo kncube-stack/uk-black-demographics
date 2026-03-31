@@ -7,12 +7,12 @@ export function SiteFooter() {
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-              Citation-first build
+              Every number is sourced
             </p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-              Every live slice should expose source provenance, release timing,
-              geographic coverage, and caveats clearly enough to be cited and
-              checked.
+              Each figure links back to its official source, with the release
+              date, geographic scope, and any caveats you need to cite or
+              fact-check it.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 text-sm font-semibold">

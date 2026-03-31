@@ -34,9 +34,9 @@ export default async function PopulationPage() {
                   Population
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  This page extends the first live slice with the official Census
-                  2021 age and sex breakdown for Black African, Black Caribbean,
-                  Other Black, and mixed White/Black groups in England and Wales.
+                  Explore the age and sex profile of Black African, Black
+                  Caribbean, Other Black, and mixed White/Black populations
+                  in England and Wales, from the Census 2021.
                 </p>
               </div>
 
