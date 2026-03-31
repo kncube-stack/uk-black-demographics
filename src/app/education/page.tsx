@@ -39,7 +39,7 @@ export default async function EducationPage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  School suspensions and exclusions, with the right ethnic detail.
+                  School suspensions and exclusions by ethnic group.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   This first education slice uses the latest DfE exclusions release

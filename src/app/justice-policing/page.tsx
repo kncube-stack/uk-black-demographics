@@ -24,7 +24,7 @@ export default async function JusticePolicingPage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Policing, crime, and custody data in one clearer section.
+                  Policing, crime, and custody across Black communities.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   This section breaks the old culture bucket apart. It keeps

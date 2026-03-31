@@ -25,7 +25,7 @@ export default async function HouseholdsPage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Housing is the first live households lens, and the ownership gap is large.
+                  Home ownership and housing for Black households.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   The live households slice starts with official Ethnicity Facts and

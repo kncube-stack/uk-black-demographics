@@ -27,7 +27,7 @@ export default async function HealthPage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Mental-health detentions are now live, with subgroup detail and uncertainty intact.
+                  Mental Health Act detentions, broken down by ethnic group.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   The first live health slice uses official Mental Health Act detention

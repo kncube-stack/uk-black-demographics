@@ -40,7 +40,7 @@ export default async function EconomicsPage() {
               </div>
               <div className="max-w-3xl space-y-4">
                 <h1 className="font-[family-name:var(--font-newsreader)] text-5xl leading-none tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">
-                  Work, unemployment, and occupation data from the current APS release.
+                  Employment, unemployment, and occupations by ethnicity.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   The live economics slice starts with official APS labour-market
