@@ -47,7 +47,7 @@ export async function loadWealthPageData(): Promise<WealthPageData> {
 
   return {
     rows,
-    latestLabel: dataset.metadata.referencePeriod,
+    latestLabel: dataset.metadata.referencePeriod ?? "",
     source: dataset.metadata,
   };
 }

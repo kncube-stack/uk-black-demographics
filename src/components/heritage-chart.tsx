@@ -50,10 +50,13 @@ export function HeritageChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number, name: string) => [
-              formatPercent(value, 1),
-              name === "blackShare" ? "Black" : "All ethnicities",
-            ]}
+            formatter={(value, name) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [
+                formatPercent(v, 1),
+                name === "blackShare" ? "Black" : "All ethnicities",
+              ];
+            }}
           />
           <Legend
             verticalAlign="top"

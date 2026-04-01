@@ -25,7 +25,7 @@ export async function loadIncarcerationData(): Promise<IncarcerationData> {
   return {
     blackRemandShare: getValue("remand_share"),
     blackSentencedShare: getValue("sentenced_share"),
-    latestLabel: dataset.metadata.referencePeriod,
+    latestLabel: dataset.metadata.referencePeriod ?? "",
     source: dataset.metadata,
   };
 }

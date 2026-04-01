@@ -49,10 +49,13 @@ export function HealthCovidChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number, name: string) => [
-              `${value.toFixed(1)} per 100,000`,
-              name === "blackRate" ? "Black" : "All ethnicities",
-            ]}
+            formatter={(value, name) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [
+                `${v.toFixed(1)} per 100,000`,
+                name === "blackRate" ? "Black" : "All ethnicities",
+              ];
+            }}
           />
           <Legend
             verticalAlign="top"

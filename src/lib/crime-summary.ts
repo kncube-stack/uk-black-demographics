@@ -56,7 +56,7 @@ export async function loadCrimePageData(): Promise<CrimePageData> {
 
   return {
     rows,
-    latestLabel: dataset.metadata.referencePeriod,
+    latestLabel: dataset.metadata.referencePeriod ?? "",
     source: dataset.metadata,
   };
 }

@@ -64,7 +64,7 @@ export async function loadHeritagePageData(): Promise<HeritagePageData> {
 
   return {
     rows,
-    latestLabel: dataset.metadata.referencePeriod,
+    latestLabel: dataset.metadata.referencePeriod ?? "",
     source: dataset.metadata,
   };
 }

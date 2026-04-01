@@ -1,7 +1,7 @@
 import { CensusCaveatBanner } from "@/components/census-caveat-banner";
 import { EducationFsmChartShell } from "@/components/education-fsm-chart-shell";
 import { EducationGcseChartShell } from "@/components/education-gcse-chart-shell";
-import { EducationAlevelChartShell } from "@/components/education-alevel-chart-shell";
+import { EducationALevelChartShell } from "@/components/education-alevel-chart-shell";
 import { EducationQualificationsChartShell } from "@/components/education-qualifications-chart-shell";
 import { EducationUniversityEntryChartShell } from "@/components/education-university-entry-chart-shell";
 import { EducationDegreeResultsChartShell } from "@/components/education-degree-results-chart-shell";
@@ -269,7 +269,7 @@ export default async function EducationPage() {
               Percentage achieving 3+ A grades at A-level
             </h2>
             <div className="mt-6">
-              <EducationAlevelChartShell data={attainment.aLevelRows} />
+              <EducationALevelChartShell data={attainment.aLevelRows} />
             </div>
           </article>
         </section>

@@ -58,10 +58,10 @@ export function IncarcerationChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number) => [
-              formatPercent(value, 1),
-              "Black share of prison population",
-            ]}
+            formatter={(value) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [formatPercent(v, 1), "Black share of prison population"];
+            }}
           />
           <Bar dataKey="share" radius={[14, 14, 0, 0]} maxBarSize={64}>
             {chartData.map((row) => (
@@ -70,7 +70,7 @@ export function IncarcerationChart({ data }: Props) {
             <LabelList
               dataKey="share"
               position="top"
-              formatter={(value: number) => formatPercent(value, 1)}
+              formatter={(value: unknown) => formatPercent(Number(value ?? 0), 1)}
               style={{ fill: "#131F16", fontWeight: 600, fontSize: 14 }}
             />
           </Bar>

@@ -51,10 +51,10 @@ export function WealthChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number) => [
-              formatCurrency(value),
-              "Median total wealth",
-            ]}
+            formatter={(value) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [formatCurrency(v), "Median total wealth"];
+            }}
             labelFormatter={(_label, payload) => {
               const row = payload?.[0]?.payload as WealthRow | undefined;
               return row?.label ?? "";
@@ -70,7 +70,7 @@ export function WealthChart({ data }: Props) {
             <LabelList
               dataKey="medianWealth"
               position="right"
-              formatter={(value: number) => formatCurrency(value)}
+              formatter={(value: unknown) => formatCurrency(Number(value ?? 0))}
               style={{ fill: "#131F16", fontWeight: 600, fontSize: 12 }}
             />
           </Bar>

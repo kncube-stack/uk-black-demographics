@@ -50,10 +50,10 @@ export function CrimeChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number) => [
-              formatPercent(value, 1),
-              "Victimisation rate",
-            ]}
+            formatter={(value) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [formatPercent(v, 1), "Victimisation rate"];
+            }}
             labelFormatter={(_label, payload) => {
               const row = payload?.[0]?.payload as CrimeRow | undefined;
               if (!row) return "";

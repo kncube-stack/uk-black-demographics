@@ -57,10 +57,10 @@ export function HouseholdsLowIncomeChart({ data }: Props) {
               border: "1px solid rgba(19, 31, 22, 0.12)",
               boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
             }}
-            formatter={(value: number) => [
-              formatPercent(value, 1),
-              "Low-income rate",
-            ]}
+            formatter={(value) => {
+              const v = typeof value === "number" ? value : Number(value ?? 0);
+              return [formatPercent(v, 1), "Low-income rate"];
+            }}
           />
           <Bar dataKey="rate" radius={[14, 14, 0, 0]} maxBarSize={64}>
             {chartData.map((row) => (
@@ -69,7 +69,7 @@ export function HouseholdsLowIncomeChart({ data }: Props) {
             <LabelList
               dataKey="rate"
               position="top"
-              formatter={(value: number) => formatPercent(value, 1)}
+              formatter={(value: unknown) => formatPercent(Number(value ?? 0), 1)}
               style={{ fill: "#131F16", fontWeight: 600, fontSize: 14 }}
             />
           </Bar>
