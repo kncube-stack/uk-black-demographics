@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-31T14:38:14.613Z",
+  "generatedAt": "2026-04-01T00:37:53.159Z",
   "datasets": [
     {
       "id": "dfe-education-suspensions-national",
@@ -181,6 +181,105 @@
       "subcategory": "attainment",
       "url": "https://www.ons.gov.uk/datasets/RM049/editions/2021/versions/1",
       "rawPath": "/data/fetched/ons/education/census-2021-qualifications-national.json"
+    },
+    {
+      "id": "commons-ethnic-diversity-politics-2024",
+      "name": "Ethnic Diversity in Politics and Public Life",
+      "publisher": "House of Commons Library",
+      "category": "culture-geography",
+      "subcategory": "politics",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn01156/",
+      "rawPath": "/data/manual/commons/culture-geography/political-representation-national.json"
+    },
+    {
+      "id": "dbt-small-business-survey-2022",
+      "name": "Longitudinal Small Business Survey 2022",
+      "publisher": "Department for Business and Trade",
+      "category": "economics",
+      "subcategory": "businesses",
+      "url": "https://www.gov.uk/government/collections/small-business-survey-reports",
+      "rawPath": "/data/manual/dbt/economics/business-ownership-national.json"
+    },
+    {
+      "id": "eff-deprived-neighbourhoods-2019",
+      "name": "People living in deprived neighbourhoods",
+      "publisher": "Race Disparity Unit / Cabinet Office",
+      "category": "culture-geography",
+      "subcategory": "segregation",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/people-living-in-deprived-neighbourhoods/latest/",
+      "rawPath": "/data/manual/eff/culture-geography/deprived-neighbourhoods-national.json"
+    },
+    {
+      "id": "hmpps-offender-equalities-2024-2025",
+      "name": "HM Prison and Probation Service Offender Equalities Annual Report 2024 to 2025",
+      "publisher": "HM Prison and Probation Service / Ministry of Justice",
+      "category": "culture-geography",
+      "subcategory": "incarceration",
+      "url": "https://www.gov.uk/government/statistics/hm-prison-and-probation-service-offender-equalities-annual-report-2024-to-2025",
+      "rawPath": "/data/manual/hmpps/culture-geography/prison-population-national.json"
+    },
+    {
+      "id": "mbrrace-maternal-mortality-2022-2024",
+      "name": "MBRRACE-UK Maternal Mortality Data Brief 2022–2024",
+      "publisher": "MBRRACE-UK / NPEU, University of Oxford",
+      "category": "health",
+      "subcategory": "maternal-health",
+      "url": "https://www.npeu.ox.ac.uk/mbrrace-uk/reports",
+      "rawPath": "/data/manual/mbrrace/health/maternal-mortality-national.json"
+    },
+    {
+      "id": "hse-obesity-by-ethnicity",
+      "name": "Health Survey for England 2022: Obesity and overweight by ethnicity",
+      "publisher": "NHS England / NHS Digital",
+      "category": "health",
+      "subcategory": "obesity",
+      "url": "https://digital.nhs.uk/data-and-information/publications/statistical/health-survey-for-england",
+      "rawPath": "/data/manual/nhs/health/obesity-national.json"
+    },
+    {
+      "id": "ons-covid-19-mortality-by-ethnicity",
+      "name": "Updating ethnic contrasts in deaths involving the coronavirus (COVID-19), England and Wales",
+      "publisher": "Office for National Statistics",
+      "category": "health",
+      "subcategory": "covid-19",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/updatingethniccontrastsindeathsinvolvingthecoronaviruscovid19englandandwales/previousReleases",
+      "rawPath": "/data/manual/ons/health/covid-19-mortality-national.json"
+    },
+    {
+      "id": "ons-life-expectancy-by-ethnicity-2011-2014",
+      "name": "Ethnic differences in life expectancy and mortality from selected causes in England and Wales: 2011 to 2014",
+      "publisher": "Office for National Statistics",
+      "category": "health",
+      "subcategory": "life-expectancy",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/articles/ethnicdifferencesinlifeexpectancyandmortalityfromselectedcausesinenglandandwales/2011to2014",
+      "rawPath": "/data/manual/ons/health/life-expectancy-national.json"
+    },
+    {
+      "id": "ons-census-2021-marital-status-national",
+      "name": "Census 2021: Legal partnership status by ethnic group (RM069)",
+      "publisher": "Office for National Statistics",
+      "category": "households",
+      "subcategory": "marriage",
+      "url": "https://www.ons.gov.uk/datasets/RM069/editions/2021/versions/2",
+      "rawPath": "/data/manual/ons/households/census-2021-marital-status-national.json"
+    },
+    {
+      "id": "ons-wealth-by-ethnicity-2016-2018",
+      "name": "ONS Wealth and Assets Survey Round 7",
+      "publisher": "Office for National Statistics",
+      "category": "households",
+      "subcategory": "wealth-and-class",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
+      "rawPath": "/data/manual/ons/households/wealth-by-ethnicity-national.json"
+    },
+    {
+      "id": "ukhsa-hiv-surveillance-by-ethnicity",
+      "name": "HIV surveillance annual data tables 2023",
+      "publisher": "UK Health Security Agency",
+      "category": "health",
+      "subcategory": "hiv-aids",
+      "url": "https://www.gov.uk/government/statistics/hiv-annual-data-tables",
+      "rawPath": "/data/manual/ukhsa/health/hiv-diagnoses-national.json"
     }
   ]
 }
