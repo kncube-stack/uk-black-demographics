@@ -1,0 +1,104 @@
+{
+  "id": "ons-wealth-by-ethnicity-2016-2018",
+  "title": "Household wealth by ethnicity, Great Britain",
+  "description": "Median total household wealth by ethnic group in Great Britain, from the ONS Wealth and Assets Survey Round 7 covering April 2016 to March 2018.",
+  "siteCategory": "households",
+  "siteSubcategory": "wealth-and-class",
+  "metadata": {
+    "id": "ons-wealth-assets-survey-r7",
+    "name": "ONS Wealth and Assets Survey Round 7",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
+    "datePublished": "2020-11-17",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "April 2016 to March 2018",
+    "referencePeriod": "April 2016 to March 2018",
+    "geographicCoverage": "Great Britain",
+    "methodology": "Data from the ONS Wealth and Assets Survey Round 7, a longitudinal survey measuring the well-being of households and individuals in terms of their assets, savings and debt. Median total wealth figures are manually transcribed from the published article.",
+    "qualityFlags": [
+      "official_statistic",
+      "manual_transcription"
+    ],
+    "caveats": [
+      "Black Caribbean and all_black median values are approximate, derived from published WAS data tables.",
+      "Total wealth includes property, physical, financial and private pension wealth.",
+      "Small sample sizes for some ethnic groups may affect reliability of estimates."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": [
+    "ethnic_group",
+    "measure"
+  ],
+  "observations": [
+    {
+      "ethnicGroup": "black_african",
+      "geography": {
+        "code": "K03000001",
+        "name": "Great Britain",
+        "level": "national"
+      },
+      "timePeriod": "April 2016 to March 2018",
+      "attributes": {
+        "measure": "median_total_wealth"
+      },
+      "value": {
+        "value": 34000,
+        "unit": "gbp",
+        "formatted": "\u00a334,000"
+      }
+    },
+    {
+      "ethnicGroup": "black_caribbean",
+      "geography": {
+        "code": "K03000001",
+        "name": "Great Britain",
+        "level": "national"
+      },
+      "timePeriod": "April 2016 to March 2018",
+      "attributes": {
+        "measure": "median_total_wealth"
+      },
+      "value": {
+        "value": 107000,
+        "unit": "gbp",
+        "formatted": "\u00a3107,000"
+      }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": {
+        "code": "K03000001",
+        "name": "Great Britain",
+        "level": "national"
+      },
+      "timePeriod": "April 2016 to March 2018",
+      "attributes": {
+        "measure": "median_total_wealth"
+      },
+      "value": {
+        "value": 64000,
+        "unit": "gbp",
+        "formatted": "\u00a364,000"
+      }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": {
+        "code": "K03000001",
+        "name": "Great Britain",
+        "level": "national"
+      },
+      "timePeriod": "April 2016 to March 2018",
+      "attributes": {
+        "measure": "median_total_wealth"
+      },
+      "value": {
+        "value": 286600,
+        "unit": "gbp",
+        "formatted": "\u00a3286,600"
+      }
+    }
+  ]
+}

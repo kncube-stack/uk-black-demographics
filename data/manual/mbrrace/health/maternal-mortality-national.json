@@ -1,0 +1,50 @@
+{
+  "id": "mbrrace-maternal-mortality-2022-2024",
+  "title": "Maternal mortality rates by ethnicity, United Kingdom",
+  "description": "Maternal mortality rates per 100,000 maternities by ethnic group from the MBRRACE-UK confidential enquiry.",
+  "siteCategory": "health",
+  "siteSubcategory": "maternal-health",
+  "metadata": {
+    "id": "mbrrace-maternal-mortality-2022-2024",
+    "name": "MBRRACE-UK Maternal Mortality Data Brief 2022–2024",
+    "publisher": "MBRRACE-UK / NPEU, University of Oxford",
+    "url": "https://www.npeu.ox.ac.uk/mbrrace-uk/reports",
+    "datePublished": "2024-11-14",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022 to 2024",
+    "referencePeriod": "2022 to 2024",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Manual transcription from the official MBRRACE-UK maternal mortality data brief. Rates are per 100,000 maternities. The disparity figure compares Black women with White women as published by MBRRACE-UK.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "This is a manual snapshot from a PDF-based source publication.",
+      "The headline disparity compares Black women with White women as published by MBRRACE-UK."
+    ],
+    "license": "See source publication",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2022-2024",
+      "attributes": { "measure": "maternal_mortality_rate" },
+      "value": { "value": 35.1, "unit": "rate_per_100000", "formatted": "35.1 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2022-2024",
+      "attributes": { "measure": "maternal_mortality_rate" },
+      "value": { "value": 13.4, "unit": "rate_per_100000", "formatted": "13.4 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2022-2024",
+      "attributes": { "measure": "relative_risk" },
+      "value": { "value": 2.9, "unit": "index", "formatted": "2.9x" }
+    }
+  ]
+}

@@ -233,37 +233,26 @@ export async function loadTopicSnapshot(
       };
     }
     case "households:wealth-and-class": {
-      const source = createManualSource({
-        id: "ons-wealth-by-ethnicity-2016-2018",
-        name: "Household wealth by ethnicity, Great Britain: April 2016 to March 2018",
-        publisher: "Office for National Statistics",
-        url: "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
-        datePublished: "2020-11-17",
-        referenceDate: "April 2016 to March 2018",
-        referencePeriod: "2016 to 2018",
-        geographicCoverage: "Great Britain",
-        methodology:
-          "Official analysis of the Wealth and Assets Survey (WAS) Round 7.",
-        caveats: [
-          "This topic currently uses a manual headline snapshot while a fuller survey-based build is in progress.",
-          "Figures represent median total household wealth (net financial, property, pension, and physical wealth).",
-        ],
-        license: "Open Government Licence v3.0",
-      });
-
+      const dataset = await loadDataset("manual/ons/households/wealth-by-ethnicity-national.json");
+      const blackAfrican = dataset.observations.find(
+        (o) => o.ethnicGroup === "black_african" && o.attributes?.measure === "median_total_wealth"
+      );
+      const overall = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_ethnicities" && o.attributes?.measure === "median_total_wealth"
+      );
       return {
         liveRoute: "/households/wealth-and-class",
-        source,
+        source: dataset.metadata,
         stats: [
           {
             label: "Black African median wealth",
-            value: "£34,000",
+            value: blackAfrican?.value.formatted ?? "£34,000",
             note: "Great Britain, 2016 to 2018",
           },
           {
-            label: "White British median",
-            value: "£314,000",
-            note: "Compared with £286,600 overall",
+            label: "Overall median",
+            value: overall?.value.formatted ?? "£286,600",
+            note: dataset.metadata.referenceDate,
           },
         ],
       };
@@ -485,37 +474,26 @@ export async function loadTopicSnapshot(
       };
     }
     case "health:maternal-health": {
-      const source = createManualSource({
-        id: "mbrrace-maternal-mortality",
-        name: "MBRRACE-UK Maternal Mortality Data Brief",
-        publisher: "MBRRACE-UK",
-        url: "https://www.npeu.ox.ac.uk/mbrrace-uk/reports",
-        datePublished: "2024-11-14",
-        referenceDate: "2022 to 2024",
-        referencePeriod: "2022 to 2024",
-        geographicCoverage: "United Kingdom",
-        methodology:
-          "Manual snapshot based on the official MBRRACE-UK maternal mortality data brief for deaths between 2022 and 2024.",
-        caveats: [
-          "This topic currently uses a manual snapshot rather than a fetched structured dataset.",
-          "The headline disparity compares Black women with White women as published by MBRRACE-UK.",
-        ],
-        license: "See source publication",
-      });
-
+      const dataset = await loadDataset("manual/mbrrace/health/maternal-mortality-national.json");
+      const rate = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_black" && o.attributes?.measure === "maternal_mortality_rate"
+      );
+      const risk = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_black" && o.attributes?.measure === "relative_risk"
+      );
       return {
         liveRoute: "/health/maternal-health",
-        source,
+        source: dataset.metadata,
         stats: [
           {
             label: "Black maternal mortality",
-            value: "35.1 per 100,000",
-            note: "UK maternal mortality rate, 2022 to 2024",
+            value: rate?.value.formatted ?? "35.1 per 100,000",
+            note: `UK, ${dataset.metadata.referenceDate}`,
           },
           {
             label: "Relative risk",
-            value: "2.9x",
-            note: "Compared with White women",
+            value: risk?.value.formatted ?? "2.9x",
+            note: "Compared with overall rate",
           },
         ],
       };
@@ -644,108 +622,76 @@ export async function loadTopicSnapshot(
       };
     }
     case "culture-geography:incarceration": {
-      const source = createManualSource({
-        id: "hmpps-offender-equalities-2024-2025",
-        name: "HM Prison and Probation Service Offender Equalities Annual Report 2024 to 2025",
-        publisher: "HM Prison and Probation Service / Ministry of Justice",
-        url: "https://www.gov.uk/government/statistics/hm-prison-and-probation-service-offender-equalities-annual-report-2024-to-2025",
-        datePublished: "2025-10-30",
-        referenceDate: "31 March 2024",
-        referencePeriod: "2023/24",
-        geographicCoverage: "England and Wales",
-        methodology:
-          "Manual snapshot based on the official HMPPS offender equalities annual report and recent accompanying prison-population statistics.",
-        caveats: [
-          "This topic currently opens with an official headline snapshot while a fuller structured prison-statistics build is in progress.",
-        ],
-        license: "Open Government Licence v3.0",
-      });
-
+      const dataset = await loadDataset("manual/hmpps/culture-geography/prison-population-national.json");
+      const remand = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_black" && o.attributes?.measure === "remand_share"
+      );
+      const sentenced = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_black" && o.attributes?.measure === "sentenced_share"
+      );
       return {
         liveRoute: "/culture-geography/incarceration",
-        source,
+        source: dataset.metadata,
         stats: [
           {
             label: "Black share of remand prisoners",
-            value: "12.9%",
-            note: "England and Wales, 31 March 2024",
+            value: remand?.value.formatted ?? "12.9%",
+            note: `England and Wales, ${dataset.metadata.referenceDate}`,
           },
           {
             label: "Black share of sentenced prisoners",
-            value: "12.1%",
-            note: "England and Wales, 31 March 2024",
+            value: sentenced?.value.formatted ?? "12.1%",
+            note: `England and Wales, ${dataset.metadata.referenceDate}`,
           },
         ],
       };
     }
     case "culture-geography:politics": {
-      const source = createManualSource({
-        id: "commons-ethnic-diversity-politics",
-        name: "Ethnic Diversity in Politics and Public Life",
-        publisher: "House of Commons Library",
-        url: "https://commonslibrary.parliament.uk/research-briefings/sn01156/",
-        datePublished: "2025-09-17",
-        referenceDate: "4 July 2024",
-        referencePeriod: "2024 general election",
-        geographicCoverage: "United Kingdom",
-        methodology:
-          "Manual snapshot based on the House of Commons Library briefing on ethnic diversity in politics and public life.",
-        caveats: [
-          "The official UK data gap remains: there is no complete machine-readable Black-specific dataset covering all elected officeholders.",
-          "This topic therefore starts with parliamentary ethnic-minority representation rather than a Black-only administrative series.",
-        ],
-        license: "Open Parliament Licence v3.0",
-      });
-
+      const dataset = await loadDataset("manual/commons/culture-geography/political-representation-national.json");
+      const mps = dataset.observations.find(
+        (o) => o.attributes?.measure === "ethnic_minority_mps"
+      );
+      const share = dataset.observations.find(
+        (o) => o.attributes?.measure === "ethnic_minority_share"
+      );
       return {
         liveRoute: "/culture-geography/politics",
-        source,
+        source: dataset.metadata,
         stats: [
           {
             label: "Ethnic minority MPs",
-            value: "90",
-            note: "House of Commons after the 2024 general election",
+            value: mps?.value.formatted ?? "90",
+            note: `House of Commons, ${dataset.metadata.referenceDate}`,
           },
           {
             label: "Share of MPs",
-            value: "14%",
+            value: share?.value.formatted ?? "13.8%",
             note: "Compared with 16% of the UK population",
           },
         ],
       };
     }
     case "culture-geography:segregation": {
-      const source = createManualSource({
-        id: "eff-deprived-neighbourhoods-2019",
-        name: "People living in deprived neighbourhoods",
-        publisher: "Race Disparity Unit / Cabinet Office",
-        url: "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/people-living-in-deprived-neighbourhoods/latest/",
-        datePublished: "2020-07-28",
-        referenceDate: "2019",
-        referencePeriod: "2019",
-        geographicCoverage: "England",
-        methodology:
-          "Official analysis of the English Index of Multiple Deprivation (IMD) 2019 by ethnic group.",
-        caveats: [
-          "This topic currently uses a neighborhood-concentration snapshot while a fuller residential-segregation study is in progress.",
-          "The IMD measures deprivation across 7 distinct domains including income, employment, and health.",
-        ],
-        license: "Open Government Licence v3.0",
-      });
-
+      const dataset = await loadDataset("manual/eff/culture-geography/deprived-neighbourhoods-national.json");
+      const black = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_black" && o.attributes?.measure === "most_deprived_10pct_share"
+      );
+      const all = dataset.observations.find(
+        (o) => o.ethnicGroup === "all_ethnicities" && o.attributes?.measure === "most_deprived_10pct_share"
+      );
       return {
         liveRoute: "/culture-geography/segregation",
-        source,
+        source: dataset.metadata,
         stats: [
           {
             label: "Living in most deprived areas",
-            value: "15.2%",
+            value: black?.value.formatted ?? "15.2%",
             note: "Black people in 10% most deprived areas",
           },
           {
-            label: "White comparison",
-            value: "9.0%",
-            note: "Percentage of White people in these areas",
+            label: "All people comparison",
+            value: all?.value.formatted ?? "9.0%",
+            note: `England, ${dataset.metadata.referenceDate}`,
           },
         ],
       };

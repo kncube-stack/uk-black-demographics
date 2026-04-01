@@ -1,12 +1,25 @@
 import { CitationCard } from "@/components/citation-card";
+import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
 import { HouseholdsHomeOwnershipChartShell } from "@/components/households-home-ownership-chart-shell";
+import { HouseholdsLowIncomeChartShell } from "@/components/households-low-income-chart-shell";
+import { MarriageChartShell } from "@/components/marriage-chart-shell";
 import { SourceCard } from "@/components/source-card";
 import { SubcategoryGrid } from "@/components/subcategory-grid";
 import { formatNumber, formatPercent } from "@/lib/format";
+import { loadLowIncomeData } from "@/lib/households-income-summary";
+import { loadMarriagePageData } from "@/lib/households-marriage-summary";
 import { loadHouseholdsPageData } from "@/lib/households-summary";
 
 export default async function HouseholdsPage() {
-  const { latestLabel, headline, rows, source } = await loadHouseholdsPageData();
+  const [
+    { latestLabel, headline, rows, source },
+    lowIncome,
+    marriage,
+  ] = await Promise.all([
+    loadHouseholdsPageData(),
+    loadLowIncomeData(),
+    loadMarriagePageData(),
+  ]);
   const blackCaribbean = rows.find((row) => row.key === "black_caribbean");
   const otherBlack = rows.find((row) => row.key === "other_black");
 
@@ -170,6 +183,35 @@ export default async function HouseholdsPage() {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </article>
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Low income <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Percentage of households in low income
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              Gap: {formatPercent(lowIncome.gap, 1)} percentage points above the all-household baseline.
+            </p>
+            <div className="mt-6">
+              <HouseholdsLowIncomeChartShell data={lowIncome} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Marital status <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Marital and civil partnership status, Census 2021
+            </h2>
+            <div className="mt-6">
+              <MarriageChartShell data={marriage.rows} />
             </div>
           </article>
         </section>

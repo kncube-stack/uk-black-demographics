@@ -1,0 +1,43 @@
+{
+  "id": "eff-deprived-neighbourhoods-2019",
+  "title": "People living in deprived neighbourhoods by ethnicity",
+  "description": "Share of each ethnic group living in the 10% most deprived neighbourhoods in England, based on the Index of Multiple Deprivation 2019.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "segregation",
+  "metadata": {
+    "id": "eff-deprived-neighbourhoods-2019",
+    "name": "People living in deprived neighbourhoods",
+    "publisher": "Race Disparity Unit / Cabinet Office",
+    "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/people-living-in-deprived-neighbourhoods/latest/",
+    "datePublished": "2020-07-28",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2019",
+    "referencePeriod": "2019",
+    "geographicCoverage": "England",
+    "methodology": "Official analysis of the English Index of Multiple Deprivation (IMD) 2019 by ethnic group. The IMD measures relative deprivation across seven domains: income, employment, education, health, crime, housing, and living environment.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "The IMD 2019 is the most recent index available; a newer release may follow.",
+      "England only — Wales, Scotland, and Northern Ireland have separate indices."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2019",
+      "attributes": { "measure": "most_deprived_10pct_share" },
+      "value": { "value": 15.2, "unit": "percentage", "formatted": "15.2%" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2019",
+      "attributes": { "measure": "most_deprived_10pct_share" },
+      "value": { "value": 9.0, "unit": "percentage", "formatted": "9.0%" }
+    }
+  ]
+}

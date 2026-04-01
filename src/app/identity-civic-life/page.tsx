@@ -1,12 +1,19 @@
+import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
+import { HeritageChartShell } from "@/components/heritage-chart-shell";
+import { ReligionChartShell } from "@/components/religion-chart-shell";
 import { TopicSnapshotCard } from "@/components/topic-snapshot-card";
+import { loadHeritagePageData } from "@/lib/heritage-summary";
+import { loadReligionPageData } from "@/lib/religion-summary";
 import { loadTopicSnapshot } from "@/lib/topic-snapshots";
 
 export default async function IdentityCivicLifePage() {
-  const [politicsSnapshot, religionSnapshot, heritageSnapshot] =
+  const [politicsSnapshot, religionSnapshot, heritageSnapshot, religion, heritage] =
     await Promise.all([
       loadTopicSnapshot("culture-geography", "politics"),
       loadTopicSnapshot("culture-geography", "religion"),
       loadTopicSnapshot("culture-geography", "heritage-migration"),
+      loadReligionPageData(),
+      loadHeritagePageData(),
     ]);
 
   return (
@@ -96,6 +103,37 @@ export default async function IdentityCivicLifePage() {
             href="/culture-geography/heritage-migration"
             snapshot={heritageSnapshot}
           />
+        </section>
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Religion <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Religious affiliation: Black vs all ethnicities
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              Census 2021. Christianity is the dominant affiliation in the Black population at a much higher share than the national average.
+            </p>
+            <div className="mt-6">
+              <ReligionChartShell data={religion.rows} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Heritage & Migration <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Country of birth distribution for the Black population
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              Census 2021. Nearly half of the Black population were born in the United Kingdom.
+            </p>
+            <div className="mt-6">
+              <HeritageChartShell data={heritage.rows} />
+            </div>
+          </article>
         </section>
       </div>
     </main>

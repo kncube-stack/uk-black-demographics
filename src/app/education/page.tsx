@@ -1,14 +1,29 @@
 import { EducationFsmChartShell } from "@/components/education-fsm-chart-shell";
+import { EducationGcseChartShell } from "@/components/education-gcse-chart-shell";
+import { EducationAlevelChartShell } from "@/components/education-alevel-chart-shell";
+import { EducationQualificationsChartShell } from "@/components/education-qualifications-chart-shell";
+import { EducationUniversityEntryChartShell } from "@/components/education-university-entry-chart-shell";
+import { EducationDegreeResultsChartShell } from "@/components/education-degree-results-chart-shell";
 import { EducationPhaseChartShell } from "@/components/education-phase-chart-shell";
 import { EducationSuspensionRateChartShell } from "@/components/education-suspension-rate-chart-shell";
+import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
 import { SourceCard } from "@/components/source-card";
 import { SubcategoryGrid } from "@/components/subcategory-grid";
 import { formatNumber, formatPercent } from "@/lib/format";
 import { loadEducationPageData } from "@/lib/education-summary";
+import { loadAttainmentPageData } from "@/lib/education-attainment-summary";
+import { loadUniversityPageData } from "@/lib/education-university-summary";
 
 export default async function EducationPage() {
-  const { latestLabel, previousLabel, metricRows, phaseRows, fsmRows, source } =
-    await loadEducationPageData();
+  const [
+    { latestLabel, previousLabel, metricRows, phaseRows, fsmRows, source },
+    attainment,
+    university,
+  ] = await Promise.all([
+    loadEducationPageData(),
+    loadAttainmentPageData(),
+    loadUniversityPageData(),
+  ]);
 
   const allPupils = metricRows.find((row) => row.key === "all_ethnicities");
   const allBlackIncludingMixed = metricRows.find(
@@ -230,6 +245,72 @@ export default async function EducationPage() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              GCSE attainment <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Attainment 8 scores by ethnic group
+            </h2>
+            <div className="mt-6">
+              <EducationGcseChartShell data={attainment.gcseRows} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              A-Level achievement <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Percentage achieving 3+ A grades at A-level
+            </h2>
+            <div className="mt-6">
+              <EducationAlevelChartShell data={attainment.aLevelRows} />
+            </div>
+          </article>
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Qualifications <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Highest qualification level, Census 2021
+            </h2>
+            <div className="mt-6">
+              <EducationQualificationsChartShell data={attainment.qualificationRows} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              University entry <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Black university entry rate over time
+            </h2>
+            <div className="mt-6">
+              <EducationUniversityEntryChartShell data={university.entryRows} />
+            </div>
+          </article>
+        </section>
+
+        <section>
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Degree results <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Undergraduate degree classifications: Black vs all students
+            </h2>
+            <div className="mt-6">
+              <EducationDegreeResultsChartShell data={university.degreeRows} />
+            </div>
+          </article>
         </section>
 
         <SubcategoryGrid category="education" />

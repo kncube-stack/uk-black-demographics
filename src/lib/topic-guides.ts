@@ -33,82 +33,21 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
     liveGuide("population", "age-distribution", "Age Distribution", "Age structure and relative youth of the population.", "/population"),
   ],
   households: [
-    snapshotGuide(
-      "households",
-      "income",
-      "Income",
-      "Low-income household rates by ethnicity.",
-      "This topic now opens with an official low-income snapshot rather than a source placeholder.",
-      [
-        {
-          title: "People in low-income households",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest/",
-          detail: "Official UK low-income series with broad Black-group comparison.",
-        },
-      ]
-    ),
-    comingGuide(
-      "households",
-      "marriage",
-      "Marriage",
-      "Marital and civil partnership status by ethnicity.",
-      "No official annual marriage-registration dataset records ethnicity directly, so this topic needs a survey-based build rather than a clean administrative feed.",
-      "Spring 2026",
-      [
-        {
-          title: "Census and APS source base",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/census",
-          detail: "Census and APS are the practical official routes because registration data does not capture ethnicity.",
-        },
-      ],
-      [
-        "There is no official annual marriage-registration dataset by ethnicity in England and Wales.",
-      ]
-    ),
+    liveGuide("households", "income", "Income", "Low-income household rates by ethnicity.", "/households"),
+    liveGuide("households", "marriage", "Marriage", "Marital and civil partnership status by ethnicity.", "/households"),
     liveGuide("households", "housing", "Housing", "Home ownership and housing access.", "/households"),
-    snapshotGuide(
-      "households",
-      "wealth-and-class",
-      "Wealth & Class",
-      "Household wealth and socioeconomic distribution.",
-      "This topic now opens with an official median-wealth snapshot from the ONS Wealth and Assets Survey while a fuller social-mobility build follows.",
-      [
-        {
-          title: "Household wealth by ethnicity",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/householdwealthbyethnicitygreatbritain/april2016tomarch2018",
-          detail: "The primary official Great Britain wealth analysis by ethnic group.",
-        },
-      ]
-    ),
-    snapshotGuide(
-      "households",
-      "poverty",
-      "Poverty",
-      "Low income and deprivation.",
-      "This topic now opens with the latest official low-income snapshot, with a fuller deprivation build to follow.",
-      [
-        {
-          title: "People in low-income households",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest/",
-          detail: "Official UK low-income series with broad Black-group comparison.",
-        },
-      ]
-    ),
+    liveGuide("households", "wealth-and-class", "Wealth & Class", "Household wealth and socioeconomic distribution.", "/households"),
+    liveGuide("households", "poverty", "Poverty", "Low income and deprivation.", "/households"),
   ],
   economics: [
     liveGuide("economics", "employment", "Employment", "Employment rates and occupational profile.", "/economics"),
     liveGuide("economics", "unemployment", "Unemployment", "Unemployment and inactivity rates.", "/economics"),
-    comingGuide(
+    snapshotGuide(
       "economics",
       "businesses",
       "Businesses",
       "Self-employment and Black business ownership proxies.",
-      "There is no official UK register of business owner ethnicity, so this topic needs a survey-and-proxy build rather than a simple government feed.",
-      "Spring 2026",
+      "This topic uses survey-based estimates of minority ethnic-led businesses from the Small Business Survey. No Black-specific dataset exists.",
       [
         {
           title: "Small Business Survey reports",
@@ -119,153 +58,23 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
       ],
       [
         "The UK does not maintain an official business register by owner ethnicity.",
+        "These figures cover all minority ethnic groups combined, not Black-specific.",
       ]
     ),
   ],
   education: [
-    snapshotGuide(
-      "education",
-      "attainment",
-      "Qualifications",
-      "Highest qualification levels by ethnicity.",
-      "This topic now opens with a Census 2021 qualification snapshot instead of a stub page.",
-      [
-        {
-          title: "Census 2021 RM049",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/datasets/RM049/editions/2021/versions/1",
-          detail: "Highest level of qualification by ethnic group in England and Wales.",
-        },
-      ]
-    ),
-    snapshotGuide(
-      "education",
-      "gcse-a-level",
-      "GCSE & A-Level",
-      "School results and attainment gaps.",
-      "This topic now opens with official GCSE and A-level headline figures and their all-pupils comparators.",
-      [
-        {
-          title: "GCSE results (Attainment 8)",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/11-to-16-years-old/gcse-results-attainment-8-for-children-aged-14-to-16-key-stage-4/latest/",
-          detail: "Official GCSE attainment snapshot with subgroup detail.",
-        },
-        {
-          title: "Students aged 16 to 18 achieving 3 A grades or better at A level",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/a-levels-apprenticeships-further-education/students-aged-16-to-18-achieving-3-a-grades-or-better-at-a-level/latest/",
-          detail: "Official A-level attainment snapshot with subgroup detail.",
-        },
-      ]
-    ),
-    snapshotGuide(
-      "education",
-      "university",
-      "University",
-      "Applications, access, attainment, and outcomes in higher education.",
-      "This topic now opens with entry-rate and degree-outcome snapshots instead of a stub page.",
-      [
-        {
-          title: "Entry rates into higher education",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest/",
-          detail: "Official entry-rate series for 18-year-old state school pupils.",
-        },
-        {
-          title: "Undergraduate degree results",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/undergraduate-degree-results/latest/",
-          detail: "Official degree classification outcomes by ethnicity.",
-        },
-      ]
-    ),
+    liveGuide("education", "attainment", "Qualifications", "Highest qualification levels by ethnicity.", "/education"),
+    liveGuide("education", "gcse-a-level", "GCSE & A-Level", "School results and attainment gaps.", "/education"),
+    liveGuide("education", "university", "University", "Applications, access, attainment, and outcomes in higher education.", "/education"),
     liveGuide("education", "exclusions", "Exclusions", "Suspensions and permanent exclusions.", "/education"),
   ],
   health: [
-    comingGuide(
-      "health",
-      "life-expectancy",
-      "Life Expectancy",
-      "Life expectancy and mortality by ethnicity.",
-      "This topic needs a linked-data build because ethnicity is not recorded on death certificates.",
-      "Spring 2026",
-      [
-        {
-          title: "Ethnic differences in life expectancy and mortality",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/articles/ethnicdifferencesinlifeexpectancyandmortalityfromselectedcausesinenglandandwales/2011to2014",
-          detail: "The main official linked-data life expectancy source by ethnicity.",
-        },
-      ],
-      [
-        "There is no routine death-registration ethnicity field in England and Wales.",
-      ]
-    ),
-    comingGuide(
-      "health",
-      "obesity",
-      "Obesity",
-      "Adult and child obesity rates by ethnicity.",
-      "This topic is queued for the next health-wave build from Health Survey for England and NHS data releases.",
-      "Spring 2026",
-      [
-        {
-          title: "Health Survey for England",
-          publisher: "NHS England / NHS Digital",
-          url: "https://digital.nhs.uk/data-and-information/publications/statistical/health-survey-for-england",
-          detail: "Primary official obesity and health-status survey route.",
-        },
-      ]
-    ),
+    liveGuide("health", "life-expectancy", "Life Expectancy", "Life expectancy and mortality by ethnicity.", "/health"),
+    liveGuide("health", "obesity", "Obesity", "Adult and child obesity rates by ethnicity.", "/health"),
     liveGuide("health", "mental-health", "Mental Health", "Detentions and mental health service inequalities.", "/health"),
-    snapshotGuide(
-      "health",
-      "maternal-health",
-      "Maternal Health",
-      "Maternal mortality and maternity outcomes.",
-      "This topic now opens with the latest official MBRRACE-UK maternal mortality disparity headline.",
-      [
-        {
-          title: "Maternal Mortality Data Brief",
-          publisher: "MBRRACE-UK",
-          url: "https://www.npeu.ox.ac.uk/mbrrace-uk/reports",
-          detail: "UK maternal mortality surveillance by ethnicity.",
-        },
-      ]
-    ),
-    comingGuide(
-      "health",
-      "hiv-aids",
-      "HIV & AIDS",
-      "Diagnosis and care outcomes.",
-      "This topic is queued for the next health-wave build from UKHSA surveillance tables.",
-      "Spring 2026",
-      [
-        {
-          title: "HIV surveillance data and management",
-          publisher: "UK Health Security Agency",
-          url: "https://www.gov.uk/government/collections/hiv-surveillance-data-and-management",
-          detail: "Official surveillance collection for HIV diagnoses and care.",
-        },
-      ]
-    ),
-    comingGuide(
-      "health",
-      "covid-19",
-      "COVID-19",
-      "COVID-19 mortality and vaccination disparities.",
-      "This topic is queued for the next health-wave build from ONS and UKHSA COVID-19 analysis pages.",
-      "Spring 2026",
-      [
-        {
-          title: "Conditions and diseases analysis",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases",
-          detail: "Official health conditions hub covering COVID-related ethnicity analysis.",
-        },
-      ]
-    ),
+    liveGuide("health", "maternal-health", "Maternal Health", "Maternal mortality and maternity outcomes.", "/health"),
+    liveGuide("health", "hiv-aids", "HIV & AIDS", "Diagnosis and care outcomes.", "/health"),
+    liveGuide("health", "covid-19", "COVID-19", "COVID-19 mortality and vaccination disparities.", "/health"),
   ],
   "culture-geography": [
     snapshotGuide(
@@ -286,51 +95,9 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
         "There is no single official dataset of MPs and councillors by ethnicity, let alone one that isolates Black representation cleanly.",
       ]
     ),
-    snapshotGuide(
-      "culture-geography",
-      "religion",
-      "Religion",
-      "Religious affiliation by ethnicity.",
-      "This topic now opens with a Census 2021 religion snapshot for the broad Black population.",
-      [
-        {
-          title: "Census 2021 RM031",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/datasets/RM031/editions/2021/versions/1",
-          detail: "Religion by ethnic group in England and Wales.",
-        },
-      ]
-    ),
-    snapshotGuide(
-      "culture-geography",
-      "heritage-migration",
-      "Heritage & Migration",
-      "Country of birth, heritage, and migration patterns.",
-      "This topic now opens with a Census 2021 country-of-birth snapshot for the broad Black population.",
-      [
-        {
-          title: "Census 2021 RM010",
-          publisher: "Office for National Statistics",
-          url: "https://www.ons.gov.uk/datasets/RM010/editions/2021/versions/1",
-          detail: "Country of birth by ethnic group in England and Wales.",
-        },
-      ]
-    ),
-    snapshotGuide(
-      "culture-geography",
-      "crime",
-      "Crime",
-      "Crime exposure and justice-system contact.",
-      "This topic now opens with the latest official victimisation snapshot for England and Wales.",
-      [
-        {
-          title: "Crime victims",
-          publisher: "Race Disparity Unit / Cabinet Office",
-          url: "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/crime-and-reoffending/crime-victims/latest/",
-          detail: "Official crime victimisation snapshot from the CSEW.",
-        },
-      ]
-    ),
+    liveGuide("culture-geography", "religion", "Religion", "Religious affiliation by ethnicity.", "/culture-geography"),
+    liveGuide("culture-geography", "heritage-migration", "Heritage & Migration", "Country of birth, heritage, and migration patterns.", "/culture-geography"),
+    liveGuide("culture-geography", "crime", "Crime", "Crime exposure and justice-system contact.", "/culture-geography"),
     snapshotGuide(
       "culture-geography",
       "incarceration",

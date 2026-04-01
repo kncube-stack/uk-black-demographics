@@ -1,0 +1,62 @@
+{
+  "id": "ons-life-expectancy-by-ethnicity-2011-2014",
+  "title": "Life expectancy at birth by ethnicity, England and Wales",
+  "description": "Life expectancy at birth by ethnic group and sex from ONS linked Census-to-death registration analysis.",
+  "siteCategory": "health",
+  "siteSubcategory": "life-expectancy",
+  "metadata": {
+    "id": "ons-life-expectancy-by-ethnicity-2011-2014",
+    "name": "Ethnic differences in life expectancy and mortality from selected causes in England and Wales: 2011 to 2014",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/articles/ethnicdifferencesinlifeexpectancyandmortalityfromselectedcausesinenglandandwales/2011to2014",
+    "datePublished": "2021-10-26",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2011 to 2014",
+    "referencePeriod": "2011 to 2014",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Manual transcription from ONS linked Census-to-death registration analysis. Life expectancy figures use Census 2011 ethnicity linked to death registrations via the ONS Longitudinal Study. This is the most recent official ethnic life expectancy analysis available.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "Ethnicity is not recorded on death certificates in England and Wales, so this analysis requires Census-linked data.",
+      "Figures cover 2011 to 2014 — more recent estimates are not yet available.",
+      "Uses a broad Black ethnic group; subgroup detail is not available in this analysis."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "sex", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2011-2014",
+      "sex": "male",
+      "attributes": { "measure": "life_expectancy_at_birth" },
+      "value": { "value": 79.8, "unit": "years", "formatted": "79.8 years" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2011-2014",
+      "sex": "female",
+      "attributes": { "measure": "life_expectancy_at_birth" },
+      "value": { "value": 83.5, "unit": "years", "formatted": "83.5 years" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2011-2014",
+      "sex": "male",
+      "attributes": { "measure": "life_expectancy_at_birth" },
+      "value": { "value": 79.3, "unit": "years", "formatted": "79.3 years" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2011-2014",
+      "sex": "female",
+      "attributes": { "measure": "life_expectancy_at_birth" },
+      "value": { "value": 83.1, "unit": "years", "formatted": "83.1 years" }
+    }
+  ]
+}
