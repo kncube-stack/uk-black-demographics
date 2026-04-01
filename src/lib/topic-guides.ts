@@ -98,21 +98,7 @@ export const TOPIC_GUIDES: Record<SiteCategory, TopicGuide[]> = {
     liveGuide("culture-geography", "religion", "Religion", "Religious affiliation by ethnicity.", "/culture-geography"),
     liveGuide("culture-geography", "heritage-migration", "Heritage & Migration", "Country of birth, heritage, and migration patterns.", "/culture-geography"),
     liveGuide("culture-geography", "crime", "Crime", "Crime exposure and justice-system contact.", "/culture-geography"),
-    snapshotGuide(
-      "culture-geography",
-      "incarceration",
-      "Incarceration",
-      "Prison population and custodial disparities.",
-      "This topic now opens with the latest official prison-population disparity snapshot while a fuller prison-statistics build remains in progress.",
-      [
-        {
-          title: "Offender Equalities Annual Report",
-          publisher: "HM Prison and Probation Service / Ministry of Justice",
-          url: "https://www.gov.uk/government/statistics/hm-prison-and-probation-service-offender-equalities-annual-report-2024-to-2025",
-          detail: "Official equality monitoring across the prison population.",
-        },
-      ]
-    ),
+    liveGuide("culture-geography", "incarceration", "Incarceration", "Prison population and custodial disparities.", "/justice-policing"),
     snapshotGuide(
       "culture-geography",
       "segregation",

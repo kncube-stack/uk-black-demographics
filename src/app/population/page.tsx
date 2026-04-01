@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { formatNumber } from "@/lib/format";
+import { CensusCaveatBanner } from "@/components/census-caveat-banner";
 import { SourceCard } from "@/components/source-card";
 import { loadPopulationPageData } from "@/lib/population-summary";
 import { PopulationAgeProfileChartShell } from "@/components/population-age-profile-chart-shell";
@@ -79,6 +80,8 @@ export default async function PopulationPage() {
             <SourceCard metadata={source} downloadHref={source.apiEndpoint} />
           </div>
         </section>
+
+        <CensusCaveatBanner />
 
         <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">

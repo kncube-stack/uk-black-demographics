@@ -6,14 +6,17 @@ interface FreshnessEntry {
   title: string;
   source: string;
   lastUpdated: string;
+  referencePeriod?: string;
   nextExpectedRelease: string;
   updateFrequency: string;
   ageYears: number;
-  status: "current" | "aging" | "stale";
+  status: "current" | "aging" | "stale" | "historical";
+  notes?: string;
 }
 
 interface FreshnessData {
   generatedAt: string;
+  note?: string;
   datasets: FreshnessEntry[];
 }
 
@@ -24,12 +27,10 @@ async function loadFreshnessData(): Promise<FreshnessData> {
 }
 
 const STATUS_STYLES: Record<string, string> = {
-  current:
-    "bg-emerald-100 text-emerald-800 border-emerald-200",
-  aging:
-    "bg-amber-100 text-amber-800 border-amber-200",
-  stale:
-    "bg-red-100 text-red-800 border-red-200",
+  current: "bg-emerald-100 text-emerald-800 border-emerald-200",
+  aging: "bg-amber-100 text-amber-800 border-amber-200",
+  stale: "bg-red-100 text-red-800 border-red-200",
+  historical: "bg-slate-100 text-slate-700 border-slate-200",
 };
 
 export default async function DataFreshnessPage() {
@@ -37,6 +38,7 @@ export default async function DataFreshnessPage() {
   const currentCount = data.datasets.filter((d) => d.status === "current").length;
   const agingCount = data.datasets.filter((d) => d.status === "aging").length;
   const staleCount = data.datasets.filter((d) => d.status === "stale").length;
+  const historicalCount = data.datasets.filter((d) => d.status === "historical").length;
 
   return (
     <main className="px-5 py-6 sm:px-8 lg:px-12">
@@ -52,13 +54,14 @@ export default async function DataFreshnessPage() {
                   How fresh is each dataset on this site?
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Every dataset is tracked by age and update frequency. Green means the
-                  source is broadly up to date, amber means the data is ageing, and red
-                  means a newer release may already be available.
+                  Every dataset is tracked by the age of its reference period.
+                  Green means the data covers a recent period, amber means it is
+                  ageing, red means the reference period is over 4 years old, and
+                  grey marks historical one-off publications with no planned update.
                 </p>
               </div>
 
-              <div className="grid gap-3 sm:grid-cols-3 max-w-lg">
+              <div className="grid gap-3 sm:grid-cols-4 max-w-xl">
                 <article className="rounded-[24px] border border-emerald-200 bg-emerald-50 p-4 text-center">
                   <p className="text-3xl font-semibold tracking-[-0.04em] text-emerald-800">
                     {currentCount}
@@ -77,6 +80,12 @@ export default async function DataFreshnessPage() {
                   </p>
                   <p className="mt-1 text-sm font-medium text-red-700">Stale</p>
                 </article>
+                <article className="rounded-[24px] border border-slate-200 bg-slate-50 p-4 text-center">
+                  <p className="text-3xl font-semibold tracking-[-0.04em] text-slate-700">
+                    {historicalCount}
+                  </p>
+                  <p className="mt-1 text-sm font-medium text-slate-600">Historical</p>
+                </article>
               </div>
             </div>
           </div>
@@ -90,16 +99,16 @@ export default async function DataFreshnessPage() {
             {data.datasets.length} datasets tracked
           </h2>
           <p className="mt-2 text-sm text-[var(--muted)]">
-            Last generated: {data.generatedAt}
+            Last audited: {data.generatedAt}
           </p>
           <div className="mt-6 overflow-x-auto rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)]">
-            <table className="w-full min-w-[900px] border-collapse text-left">
+            <table className="w-full min-w-[1050px] border-collapse text-left">
               <thead>
                 <tr className="border-b border-[var(--border)] text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
                   <th className="px-4 py-3 font-semibold">Dataset</th>
                   <th className="px-4 py-3 font-semibold">Source</th>
-                  <th className="px-4 py-3 font-semibold">Last updated</th>
-                  <th className="px-4 py-3 font-semibold">Frequency</th>
+                  <th className="px-4 py-3 font-semibold">Published</th>
+                  <th className="px-4 py-3 font-semibold">Covers</th>
                   <th className="px-4 py-3 font-semibold">Age</th>
                   <th className="px-4 py-3 font-semibold">Status</th>
                   <th className="px-4 py-3 font-semibold">Next expected</th>
@@ -114,13 +123,20 @@ export default async function DataFreshnessPage() {
                       key={entry.id}
                       className="border-b border-[var(--border)] last:border-b-0"
                     >
-                      <td className="px-4 py-3 font-medium">{entry.title}</td>
+                      <td className="px-4 py-3">
+                        <span className="font-medium">{entry.title}</span>
+                        {entry.notes ? (
+                          <span className="mt-0.5 block text-xs text-[var(--muted)]">
+                            {entry.notes}
+                          </span>
+                        ) : null}
+                      </td>
                       <td className="px-4 py-3 text-sm text-[var(--muted)]">
                         {entry.source}
                       </td>
                       <td className="px-4 py-3 text-sm">{entry.lastUpdated}</td>
                       <td className="px-4 py-3 text-sm text-[var(--muted)]">
-                        {entry.updateFrequency}
+                        {entry.referencePeriod ?? entry.updateFrequency}
                       </td>
                       <td className="px-4 py-3 text-sm">
                         {entry.ageYears.toFixed(1)} yr

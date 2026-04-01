@@ -226,11 +226,15 @@ export default async function HealthPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
               Life expectancy <GeographicScopeBadge scope="England & Wales" />
             </p>
+            <div className="mt-2 inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-2.5 py-0.5 text-[11px] font-semibold text-amber-700">
+              Based on 2011–2014 linked records — oldest dataset on the site
+            </div>
             <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
               Life expectancy at birth by sex
             </h2>
             <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-              ONS linked Census–death records, {lifeExpectancy.latestLabel}.
+              ONS linked Census–death records, {lifeExpectancy.latestLabel}. A 2021-linked
+              update depends on ONS publishing new life tables by ethnicity.
             </p>
             <div className="mt-6">
               <HealthLifeExpectancyChartShell data={lifeExpectancy.rows} />
@@ -258,11 +262,15 @@ export default async function HealthPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
               COVID-19 mortality <GeographicScopeBadge scope="England & Wales" />
             </p>
+            <div className="mt-2 inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-600">
+              Historical record — no further updates planned
+            </div>
             <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
               Age-standardised COVID-19 mortality by sex
             </h2>
             <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-              ONS, {covid.latestLabel}. Black relative risk: male {covid.rows[0]?.relativeRisk.toFixed(2)}x, female {covid.rows[1]?.relativeRisk.toFixed(2)}x.
+              ONS, {covid.latestLabel}. This is a one-off publication covering the pandemic period;
+              ONS confirmed no further updates are planned. Black relative risk: male {covid.rows[0]?.relativeRisk.toFixed(2)}x, female {covid.rows[1]?.relativeRisk.toFixed(2)}x.
             </p>
             <div className="mt-6">
               <HealthCovidChartShell data={covid.rows} />

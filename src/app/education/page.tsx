@@ -1,3 +1,4 @@
+import { CensusCaveatBanner } from "@/components/census-caveat-banner";
 import { EducationFsmChartShell } from "@/components/education-fsm-chart-shell";
 import { EducationGcseChartShell } from "@/components/education-gcse-chart-shell";
 import { EducationAlevelChartShell } from "@/components/education-alevel-chart-shell";
@@ -272,6 +273,8 @@ export default async function EducationPage() {
             </div>
           </article>
         </section>
+
+        <CensusCaveatBanner />
 
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">

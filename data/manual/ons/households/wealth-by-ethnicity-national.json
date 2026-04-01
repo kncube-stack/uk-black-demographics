@@ -22,7 +22,8 @@
     "caveats": [
       "Black Caribbean and all_black median values are approximate, derived from published WAS data tables.",
       "Total wealth includes property, physical, financial and private pension wealth.",
-      "Small sample sizes for some ethnic groups may affect reliability of estimates."
+      "Small sample sizes for some ethnic groups may affect reliability of estimates.",
+      "WAS Round 8 (2018–2020) aggregate tables were published Dec 2022 but ONS has not published a separate ethnicity breakdown article for Round 8. A custom data request to ONS may yield updated figures."
     ],
     "license": "Open Government Licence v3.0",
     "fetchMethod": "manual_transcription"

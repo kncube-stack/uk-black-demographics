@@ -1,3 +1,4 @@
+import { CensusCaveatBanner } from "@/components/census-caveat-banner";
 import { CitationCard } from "@/components/citation-card";
 import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
 import { HouseholdsHomeOwnershipChartShell } from "@/components/households-home-ownership-chart-shell";
@@ -5,20 +6,24 @@ import { HouseholdsLowIncomeChartShell } from "@/components/households-low-incom
 import { MarriageChartShell } from "@/components/marriage-chart-shell";
 import { SourceCard } from "@/components/source-card";
 import { SubcategoryGrid } from "@/components/subcategory-grid";
-import { formatNumber, formatPercent } from "@/lib/format";
+import { WealthChartShell } from "@/components/wealth-chart-shell";
+import { formatCurrency, formatNumber, formatPercent } from "@/lib/format";
 import { loadLowIncomeData } from "@/lib/households-income-summary";
 import { loadMarriagePageData } from "@/lib/households-marriage-summary";
 import { loadHouseholdsPageData } from "@/lib/households-summary";
+import { loadWealthPageData } from "@/lib/wealth-summary";
 
 export default async function HouseholdsPage() {
   const [
     { latestLabel, headline, rows, source },
     lowIncome,
     marriage,
+    wealth,
   ] = await Promise.all([
     loadHouseholdsPageData(),
     loadLowIncomeData(),
     loadMarriagePageData(),
+    loadWealthPageData(),
   ]);
   const blackCaribbean = rows.find((row) => row.key === "black_caribbean");
   const otherBlack = rows.find((row) => row.key === "other_black");
@@ -187,6 +192,8 @@ export default async function HouseholdsPage() {
           </article>
         </section>
 
+        <CensusCaveatBanner />
+
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
@@ -212,6 +219,28 @@ export default async function HouseholdsPage() {
             </h2>
             <div className="mt-6">
               <MarriageChartShell data={marriage.rows} />
+            </div>
+          </article>
+        </section>
+
+        <section>
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Wealth <GeographicScopeBadge scope="Great Britain" />
+            </p>
+            <div className="mt-2 inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-2.5 py-0.5 text-[11px] font-semibold text-amber-700">
+              WAS Round 7 ({wealth.latestLabel}) — oldest household dataset
+            </div>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Median total household wealth by ethnic group
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+              The median Black African household holds {formatCurrency(wealth.rows.find(r => r.key === "black_african")?.medianWealth ?? 0)} in
+              total wealth, compared with {formatCurrency(wealth.rows.find(r => r.key === "all_ethnicities")?.medianWealth ?? 0)} for
+              all households. Total wealth includes property, pensions, financial, and physical assets.
+            </p>
+            <div className="mt-6 max-w-2xl">
+              <WealthChartShell data={wealth.rows} />
             </div>
           </article>
         </section>

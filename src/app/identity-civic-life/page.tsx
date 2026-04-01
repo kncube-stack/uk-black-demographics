@@ -1,3 +1,4 @@
+import { CensusCaveatBanner } from "@/components/census-caveat-banner";
 import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
 import { HeritageChartShell } from "@/components/heritage-chart-shell";
 import { ReligionChartShell } from "@/components/religion-chart-shell";
@@ -104,6 +105,9 @@ export default async function IdentityCivicLifePage() {
             snapshot={heritageSnapshot}
           />
         </section>
+
+        <CensusCaveatBanner />
+
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
