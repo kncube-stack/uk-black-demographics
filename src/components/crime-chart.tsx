@@ -1,0 +1,79 @@
+"use client";
+
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import { ETHNICITY_SERIES_COLORS } from "@/lib/constants";
+import { formatPercent } from "@/lib/format";
+import type { CrimeRow } from "@/lib/crime-summary";
+
+type Props = {
+  data: CrimeRow[];
+};
+
+export function CrimeChart({ data }: Props) {
+  return (
+    <div className="h-[360px] min-w-0 w-full">
+      <ResponsiveContainer width="100%" height="100%" minWidth={280} minHeight={280}>
+        <BarChart
+          data={data}
+          layout="vertical"
+          margin={{ top: 8, right: 20, bottom: 8, left: 12 }}
+        >
+          <CartesianGrid horizontal={false} stroke="rgba(19, 31, 22, 0.10)" />
+          <XAxis
+            type="number"
+            tickFormatter={(value) => formatPercent(value, 0)}
+            stroke="#586457"
+            tickLine={false}
+            axisLine={false}
+          />
+          <YAxis
+            type="category"
+            dataKey="shortLabel"
+            width={136}
+            stroke="#586457"
+            tickLine={false}
+            axisLine={false}
+          />
+          <Tooltip
+            cursor={{ fill: "rgba(54, 91, 69, 0.08)" }}
+            contentStyle={{
+              borderRadius: "16px",
+              border: "1px solid rgba(19, 31, 22, 0.12)",
+              boxShadow: "0 16px 40px rgba(19, 31, 22, 0.12)",
+            }}
+            formatter={(value: number) => [
+              formatPercent(value, 1),
+              "Victimisation rate",
+            ]}
+            labelFormatter={(_label, payload) => {
+              const row = payload?.[0]?.payload as CrimeRow | undefined;
+              if (!row) return "";
+              const ci =
+                row.confidenceLower !== null && row.confidenceUpper !== null
+                  ? ` (95% CI: ${row.confidenceLower.toFixed(1)}–${row.confidenceUpper.toFixed(1)})`
+                  : "";
+              return `${row.label}${ci}`;
+            }}
+          />
+          <Bar dataKey="victimisationRate" radius={[0, 14, 14, 0]} maxBarSize={28}>
+            {data.map((row) => (
+              <Cell
+                key={row.key}
+                fill={ETHNICITY_SERIES_COLORS[row.key] ?? "#365b45"}
+              />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
+}

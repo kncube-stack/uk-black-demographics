@@ -1,0 +1,43 @@
+{
+  "id": "hmpps-offender-equalities-2024-2025",
+  "title": "Prison population by ethnicity, England and Wales",
+  "description": "Share of the remand and sentenced prison population accounted for by Black prisoners.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "incarceration",
+  "metadata": {
+    "id": "hmpps-offender-equalities-2024-2025",
+    "name": "HM Prison and Probation Service Offender Equalities Annual Report 2024 to 2025",
+    "publisher": "HM Prison and Probation Service / Ministry of Justice",
+    "url": "https://www.gov.uk/government/statistics/hm-prison-and-probation-service-offender-equalities-annual-report-2024-to-2025",
+    "datePublished": "2025-10-30",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "31 March 2024",
+    "referencePeriod": "2023/24",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Manual transcription from the official HMPPS offender equalities annual report and accompanying prison-population statistics.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "Figures are a snapshot at 31 March 2024.",
+      "Ethnicity is self-declared by prisoners on reception."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2023/24",
+      "attributes": { "measure": "remand_share" },
+      "value": { "value": 12.9, "unit": "percentage", "formatted": "12.9%" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2023/24",
+      "attributes": { "measure": "sentenced_share" },
+      "value": { "value": 12.1, "unit": "percentage", "formatted": "12.1%" }
+    }
+  ]
+}

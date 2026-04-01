@@ -1,0 +1,57 @@
+{
+  "id": "hse-obesity-by-ethnicity",
+  "title": "Adult obesity prevalence by ethnicity, England",
+  "description": "Obesity and overweight prevalence among adults by ethnic group from the Health Survey for England 2022.",
+  "siteCategory": "health",
+  "siteSubcategory": "obesity",
+  "metadata": {
+    "id": "hse-obesity-by-ethnicity",
+    "name": "Health Survey for England 2022: Obesity and overweight by ethnicity",
+    "publisher": "NHS England / NHS Digital",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/health-survey-for-england",
+    "datePublished": "2023-12-14",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022",
+    "referencePeriod": "2022",
+    "geographicCoverage": "England",
+    "methodology": "Manual transcription from the Health Survey for England 2022 published tables on adult obesity by ethnic group. The HSE uses measured height and weight; obesity is defined as BMI 30 or above.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "The HSE uses broad ethnic group categories; Black African and Black Caribbean are not always separated.",
+      "Sample sizes for ethnic minorities are smaller, leading to wider confidence intervals."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "adult_obesity_rate" },
+      "value": { "value": 37.0, "unit": "percentage", "formatted": "37.0%" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "adult_obesity_rate" },
+      "value": { "value": 25.9, "unit": "percentage", "formatted": "25.9%" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "adult_overweight_or_obese_rate" },
+      "value": { "value": 66.0, "unit": "percentage", "formatted": "66.0%" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "adult_overweight_or_obese_rate" },
+      "value": { "value": 63.8, "unit": "percentage", "formatted": "63.8%" }
+    }
+  ]
+}

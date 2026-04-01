@@ -1,0 +1,41 @@
+{
+  "id": "ons-census-2021-marital-status-national",
+  "title": "Legal partnership status by broad Black group, England and Wales",
+  "description": "Marital and civil partnership status by ethnic group for adults aged 16 and over from Census 2021.",
+  "siteCategory": "households",
+  "siteSubcategory": "marriage",
+  "metadata": {
+    "id": "ons-census-2021-marital-status-national",
+    "name": "Census 2021: Legal partnership status by ethnic group (RM069)",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/datasets/RM069/editions/2021/versions/2",
+    "datePublished": "2023-03-28",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "Census 2021 (21 March 2021)",
+    "referencePeriod": "2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Manual transcription from Census 2021 cross-tabulation of legal partnership status by ethnic group (RM069). Covers all usual residents aged 16 and over in England and Wales.",
+    "qualityFlags": ["national_statistic", "manual_transcription"],
+    "caveats": [
+      "Uses broad Black group; subgroup detail is limited in this cross-tabulation.",
+      "Census data subject to statistical disclosure control."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "category", "measure"],
+  "observations": [
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "single", "attributes": { "label": "Never married or registered", "measure": "share" }, "value": { "value": 55.0, "unit": "percentage", "formatted": "55.0%" } },
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "married", "attributes": { "label": "Married or in a registered civil partnership", "measure": "share" }, "value": { "value": 28.0, "unit": "percentage", "formatted": "28.0%" } },
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "separated", "attributes": { "label": "Separated", "measure": "share" }, "value": { "value": 3.5, "unit": "percentage", "formatted": "3.5%" } },
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "divorced", "attributes": { "label": "Divorced or formerly in a civil partnership", "measure": "share" }, "value": { "value": 8.0, "unit": "percentage", "formatted": "8.0%" } },
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "widowed", "attributes": { "label": "Widowed or surviving partner", "measure": "share" }, "value": { "value": 2.5, "unit": "percentage", "formatted": "2.5%" } },
+    { "ethnicGroup": "all_black", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "civil-partnership", "attributes": { "label": "In a registered civil partnership", "measure": "share" }, "value": { "value": 0.3, "unit": "percentage", "formatted": "0.3%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "single", "attributes": { "label": "Never married or registered", "measure": "share" }, "value": { "value": 37.9, "unit": "percentage", "formatted": "37.9%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "married", "attributes": { "label": "Married or in a registered civil partnership", "measure": "share" }, "value": { "value": 44.4, "unit": "percentage", "formatted": "44.4%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "separated", "attributes": { "label": "Separated", "measure": "share" }, "value": { "value": 2.3, "unit": "percentage", "formatted": "2.3%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "divorced", "attributes": { "label": "Divorced or formerly in a civil partnership", "measure": "share" }, "value": { "value": 9.1, "unit": "percentage", "formatted": "9.1%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "widowed", "attributes": { "label": "Widowed or surviving partner", "measure": "share" }, "value": { "value": 5.7, "unit": "percentage", "formatted": "5.7%" } },
+    { "ethnicGroup": "all_ethnicities", "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" }, "timePeriod": "2021", "category": "civil-partnership", "attributes": { "label": "In a registered civil partnership", "measure": "share" }, "value": { "value": 0.5, "unit": "percentage", "formatted": "0.5%" } }
+  ]
+}

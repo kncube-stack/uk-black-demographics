@@ -1,14 +1,33 @@
 import { CitationCard } from "@/components/citation-card";
+import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
+import { HealthCovidChartShell } from "@/components/health-covid-chart-shell";
 import { HealthDetentionRankingChartShell } from "@/components/health-detention-ranking-chart-shell";
 import { HealthDetentionTrendChartShell } from "@/components/health-detention-trend-chart-shell";
+import { HealthLifeExpectancyChartShell } from "@/components/health-life-expectancy-chart-shell";
+import { HealthObesityChartShell } from "@/components/health-obesity-chart-shell";
 import { SourceCard } from "@/components/source-card";
 import { SubcategoryGrid } from "@/components/subcategory-grid";
-import { formatNumber, formatRate } from "@/lib/format";
+import { formatNumber, formatPercent, formatRate } from "@/lib/format";
+import { loadCovidPageData } from "@/lib/health-covid-summary";
+import { loadHivData } from "@/lib/health-hiv-summary";
+import { loadLifeExpectancyData } from "@/lib/health-life-expectancy-summary";
+import { loadObesityData } from "@/lib/health-obesity-summary";
 import { loadHealthPageData } from "@/lib/health-summary";
 
 export default async function HealthPage() {
-  const { latestLabel, previousLabel, headline, metricRows, trendRows, source } =
-    await loadHealthPageData();
+  const [
+    { latestLabel, previousLabel, headline, metricRows, trendRows, source },
+    obesity,
+    covid,
+    lifeExpectancy,
+    hiv,
+  ] = await Promise.all([
+    loadHealthPageData(),
+    loadObesityData(),
+    loadCovidPageData(),
+    loadLifeExpectancyData(),
+    loadHivData(),
+  ]);
   const allBlackRow = metricRows.find((row) => row.key === "all_black");
   const blackCaribbeanRow = metricRows.find((row) => row.key === "black_caribbean");
 
@@ -200,6 +219,81 @@ export default async function HealthPage() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Life expectancy <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Life expectancy at birth by sex
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              ONS linked Census–death records, {lifeExpectancy.latestLabel}.
+            </p>
+            <div className="mt-6">
+              <HealthLifeExpectancyChartShell data={lifeExpectancy.rows} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Obesity <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Adult obesity rate: Black vs all ethnicities
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              Health Survey for England, {obesity.latestLabel}.
+            </p>
+            <div className="mt-6">
+              <HealthObesityChartShell data={obesity} />
+            </div>
+          </article>
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              COVID-19 mortality <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Age-standardised COVID-19 mortality by sex
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+              ONS, {covid.latestLabel}. Black relative risk: male {covid.rows[0]?.relativeRisk.toFixed(2)}x, female {covid.rows[1]?.relativeRisk.toFixed(2)}x.
+            </p>
+            <div className="mt-6">
+              <HealthCovidChartShell data={covid.rows} />
+            </div>
+          </article>
+
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              HIV & AIDS <GeographicScopeBadge scope="England" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              HIV diagnoses and care
+            </h2>
+            <div className="mt-5 grid gap-3">
+              <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                <p className="text-sm font-medium text-[var(--muted)]">New Black diagnoses</p>
+                <p className="mt-1 text-2xl font-semibold tracking-[-0.04em]">
+                  {formatNumber(hiv.blackNewDiagnoses)}
+                </p>
+                <p className="mt-1 text-sm text-[var(--muted)]">
+                  {formatPercent(hiv.blackDiagnosesShare, 1)} of all new diagnoses, {hiv.latestLabel}
+                </p>
+              </article>
+              <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
+                <p className="text-sm font-medium text-[var(--muted)]">Black share of people accessing care</p>
+                <p className="mt-1 text-2xl font-semibold tracking-[-0.04em]">
+                  {formatPercent(hiv.blackCareShare, 1)}
+                </p>
+              </article>
+            </div>
+          </article>
         </section>
 
         <SubcategoryGrid category="health" />

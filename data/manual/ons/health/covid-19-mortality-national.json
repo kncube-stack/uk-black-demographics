@@ -1,0 +1,78 @@
+{
+  "id": "ons-covid-19-mortality-by-ethnicity",
+  "title": "COVID-19 age-standardised mortality rates by ethnicity, England and Wales",
+  "description": "Age-standardised COVID-19 mortality rates per 100,000 by ethnic group and sex, covering January 2020 to December 2021.",
+  "siteCategory": "health",
+  "siteSubcategory": "covid-19",
+  "metadata": {
+    "id": "ons-covid-19-mortality-by-ethnicity",
+    "name": "Updating ethnic contrasts in deaths involving the coronavirus (COVID-19), England and Wales",
+    "publisher": "Office for National Statistics",
+    "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/updatingethniccontrastsindeathsinvolvingthecoronaviruscovid19englandandwales/previousReleases",
+    "datePublished": "2022-01-24",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "January 2020 to December 2021",
+    "referencePeriod": "2020 to 2021",
+    "geographicCoverage": "England and Wales",
+    "methodology": "Manual transcription from ONS analysis of COVID-19 deaths by ethnicity using Census 2011 linked data. Age-standardised mortality rates per 100,000 for the pandemic period January 2020 to December 2021.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "Ethnicity is linked from Census 2011, not recorded on death certificates.",
+      "Rates cover the first two years of the pandemic only.",
+      "The Black ethnic group is reported as a broad aggregate."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "sex", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "male",
+      "attributes": { "measure": "age_standardised_mortality_rate" },
+      "value": { "value": 299.0, "unit": "rate_per_100000", "formatted": "299.0 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "female",
+      "attributes": { "measure": "age_standardised_mortality_rate" },
+      "value": { "value": 183.0, "unit": "rate_per_100000", "formatted": "183.0 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "male",
+      "attributes": { "measure": "age_standardised_mortality_rate" },
+      "value": { "value": 197.0, "unit": "rate_per_100000", "formatted": "197.0 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "female",
+      "attributes": { "measure": "age_standardised_mortality_rate" },
+      "value": { "value": 124.0, "unit": "rate_per_100000", "formatted": "124.0 per 100,000" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "male",
+      "attributes": { "measure": "relative_risk" },
+      "value": { "value": 1.52, "unit": "index", "formatted": "1.52x" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "K04000001", "name": "England and Wales", "level": "national" },
+      "timePeriod": "2020-2021",
+      "sex": "female",
+      "attributes": { "measure": "relative_risk" },
+      "value": { "value": 1.48, "unit": "index", "formatted": "1.48x" }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dbt-small-business-survey-2022",
+  "title": "Minority ethnic-led business estimates, United Kingdom",
+  "description": "Share of SMEs led by people from minority ethnic groups from the Longitudinal Small Business Survey 2022.",
+  "siteCategory": "economics",
+  "siteSubcategory": "businesses",
+  "metadata": {
+    "id": "dbt-small-business-survey-2022",
+    "name": "Longitudinal Small Business Survey 2022",
+    "publisher": "Department for Business and Trade",
+    "url": "https://www.gov.uk/government/collections/small-business-survey-reports",
+    "datePublished": "2023-08-10",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2022",
+    "referencePeriod": "2022",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Manual transcription from the Longitudinal Small Business Survey 2022. 'Minority ethnic-led' is defined as majority-led by people from ethnic minority groups. The survey does not separately identify Black-led businesses.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "The UK does not maintain an official business register by owner ethnicity.",
+      "These are survey-based estimates for all minority ethnic groups combined, not Black-specific.",
+      "The survey covers SMEs (0–249 employees) only."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "minority_ethnic_led_share" },
+      "value": { "value": 6.8, "unit": "percentage", "formatted": "6.8%" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2022",
+      "attributes": { "measure": "employer_businesses_share" },
+      "value": { "value": 8.2, "unit": "percentage", "formatted": "8.2%" }
+    }
+  ]
+}

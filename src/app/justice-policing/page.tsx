@@ -1,13 +1,17 @@
 import { CitationCard } from "@/components/citation-card";
+import { CrimeChartShell } from "@/components/crime-chart-shell";
+import { GeographicScopeBadge } from "@/components/geographic-scope-badge";
 import { TopicSnapshotCard } from "@/components/topic-snapshot-card";
+import { loadCrimePageData } from "@/lib/crime-summary";
 import { loadCulturePageData } from "@/lib/culture-summary";
 import { formatRate } from "@/lib/format";
 import { loadTopicSnapshot } from "@/lib/topic-snapshots";
 
 export default async function JusticePolicingPage() {
-  const [stopSearch, stopSearchSnapshot, crimeSnapshot, incarcerationSnapshot] =
+  const [stopSearch, crime, stopSearchSnapshot, crimeSnapshot, incarcerationSnapshot] =
     await Promise.all([
       loadCulturePageData(),
+      loadCrimePageData(),
       loadTopicSnapshot("culture-geography", "stop-search"),
       loadTopicSnapshot("culture-geography", "crime"),
       loadTopicSnapshot("culture-geography", "incarceration"),
@@ -116,6 +120,22 @@ export default async function JusticePolicingPage() {
             href="/culture-geography/incarceration"
             snapshot={incarcerationSnapshot}
           />
+        </section>
+        <section>
+          <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
+              Crime victimisation <GeographicScopeBadge scope="England & Wales" />
+            </p>
+            <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
+              Adult victimisation rates by ethnic group, {crime.latestLabel}
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+              Crime Survey for England and Wales. Rates include fraud and computer misuse. Confidence intervals are shown in tooltips.
+            </p>
+            <div className="mt-6 max-w-2xl">
+              <CrimeChartShell data={crime.rows} />
+            </div>
+          </article>
         </section>
       </div>
     </main>

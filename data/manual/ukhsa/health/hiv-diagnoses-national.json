@@ -1,0 +1,57 @@
+{
+  "id": "ukhsa-hiv-surveillance-by-ethnicity",
+  "title": "HIV new diagnoses and people accessing care by ethnicity, England",
+  "description": "New HIV diagnoses and the share of people accessing HIV care by ethnic group from UKHSA surveillance.",
+  "siteCategory": "health",
+  "siteSubcategory": "hiv-aids",
+  "metadata": {
+    "id": "ukhsa-hiv-surveillance-by-ethnicity",
+    "name": "HIV surveillance annual data tables 2023",
+    "publisher": "UK Health Security Agency",
+    "url": "https://www.gov.uk/government/statistics/hiv-annual-data-tables",
+    "datePublished": "2024-12-03",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "2023",
+    "referencePeriod": "2023",
+    "geographicCoverage": "England",
+    "methodology": "Manual transcription from UKHSA HIV surveillance annual data tables 2023. New diagnoses and people accessing HIV care are reported by broad ethnic group.",
+    "qualityFlags": ["official_statistic", "manual_transcription"],
+    "caveats": [
+      "Ethnicity categories use a broad Black grouping; subgroup detail is limited.",
+      "New diagnosis counts may be affected by changes in testing patterns."
+    ],
+    "license": "Open Government Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2023",
+      "attributes": { "measure": "new_diagnoses_count" },
+      "value": { "value": 820, "unit": "count", "formatted": "820" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2023",
+      "attributes": { "measure": "new_diagnoses_count" },
+      "value": { "value": 3120, "unit": "count", "formatted": "3,120" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2023",
+      "attributes": { "measure": "new_diagnoses_share" },
+      "value": { "value": 26.3, "unit": "percentage", "formatted": "26.3%" }
+    },
+    {
+      "ethnicGroup": "all_black",
+      "geography": { "code": "E92000001", "name": "England", "level": "national" },
+      "timePeriod": "2023",
+      "attributes": { "measure": "people_accessing_care_share" },
+      "value": { "value": 31.0, "unit": "percentage", "formatted": "31.0%" }
+    }
+  ]
+}

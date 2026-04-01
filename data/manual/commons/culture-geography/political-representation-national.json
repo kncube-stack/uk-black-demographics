@@ -1,0 +1,50 @@
+{
+  "id": "commons-ethnic-diversity-politics-2024",
+  "title": "Ethnic diversity in UK Parliament",
+  "description": "Ethnic minority representation in the House of Commons following the 2024 general election.",
+  "siteCategory": "culture-geography",
+  "siteSubcategory": "politics",
+  "metadata": {
+    "id": "commons-ethnic-diversity-politics-2024",
+    "name": "Ethnic Diversity in Politics and Public Life",
+    "publisher": "House of Commons Library",
+    "url": "https://commonslibrary.parliament.uk/research-briefings/sn01156/",
+    "datePublished": "2025-09-17",
+    "dateAccessed": "2026-03-10",
+    "referenceDate": "4 July 2024",
+    "referencePeriod": "2024 general election",
+    "geographicCoverage": "United Kingdom",
+    "methodology": "Manual transcription from the House of Commons Library briefing on ethnic diversity in politics and public life. Figures cover ethnic minority MPs as a whole; no Black-specific breakdown is published.",
+    "qualityFlags": ["manual_transcription"],
+    "caveats": [
+      "There is no single official dataset of MPs by ethnicity that isolates Black representation specifically.",
+      "These figures cover all ethnic minority MPs, not Black MPs alone."
+    ],
+    "license": "Open Parliament Licence v3.0",
+    "fetchMethod": "manual_transcription"
+  },
+  "dimensions": ["ethnicGroup", "geography", "timePeriod", "measure"],
+  "observations": [
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2024",
+      "attributes": { "measure": "total_mps" },
+      "value": { "value": 650, "unit": "count", "formatted": "650" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2024",
+      "attributes": { "measure": "ethnic_minority_mps" },
+      "value": { "value": 90, "unit": "count", "formatted": "90" }
+    },
+    {
+      "ethnicGroup": "all_ethnicities",
+      "geography": { "code": "K02000001", "name": "United Kingdom", "level": "national" },
+      "timePeriod": "2024",
+      "attributes": { "measure": "ethnic_minority_share" },
+      "value": { "value": 13.8, "unit": "percentage", "formatted": "13.8%" }
+    }
+  ]
+}
