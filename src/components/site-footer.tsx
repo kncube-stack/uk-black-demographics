@@ -52,9 +52,6 @@ export function SiteFooter() {
             <Link href="/data" className="rounded-full px-3 py-2 hover:bg-white/70">
               Data API
             </Link>
-            <Link href="/culture-geography" className="rounded-full px-3 py-2 hover:bg-white/70">
-              Legacy culture route
-            </Link>
           </div>
         </div>
       </div>

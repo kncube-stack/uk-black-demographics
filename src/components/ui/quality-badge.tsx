@@ -22,19 +22,19 @@ const FLAG_CONFIG: Record<DataQualityFlag, { label: string; classes: string; des
     description: "Official data using new or evolving methods. Use with awareness.",
   },
   management_information: {
-    label: "Management Information",
+    label: "Administrative data",
     classes: "bg-slate-100 text-slate-800 border-slate-200",
-    description: "Internal data for operational use, not formal statistics.",
+    description: "Data collected for administrative or operational purposes, not formal statistics.",
   },
   manual_transcription: {
-    label: "Manually Transcribed",
+    label: "Manually verified",
     classes: "bg-slate-100 text-slate-800 border-slate-200",
-    description: "Data manually extracted from official reports or PDFs by our team.",
+    description: "Data manually verified and extracted from official reports or PDFs by our team.",
   },
   suppressed: {
-    label: "Suppressed Data",
+    label: "Privacy-protected data",
     classes: "bg-red-50 text-red-700 border-red-100",
-    description: "Data hidden by the source to protect privacy in small population groups.",
+    description: "Some values are withheld by the source to protect the privacy of small population groups.",
   },
   provisional: {
     label: "Provisional",

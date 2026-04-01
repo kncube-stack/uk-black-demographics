@@ -114,8 +114,8 @@ export function TopicGuidePage({ guide, snapshot }: Props) {
                 </p>
                 <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
                   {guide.targetDate
-                    ? `Next build target: ${guide.targetDate}`
-                    : "Official source base mapped"}
+                    ? `Data collection in progress — expected ${guide.targetDate}`
+                    : "Source identified"}
                 </h2>
                 <div className="mt-5 grid gap-3 text-sm leading-6 text-[#c8d7cb]">
                   <p>{guide.description}</p>

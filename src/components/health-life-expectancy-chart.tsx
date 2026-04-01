@@ -33,7 +33,7 @@ export function HealthLifeExpectancyChart({ data }: Props) {
           />
           <YAxis
             domain={[70, 90]}
-            tickFormatter={(value) => `${value} yr`}
+            tickFormatter={(value) => `${value} years`}
             stroke="#586457"
             tickLine={false}
             axisLine={false}

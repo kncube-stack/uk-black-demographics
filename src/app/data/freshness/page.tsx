@@ -139,7 +139,7 @@ export default async function DataFreshnessPage() {
                         {entry.referencePeriod ?? entry.updateFrequency}
                       </td>
                       <td className="px-4 py-3 text-sm">
-                        {entry.ageYears.toFixed(1)} yr
+                        {entry.ageYears.toFixed(1)} years
                       </td>
                       <td className="px-4 py-3">
                         <span

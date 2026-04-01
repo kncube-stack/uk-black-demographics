@@ -84,7 +84,7 @@ export default async function HealthPage() {
                   <p className="mt-2 text-3xl font-semibold tracking-[-0.04em]">
                     {formatRate(headline.blackAfricanRate, 100_000)}
                   </p>
-                  <p className="mt-2 text-sm text-[var(--muted)]">Standardised rate</p>
+                  <p className="mt-2 text-sm text-[var(--muted)]">Rate (adjusted for age differences)</p>
                 </article>
                 <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
                   <p className="text-sm font-medium text-[var(--muted)]">
@@ -142,9 +142,9 @@ export default async function HealthPage() {
               </p>
               <p>
                 The latest Ethnicity Facts and Figures release does not publish
-                a comparable population denominator for every subgroup, so this
-                page marks unpublished cells as unavailable rather than deriving
-                them from rounded rates.
+                a matching population figure for every subgroup, so this page
+                marks unavailable cells rather than estimating them from
+                rounded rates.
               </p>
               <p>
                 This live route is still mental-health-specific, but maternal
@@ -266,7 +266,7 @@ export default async function HealthPage() {
               Historical record — no further updates planned
             </div>
             <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
-              Age-standardised COVID-19 mortality by sex
+              COVID-19 mortality rate by sex (adjusted for age)
             </h2>
             <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
               ONS, {covid.latestLabel}. This is a one-off publication covering the pandemic period;

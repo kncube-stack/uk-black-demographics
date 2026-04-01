@@ -62,9 +62,7 @@ export function HealthDetentionRankingChart({ data }: Props) {
                 return "";
               }
 
-              return `${row.label}: ${formatNumber(row.detentions)} detentions, confidence margin ${
-                row.confidenceMargin === null ? "n/a" : `${row.confidenceMargin.toFixed(1)}`
-              }`;
+              return `${row.label}: ${formatNumber(row.detentions)} detentions`;
             }}
           />
           <Bar dataKey="rate" radius={[0, 14, 14, 0]} maxBarSize={28}>

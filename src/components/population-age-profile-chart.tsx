@@ -51,10 +51,9 @@ export function PopulationAgeProfileChart({ data }: Props) {
               const countLabel =
                 name === "All population"
                   ? row?.allPopulationCount
-                  : name === "All Black incl. mixed"
+                  : name === "All Black including mixed heritage"
                     ? row?.inclusiveBlackCount
                     : row?.coreBlackCount;
-
               return [
                 `${numericValue.toFixed(1)}%${typeof countLabel === "number" ? ` (${new Intl.NumberFormat("en-GB").format(countLabel)})` : ""}`,
                 name,
@@ -66,7 +65,7 @@ export function PopulationAgeProfileChart({ data }: Props) {
           <Bar dataKey="coreBlackShare" name="All Black" fill="#365b45" radius={[10, 10, 0, 0]} />
           <Bar
             dataKey="inclusiveBlackShare"
-            name="All Black incl. mixed"
+            name="All Black including mixed heritage"
             fill="#8ca68a"
             radius={[10, 10, 0, 0]}
           />

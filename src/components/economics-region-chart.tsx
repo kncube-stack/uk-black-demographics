@@ -65,7 +65,7 @@ export function EconomicsRegionChart({ data }: Props) {
 
               return `${row.name}: ${formatSignedPoints(
                 row.employmentGap
-              )} vs area overall, confidence margin ${row.blackEmploymentConfidenceMargin.toFixed(1)} pts`;
+              )} vs area overall`;
             }}
           />
           <Bar dataKey="blackEmploymentRate" radius={[0, 14, 14, 0]} maxBarSize={28}>
@@ -84,16 +84,12 @@ export function EconomicsRegionChart({ data }: Props) {
 
 function formatSignedPoints(value: number) {
   const sign = value > 0 ? "+" : "";
-  return `${sign}${value.toFixed(1)} pts`;
+  return `${sign}${value.toFixed(1)} percentage points`;
 }
 
 function shortenGeography(value: string) {
   if (value === "Yorkshire and The Humber") {
-    return "Yorks & Humber";
-  }
-
-  if (value === "Northern Ireland") {
-    return "N. Ireland";
+    return "Yorkshire & Humber";
   }
 
   return value;

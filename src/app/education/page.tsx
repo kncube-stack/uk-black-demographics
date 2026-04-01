@@ -157,7 +157,7 @@ export default async function EducationPage() {
               </p>
               <p>
                 The rate fields shown here are percentages of pupils in the group,
-                not per-10,000 rates.
+                not per 10,000 pupils.
               </p>
               <p>
                 White and Black Caribbean is not folded into a single Black bucket
@@ -186,7 +186,7 @@ export default async function EducationPage() {
 
           <article className="rounded-[30px] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_16px_50px_rgba(19,31,22,0.06)]">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
-              By FSM eligibility
+              By Free School Meals (FSM) eligibility
             </p>
             <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
               Rates are materially higher for FSM-eligible pupils
@@ -215,7 +215,7 @@ export default async function EducationPage() {
                   <th className="px-4 py-3 font-semibold">Group</th>
                   <th className="px-4 py-3 font-semibold">Headcount</th>
                   <th className="px-4 py-3 font-semibold">Suspension rate</th>
-                  <th className="px-4 py-3 font-semibold">Perm. excl. rate</th>
+                  <th className="px-4 py-3 font-semibold">Permanent exclusion rate</th>
                   <th className="px-4 py-3 font-semibold">One+ suspension</th>
                   <th className="px-4 py-3 font-semibold">Change</th>
                 </tr>

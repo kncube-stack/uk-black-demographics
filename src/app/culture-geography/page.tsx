@@ -129,7 +129,7 @@ export default async function CultureGeographyPage() {
               </p>
               <p>
                 This page keeps the national all-force England and Wales stop-and-search
-                data live, including BTP and legislation splits.
+                data live, including British Transport Police and legislation splits.
               </p>
               <p>
                 Crime, incarceration, politics, religion, and heritage topics now open
@@ -171,7 +171,7 @@ export default async function CultureGeographyPage() {
             pagePath="/culture-geography"
             metadata={source}
             downloadHref={source.apiEndpoint}
-            note="If you cite this page, note that the live policing slice uses the England and Wales all-force stop-and-search rows including BTP."
+            note="If you cite this page, note that the live policing slice uses the England and Wales all-force stop-and-search rows including British Transport Police."
           />
         </section>
 
@@ -181,7 +181,7 @@ export default async function CultureGeographyPage() {
               Legislation split
             </p>
             <h2 className="mt-2 font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
-              Black searches remain concentrated in the main PACE section 1 route
+              Black searches remain concentrated under Police and Criminal Evidence Act (PACE) section 1
             </h2>
             <div className="mt-6 grid gap-4">
               {legislationRows.map((row) => (
@@ -241,7 +241,7 @@ export default async function CultureGeographyPage() {
                     <th className="px-4 py-3 font-semibold">Searches</th>
                     <th className="px-4 py-3 font-semibold">Population</th>
                     <th className="px-4 py-3 font-semibold">Gap</th>
-                    <th className="px-4 py-3 font-semibold">Ratio</th>
+                    <th className="px-4 py-3 font-semibold">Times more likely</th>
                   </tr>
                 </thead>
                 <tbody>

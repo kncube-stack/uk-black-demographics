@@ -106,13 +106,13 @@ export function EconomicsOccupationChart({ data }: Props) {
 
 function formatSignedPoints(value: number) {
   const sign = value > 0 ? "+" : "";
-  return `${sign}${value.toFixed(1)} pts`;
+  return `${sign}${value.toFixed(1)} percentage points`;
 }
 
 function shortenOccupationLabel(value: string) {
   switch (value) {
     case "Associate professional":
-      return "Assoc. prof.";
+      return "Associate professional";
     case "Caring and leisure":
       return "Care & leisure";
     case "Sales and service":

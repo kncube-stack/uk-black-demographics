@@ -57,11 +57,7 @@ export function CrimeChart({ data }: Props) {
             labelFormatter={(_label, payload) => {
               const row = payload?.[0]?.payload as CrimeRow | undefined;
               if (!row) return "";
-              const ci =
-                row.confidenceLower !== null && row.confidenceUpper !== null
-                  ? ` (95% CI: ${row.confidenceLower.toFixed(1)}–${row.confidenceUpper.toFixed(1)})`
-                  : "";
-              return `${row.label}${ci}`;
+              return row.label;
             }}
           />
           <Bar dataKey="victimisationRate" radius={[0, 14, 14, 0]} maxBarSize={28}>

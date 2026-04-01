@@ -96,5 +96,5 @@ export function EconomicsRateComparisonChart({ data }: Props) {
 
 function formatSignedPoints(value: number) {
   const sign = value > 0 ? "+" : "";
-  return `${sign}${value.toFixed(1)} pts`;
+  return `${sign}${value.toFixed(1)} percentage points`;
 }

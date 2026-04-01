@@ -66,7 +66,7 @@ const data = await rawResponse.json();`}
             </h2>
             <div className="prose prose-stone leading-7 text-[var(--muted)]">
               <p>
-                Our data lives in the <code>/data</code> directory of our open-source repository. If you are conducting large-scale analysis, we recommend cloning the repository to access the full ETL pipeline and raw JSON assets.
+                Our data lives in the <code>/data</code> directory of our open-source repository. If you are conducting large-scale analysis, we recommend cloning the repository to access the full data processing pipeline and raw JSON assets.
               </p>
               <div className="flex gap-4 mt-6">
                 <a 

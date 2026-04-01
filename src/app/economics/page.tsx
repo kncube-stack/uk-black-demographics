@@ -44,7 +44,7 @@ export default async function EconomicsPage() {
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
                   Explore employment, unemployment, and occupation data for Black
-                  communities across the UK. Note: the Annual Population Survey
+                  communities across the UK. Note: the Annual Population Survey (APS)
                   only publishes a broad &ldquo;Black or Black British&rdquo;
                   group for these measures, so subgroup splits are not yet
                   available.
@@ -140,9 +140,9 @@ export default async function EconomicsPage() {
             </h2>
             <div className="mt-5 grid gap-3 text-sm leading-7 text-[var(--muted)]">
               <p>
-                APS figures are survey estimates, not administrative counts, so
-                confidence margins matter more than they do on the Census-backed
-                population pages.
+                Annual Population Survey (APS) figures are survey estimates, not
+                administrative counts, so they carry a wider margin of error
+                than Census-backed population pages.
               </p>
               <p>
                 The current live official percentage series groups Black people as
@@ -151,7 +151,7 @@ export default async function EconomicsPage() {
               </p>
               <p>
                 Local-authority APS estimates are not live yet because the
-                published confidence margins become too wide for a robust first
+                published margins of error become too wide for a reliable first
                 release.
               </p>
             </div>

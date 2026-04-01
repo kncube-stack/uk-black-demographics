@@ -42,7 +42,7 @@ export function SearchPageClient({ entries }: Props) {
           type="search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Try: Black Caribbean exclusion rate"
+          placeholder="Search topics, e.g. education, health, housing"
           className="mt-4 w-full rounded-[22px] border border-[var(--border)] bg-white/80 px-5 py-4 text-base outline-none transition-colors placeholder:text-[var(--muted)] focus:border-[var(--accent)]"
         />
         <p className="mt-3 text-sm text-[var(--muted)]">

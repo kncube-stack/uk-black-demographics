@@ -60,7 +60,7 @@ export function PopulationRegionChart({ data }: Props) {
             labelFormatter={(_label, payload) => {
               const row = payload?.[0]?.payload as GeographyPopulationSummary | undefined;
               if (!row) return "";
-              return `${row.inclusiveShare.toFixed(1)}% incl. mixed White/Black groups`;
+              return `${row.inclusiveShare.toFixed(1)}% including mixed White/Black groups`;
             }}
           />
           <Bar

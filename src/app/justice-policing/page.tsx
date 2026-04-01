@@ -50,7 +50,7 @@ export default async function JusticePolicingPage() {
                     {formatRate(stopSearch.headline.allBlackRate, 1_000)}
                   </p>
                   <p className="mt-2 text-sm text-[var(--muted)]">
-                    {stopSearch.headline.disproportionalityRatio.toFixed(1)}x overall rate
+                    {stopSearch.headline.disproportionalityRatio.toFixed(1)} times the overall rate
                   </p>
                 </article>
                 <article className="rounded-[24px] border border-[var(--border)] bg-[var(--surface-strong)] p-4">
@@ -133,7 +133,7 @@ export default async function JusticePolicingPage() {
               Adult victimisation rates by ethnic group, {crime.latestLabel}
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-              Crime Survey for England and Wales. Rates include fraud and computer misuse. Confidence intervals are shown in tooltips.
+              Crime Survey for England and Wales. Rates include fraud and computer misuse.
             </p>
             <div className="mt-6 max-w-2xl">
               <CrimeChartShell data={crime.rows} />
@@ -168,8 +168,9 @@ export default async function JusticePolicingPage() {
             </h2>
             <div className="mt-5 grid gap-3 text-sm leading-7 text-[var(--muted)]">
               <p>
-                The figures above come from the HMPPS Offender Equalities Annual Report
-                and represent a snapshot at 31 March 2024.
+                The figures above come from the HM Prison & Probation Service
+                Offender Equalities Annual Report and represent a snapshot at
+                31 March 2024.
               </p>
               <p>
                 Ethnicity is self-declared by prisoners on reception. Not all prisoners

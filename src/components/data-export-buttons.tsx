@@ -64,7 +64,7 @@ export function DataExportButtons({ data, filename, csvHref, variant = "outline"
             <polyline points="7 10 12 15 17 10" />
             <line x1="12" y1="15" x2="12" y2="3" />
         </svg>
-        {exporting ? "Preparing..." : "JSON"}
+        {exporting ? "Exporting..." : "JSON"}
       </button>
     </div>
   );

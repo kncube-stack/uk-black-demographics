@@ -55,7 +55,7 @@ export function SourceCard({
           rel="noreferrer"
           className="rounded-full bg-white/10 px-4 py-2 text-[#f7f2e9] transition-colors hover:bg-white/16"
         >
-          Open publication
+          View source
         </a>
         <DataExportButtons
           data={metadata}

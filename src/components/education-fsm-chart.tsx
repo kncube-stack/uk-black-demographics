@@ -21,7 +21,7 @@ const SERIES = [
   { key: "allPupils", label: "All pupils", color: "#7A8071" },
   {
     key: "allBlackIncludingMixed",
-    label: "All Black incl. mixed",
+    label: "All Black including mixed heritage",
     color: "#7A7F37",
   },
   {
