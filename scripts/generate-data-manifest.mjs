@@ -1,71 +1,65 @@
-import fs from 'fs/promises';
-import path from 'path';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const PUBLIC_API_DIR = path.join(process.cwd(), 'public', 'api');
+const PUBLIC_DATA_DIR = path.join(process.cwd(), 'public', 'data');
 
 async function findJsonFilesRecursive(dir) {
   const files = [];
   const entries = await fs.readdir(dir, { withFileTypes: true });
-
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       files.push(...(await findJsonFilesRecursive(fullPath)));
-    } else if (entry.name.endsWith('.json') && !entry.name.startsWith('_')) {
+    } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.startsWith('_')) {
       files.push(fullPath);
     }
   }
-  return files;
+  return files.sort();
 }
 
 async function generateManifest() {
-  console.log('🚀 Generating data manifest...');
+  const manifest = { version: '1.0', generatedAt: new Date().toISOString(), datasets: [] };
+  const filesToPublish = [];
+  const ids = new Set();
 
-  const manifest = {
-    version: '1.0',
-    generatedAt: new Date().toISOString(),
-    datasets: [],
-  };
-
-  const scanDirs = ['fetched', 'manual'];
-
-  for (const dir of scanDirs) {
-    const basePath = path.join(DATA_DIR, dir);
-    if (!(await fs.stat(basePath).catch(() => null))) continue;
-
-    const files = await findJsonFilesRecursive(basePath);
-
+  // Publish only public aggregate datasets, never other data-directory content.
+  for (const dir of ['fetched', 'manual']) {
+    const files = await findJsonFilesRecursive(path.join(DATA_DIR, dir));
     for (const file of files) {
-      const content = await fs.readFile(file, 'utf8');
-      try {
-        const dataset = JSON.parse(content);
-        if (dataset.id && dataset.metadata) {
-          manifest.datasets.push({
-            id: dataset.id,
-            name: dataset.metadata.name,
-            publisher: dataset.metadata.publisher,
-            category: dataset.siteCategory,
-            subcategory: dataset.siteSubcategory,
-            url: dataset.metadata.url,
-            rawPath: `/data/${path.relative(DATA_DIR, file)}`,
-          });
-        }
-      } catch (e) {
-        console.warn(`⚠️ Skipping invalid JSON: ${file}`);
-      }
+      const content = await fs.readFile(file);
+      const dataset = JSON.parse(content.toString('utf8'));
+      if (!dataset.id || !dataset.metadata) throw new Error(`Invalid dataset: ${file}`);
+      if (ids.has(dataset.id)) throw new Error(`Duplicate dataset ID: ${dataset.id}`);
+      ids.add(dataset.id);
+      const relativePath = path.relative(DATA_DIR, file);
+      manifest.datasets.push({
+        id: dataset.id,
+        name: dataset.metadata.name,
+        publisher: dataset.metadata.publisher,
+        category: dataset.siteCategory,
+        subcategory: dataset.siteSubcategory,
+        url: dataset.metadata.url,
+        rawPath: `/data/${relativePath.split(path.sep).join('/')}`,
+      });
+      filesToPublish.push({ relativePath, content });
     }
   }
 
-  // Ensure public/api exists
+  // This directory contains only generated copies; rebuilding removes stale assets.
+  await fs.rm(PUBLIC_DATA_DIR, { recursive: true, force: true });
+  for (const { relativePath, content } of filesToPublish) {
+    const destination = path.join(PUBLIC_DATA_DIR, relativePath);
+    await fs.mkdir(path.dirname(destination), { recursive: true });
+    await fs.writeFile(destination, content);
+  }
   await fs.mkdir(PUBLIC_API_DIR, { recursive: true });
-
-  await fs.writeFile(
-    path.join(PUBLIC_API_DIR, 'datasets.json'),
-    JSON.stringify(manifest, null, 2)
-  );
-
-  console.log(`✅ Manifest generated with ${manifest.datasets.length} datasets.`);
+  await fs.writeFile(path.join(PUBLIC_API_DIR, 'datasets.json'), JSON.stringify(manifest, null, 2));
+  console.log(`Published ${manifest.datasets.length} datasets and their manifest.`);
 }
 
-generateManifest().catch(console.error);
+generateManifest().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

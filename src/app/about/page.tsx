@@ -34,7 +34,7 @@ export default function AboutPage() {
               <p>
                 We keep Black African, Black Caribbean, Other Black, and mixed
                 White/Black groups separate whenever the source allows. When an official
-                dataset collapses those groups into a generic 'Black' category, we clearly note it.
+                dataset collapses those groups into a generic &apos;Black&apos; category, we clearly note it.
               </p>
             </div>
           </article>

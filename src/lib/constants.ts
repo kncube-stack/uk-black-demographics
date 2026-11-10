@@ -151,4 +151,4 @@ export const PERCENT_FORMAT = new Intl.NumberFormat("en-GB", {
 export const SITE_TITLE = "UK Black Demographics";
 export const SITE_DESCRIPTION =
   "Official statistics on Black British populations — population, income, education, health, and more.";
-export const SITE_URL = "https://ukblackdemographics.com"; // Placeholder
+export const SITE_URL = "https://uk-black-demographics.vercel.app";

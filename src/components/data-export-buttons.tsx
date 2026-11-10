@@ -3,17 +3,20 @@
 import { useState } from "react";
 
 type Props = {
-  data: any;
+  data: unknown;
+  jsonLabel?: string;
   filename: string;
   csvHref?: string;
   variant?: "ghost" | "solid" | "outline" | "soft";
 };
 
-export function DataExportButtons({ data, filename, csvHref, variant = "outline" }: Props) {
+export function DataExportButtons({ data, filename, csvHref, jsonLabel = "JSON", variant = "outline" }: Props) {
   const [exporting, setExporting] = useState(false);
+  const [error, setError] = useState("");
 
   const exportJson = () => {
     setExporting(true);
+    setError("");
     try {
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
       const url = URL.createObjectURL(blob);
@@ -23,9 +26,9 @@ export function DataExportButtons({ data, filename, csvHref, variant = "outline"
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-    } catch (err) {
-      console.error("Failed to export JSON:", err);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch {
+      setError("Download failed. Please try again.");
     } finally {
       setTimeout(() => setExporting(false), 500);
     }
@@ -55,6 +58,7 @@ export function DataExportButtons({ data, filename, csvHref, variant = "outline"
         </a>
       ) : null}
       <button
+        type="button"
         onClick={exportJson}
         disabled={exporting}
         className={`rounded-full transition-colors flex items-center gap-2 ${buttonClasses} disabled:opacity-50`}
@@ -64,8 +68,9 @@ export function DataExportButtons({ data, filename, csvHref, variant = "outline"
             <polyline points="7 10 12 15 17 10" />
             <line x1="12" y1="15" x2="12" y2="3" />
         </svg>
-        {exporting ? "Exporting..." : "JSON"}
+        {exporting ? "Exporting..." : jsonLabel}
       </button>
+      <span role="status" aria-live="polite" className="w-full text-sm">{error}</span>
     </div>
   );
 }

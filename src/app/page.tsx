@@ -229,7 +229,7 @@ export default async function Home() {
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-[var(--muted)]">
-              The aim is to answer "compared to what?" before you have to hunt for the context.
+              The aim is to answer &quot;compared to what?&quot; before you have to hunt for the context.
             </p>
           </div>
 

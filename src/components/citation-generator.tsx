@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { SITE_URL } from "@/lib/constants";
 import type { SourceMetadata } from "@/lib/types";
 
 type Props = {
@@ -13,7 +14,8 @@ type Style = "apa" | "mla" | "chicago";
 
 export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
   const [style, setStyle] = useState<Style>("apa");
-  const [copied, setCopied] = useState(false);
+  const [copyStatus, setCopyStatus] = useState("");
+  const copyAttempt = useRef(0);
 
   const year = new Date(metadata.datePublished).getFullYear() || new Date().getFullYear();
   const accessedDate = new Date(metadata.dateAccessed);
@@ -22,7 +24,7 @@ export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
     month: "long",
     year: "numeric",
   });
-  const url = `https://ukblackdemographics.co.uk${pagePath}`;
+  const url = `${SITE_URL}${pagePath}`;
 
   const citations: Record<Style, string> = {
     apa: `UK Black Demographics. (${year}). ${pageTitle}. ${url}`,
@@ -31,12 +33,15 @@ export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
   };
 
   const copyToClipboard = async () => {
+    const attempt = ++copyAttempt.current;
+    setCopyStatus("");
     try {
       await navigator.clipboard.writeText(citations[style]);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error("Failed to copy citation:", err);
+      if (attempt === copyAttempt.current) setCopyStatus("Citation copied.");
+    } catch {
+      if (attempt === copyAttempt.current) {
+        setCopyStatus("Could not copy. Select the citation text and copy it manually.");
+      }
     }
   };
 
@@ -46,7 +51,13 @@ export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
         {(["apa", "mla", "chicago"] as const).map((s) => (
           <button
             key={s}
-            onClick={() => setStyle(s)}
+            type="button"
+            aria-pressed={style === s}
+            onClick={() => {
+              copyAttempt.current += 1;
+              setStyle(s);
+              setCopyStatus("");
+            }}
             className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
               style === s
                 ? "border-b-2 border-[var(--accent)] text-[var(--accent)]"
@@ -63,11 +74,13 @@ export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
           {citations[style]}
         </div>
         <button
+          type="button"
+          aria-label="Copy citation"
           onClick={copyToClipboard}
           className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 border border-[var(--border)] shadow-sm transition-all hover:scale-105 active:scale-95"
           title="Copy to clipboard"
         >
-          {copied ? (
+          {copyStatus === "Citation copied." ? (
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-green-600">
               <polyline points="20 6 9 17 4 12" />
             </svg>
@@ -80,6 +93,7 @@ export function CitationGenerator({ pageTitle, pagePath, metadata }: Props) {
         </button>
       </div>
 
+      <p role="status" aria-live="polite" className="text-sm text-[var(--muted)]">{copyStatus}</p>
       <p className="text-[10px] text-[var(--muted)] uppercase tracking-widest font-bold">
         Academic & Journalistic reference standards applied
       </p>

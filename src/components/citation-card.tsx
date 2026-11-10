@@ -11,10 +11,6 @@ type Props = {
   downloadHref?: string;
 };
 
-const LONG_DATE_FORMAT = new Intl.DateTimeFormat("en-GB", {
-  dateStyle: "long",
-});
-
 export function CitationCard({
   pageTitle,
   pagePath,
@@ -22,8 +18,6 @@ export function CitationCard({
   note,
   downloadHref,
 }: Props) {
-  const accessedDate = formatLongDate(metadata.dateAccessed);
-  const reference = metadata.referencePeriod ?? metadata.referenceDate;
   const csvHref = downloadHref ?? metadata.apiEndpoint;
 
   return (
@@ -55,7 +49,8 @@ export function CitationCard({
         </a>
         <DataExportButtons
           data={metadata}
-          filename={`${pageTitle.toLowerCase().replace(/\s+/g, "-")}-data`}
+          jsonLabel="Source metadata (JSON)"
+          filename={`${pageTitle.toLowerCase().replace(/\s+/g, "-")}-source`}
           csvHref={csvHref}
         />
         <Link
@@ -67,14 +62,4 @@ export function CitationCard({
       </div>
     </article>
   );
-}
-
-function formatLongDate(value: string) {
-  const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return value;
-  }
-
-  return LONG_DATE_FORMAT.format(date);
 }

@@ -59,6 +59,7 @@ export function SourceCard({
         </a>
         <DataExportButtons
           data={metadata}
+          jsonLabel="Source metadata (JSON)"
           filename={`${metadata.name.toLowerCase().replace(/\s+/g, "-")}-source`}
           csvHref={downloadHref}
           variant="solid"

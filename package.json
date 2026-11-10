@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:manifest && npm run data:validate && next build",
+    "build": "npm run data:validate && npm run data:manifest && next build",
     "start": "next start",
     "lint": "eslint",
     "fetch:population": "tsx scripts/fetch-nomis-population.ts",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",
-    "next": "16.1.6",
+    "next": "16.4.6",
     "papaparse": "^5.5.3",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -36,7 +36,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "16.4.6",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

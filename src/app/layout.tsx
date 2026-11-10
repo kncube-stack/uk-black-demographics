@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Newsreader } from "next/font/google";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/constants";
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -17,6 +17,7 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_TITLE,
     template: `%s | ${SITE_TITLE}`,
@@ -33,8 +34,11 @@ export default function RootLayout({
     <html lang="en-GB">
       <body className={`${manrope.variable} ${newsreader.variable} antialiased`}>
         <div className="flex min-h-screen flex-col">
+          <a href="#main-content" className="fixed left-4 top-4 z-50 -translate-y-24 rounded-lg bg-[var(--accent)] px-4 py-3 font-semibold text-white focus:translate-y-0">
+            Skip to content
+          </a>
           <SiteHeader />
-          <div className="flex-1">{children}</div>
+          <div id="main-content" tabIndex={-1} className="flex-1">{children}</div>
           <SiteFooter />
         </div>
       </body>

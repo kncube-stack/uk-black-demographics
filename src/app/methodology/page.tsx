@@ -1,11 +1,13 @@
+import type { SourceMetadata } from "@/lib/types";
+import { SITE_URL } from "@/lib/constants";
 import { CitationCard } from "@/components/citation-card";
 
 export default function MethodologyPage() {
-  const metadata: any = {
+  const metadata: SourceMetadata = {
     id: "site-methodology",
     name: "UK Black Demographics Methodology",
     publisher: "UK Black Demographics",
-    url: "https://ukblackdemographics.co.uk/methodology",
+    url: `${SITE_URL}/methodology`,
     datePublished: "2026-03-12",
     dateAccessed: new Date().toISOString(),
     referenceDate: "2026-03-12",
@@ -42,15 +44,15 @@ export default function MethodologyPage() {
                 <strong>We only use official sources.</strong> Every number on this site comes directly from the ONS, UK Government departments, or accredited agencies. We do not use third-party polls or unsourced blog figures.
               </p>
               <p>
-                <strong>Transparency by default.</strong> If a number looks high or low, you can click "Open Publication" to see the original government report it was taken from.
+                <strong>Transparency by default.</strong> If a number looks high or low, you can click &quot;Open Publication&quot; to see the original government report it was taken from.
               </p>
             </div>
             <div className="space-y-4">
               <p>
-                <strong>We account for gaps.</strong> Sometimes the government doesn't collect data on ethnicity for certain topics. When that happens, we clearly mark the data as a "proxy" or acknowledge the gap rather than making guesses.
+                <strong>We account for gaps.</strong> Sometimes the government doesn&apos;t collect data on ethnicity for certain topics. When that happens, we clearly mark the data as a &quot;proxy&quot; or acknowledge the gap rather than making guesses.
               </p>
               <p>
-                <strong>Built for checking.</strong> Every chart has an "Export" button so you can take the raw numbers and verify them in your own spreadsheet.
+                <strong>Built for checking.</strong> Every chart has an &quot;Export&quot; button so you can take the raw numbers and verify them in your own spreadsheet.
               </p>
             </div>
           </div>
@@ -59,11 +61,11 @@ export default function MethodologyPage() {
         <section className="space-y-8">
           <div className="space-y-4">
             <h2 className="font-[family-name:var(--font-newsreader)] text-3xl tracking-[-0.04em]">
-              1. The "Official Source" Mandate
+              1. The &quot;Official Source&quot; Mandate
             </h2>
             <div className="prose prose-stone leading-7 text-[var(--muted)]">
               <p>
-                To maintain status as a reliable data hub, we exclusively use data from official UK public bodies (ONS, DWP, DfE, MoJ, etc.). We do not use "gray literature," unverified research, or proprietary datasets unless they are explicitly cited as supplementary contextual material.
+                To maintain status as a reliable data hub, we exclusively use data from official UK public bodies (ONS, DWP, DfE, MoJ, etc.). We do not use &quot;gray literature,&quot; unverified research, or proprietary datasets unless they are explicitly cited as supplementary contextual material.
               </p>
               <p>
                 Each topic page includes a direct link to the primary publication and, where available, the official API endpoint or raw data file used to generate our snapshots.
@@ -81,8 +83,8 @@ export default function MethodologyPage() {
               </p>
               <ul className="list-disc space-y-2 pl-5">
                 <li><strong>All Black:</strong> Includes Black African, Black Caribbean, and any other Black background.</li>
-                <li><strong>Mixed Heritage:</strong> Specifically refers to individuals of mixed White and Black backgrounds, unless the broad "Mixed" category is the only one provided.</li>
-                <li><strong>Comparator:</strong> We typically use "White British" as the primary comparator group to measure systemic disparity against the ethnic majority.</li>
+                <li><strong>Mixed Heritage:</strong> Specifically refers to individuals of mixed White and Black backgrounds, unless the broad &quot;Mixed&quot; category is the only one provided.</li>
+                <li><strong>Comparator:</strong> We typically use &quot;White British&quot; as the primary comparator group to measure systemic disparity against the ethnic majority.</li>
               </ul>
             </div>
           </div>
@@ -115,7 +117,7 @@ export default function MethodologyPage() {
                 Where official data on Black life is structurally missing (e.g., Black-owned business counts or ethnicity on marriage certificates), we use the following hierarchy:
               </p>
               <ol className="list-decimal space-y-2 pl-5">
-                <li><strong>Official Proxies:</strong> Using self-employment and "Company Director" survey data until official firm-level records exist.</li>
+                <li><strong>Official Proxies:</strong> Using self-employment and &quot;Company Director&quot; survey data until official firm-level records exist.</li>
                 <li><strong>Explicit Acknowledgment:</strong> We state the gap clearly rather than using unverified third-party estimates.</li>
               </ol>
             </div>
@@ -127,7 +129,7 @@ export default function MethodologyPage() {
             </h2>
             <div className="prose prose-stone leading-7 text-[var(--muted)]">
               <p>
-                We distinguish between "Census" (full population counts) and "Survey" (estimates) data:
+                We distinguish between &quot;Census&quot; (full population counts) and &quot;Survey&quot; (estimates) data:
               </p>
               <ul className="list-disc space-y-2 pl-5">
                 <li><strong>Quality Badges:</strong> We display ONS designations (National, Official, or Experimental) to indicate the level of methodological maturity.</li>

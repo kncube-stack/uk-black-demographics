@@ -45,14 +45,23 @@ export function SearchPageClient({ entries }: Props) {
           placeholder="Search topics, e.g. education, health, housing"
           className="mt-4 w-full rounded-[22px] border border-[var(--border)] bg-white/80 px-5 py-4 text-base outline-none transition-colors placeholder:text-[var(--muted)] focus:border-[var(--accent)]"
         />
-        <p className="mt-3 text-sm text-[var(--muted)]">
+        <p role="status" aria-live="polite" aria-atomic="true" className="mt-3 text-sm text-[var(--muted)]">
           {normalizedQuery
             ? `${results.length} result${results.length === 1 ? "" : "s"} for “${deferredQuery}”`
             : `${entries.length} searchable pages, sections, and topics`}
         </p>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      {results.length === 0 ? (
+        <div className="rounded-[22px] border border-[var(--border)] bg-[var(--surface)] p-6">
+          <h2 className="text-xl font-semibold">No matching pages</h2>
+          <p className="mt-2 text-[var(--muted)]">Try a broader topic, such as health, education, or housing.</p>
+          <button type="button" onClick={() => setQuery("")} className="mt-4 rounded-full bg-[var(--accent)] px-4 py-2 font-semibold text-white">
+            Clear search
+          </button>
+        </div>
+      ) : null}
+      <section aria-label="Search results" className="grid gap-4 md:grid-cols-2">
         {results.map((entry) => (
           <Link
             key={`${entry.type}:${entry.href}`}

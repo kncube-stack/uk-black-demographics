@@ -1,5 +1,4 @@
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
+import { SITE_URL } from "@/lib/constants";
 import Link from "next/link";
 
 export const metadata = {
@@ -9,8 +8,8 @@ export const metadata = {
 
 export default function DataExplorerPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#fcfaf7] text-[#1a1a1a]">
-      <SiteHeader />
+    <div className="flex flex-col bg-[#fcfaf7] text-[#1a1a1a]">
+
 
       <main className="flex-grow container mx-auto px-6 py-16 max-w-4xl">
         <header className="mb-12">
@@ -43,17 +42,20 @@ export default function DataExplorerPage() {
             </h2>
             <div className="prose prose-stone leading-7 text-[var(--muted)]">
               <p>
-                Each dataset in the manifest includes a <code>rawPath</code>. You can fetch these files directly from our repository to get the full, cleaned data structures.
+                Each dataset in the manifest includes a <code>rawPath</code>. You can fetch these files directly from this site to get the full, cleaned data structures.
               </p>
               <div className="bg-[#173022] text-[#f7f2e9] p-6 rounded-2xl space-y-4 mt-6">
                 <p className="text-xs uppercase tracking-widest text-[#b8d3c0] font-bold">Example Fetch (JavaScript)</p>
                 <pre className="text-sm overflow-x-auto">
-{`const response = await fetch('https://ukblackdemographics.co.uk/api/datasets.json');
+{`const response = await fetch('${SITE_URL}/api/datasets.json');
+if (!response.ok) throw new Error("Manifest unavailable");
 const { datasets } = await response.json();
 
 // Find and fetch the employment data
-const employmentData = datasets.find(d => d.id === 'ons-employment-by-ethnicity');
-const rawResponse = await fetch(\`https://ukblackdemographics.co.uk\${employmentData.rawPath}\`);
+const employmentData = datasets.find(d => d.id === 'nomis-aps-labour-market-rates-national');
+if (!employmentData) throw new Error("Dataset unavailable");
+const rawResponse = await fetch(\`${SITE_URL}\${employmentData.rawPath}\`);
+if (!rawResponse.ok) throw new Error("Download unavailable");
 const data = await rawResponse.json();`}
                 </pre>
               </div>
@@ -72,6 +74,7 @@ const data = await rawResponse.json();`}
                 <a 
                   href="https://github.com/kncube-stack/uk-black-demographics" 
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-flex items-center rounded-full bg-[#173022] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a3a2a]"
                 >
                   GitHub Repository
@@ -88,7 +91,7 @@ const data = await rawResponse.json();`}
         </section>
       </main>
 
-      <SiteFooter />
+
     </div>
   );
 }

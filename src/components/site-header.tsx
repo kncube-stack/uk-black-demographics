@@ -22,8 +22,8 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[rgba(247,242,233,0.84)] backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-12">
-        <Link href="/" className="flex min-w-0 flex-col">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-start gap-3 px-5 py-4 sm:px-8 lg:px-12">
+        <Link href="/" className="flex shrink-0 flex-col">
           <span className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
             UK Black Demographics
           </span>
@@ -32,7 +32,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="flex flex-wrap items-center justify-end gap-2">
+        <nav aria-label="Main navigation" className="flex w-full items-center gap-1 overflow-x-auto pb-1 lg:flex-wrap lg:gap-2">
           {NAV_ITEMS.map((item) => {
             const active =
               item.href === "/"
@@ -43,7 +43,8 @@ export function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                aria-current={active ? "page" : undefined}
+                className={`shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
                   active
                     ? "bg-[var(--accent)] text-[#f7f2e9]"
                     : "text-[var(--foreground)] hover:bg-white/70"
